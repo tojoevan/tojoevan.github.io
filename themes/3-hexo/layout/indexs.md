@@ -17,3 +17,5 @@ study3d.com - GoToSocial  https://study3d.com/
 荒岛-分享创造快乐  https://lala.im/  
 
 小米发布《小米澎湃OS技术白皮书》 - OSCHINA - 中文开源技术交流社区  https://www.oschina.net/news/270045  
+
+2023 年度人工智能现状报告 (State of AI Report 2023) - OSCHINA - 中文开源技术交流社区  https://www.oschina.net/news/262155/state-of-ai-2023-report  
