@@ -33,3 +33,5 @@ study3d.com - GoToSocial  https://study3d.com/
 行业应用 - 复志科技Raise3D中国官方网站  https://www.raise3d.cn/solutions/  
 
 创见 tech2ipo 何时已不见？  
+
+iPadly | 网址最短的中文 iPhone/iPad 资源导航站  http://ipad.ly/  
