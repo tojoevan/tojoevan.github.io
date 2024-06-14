@@ -21,3 +21,7 @@ study3d.com - GoToSocial  https://study3d.com/
 2023 年度人工智能现状报告 (State of AI Report 2023) - OSCHINA - 中文开源技术交流社区  https://www.oschina.net/news/262155/state-of-ai-2023-report  
 
 有道开源RAG引擎 QAnything 版本更新啦 - 有道技术团队的个人空间 - OSCHINA - 中文开源技术交流社区  https://my.oschina.net/youdaotech/blog/10894309  
+
+    
+
+一份谷歌写给 CTO 们的报告 - DORA 2023 版全面解读 - Bytebase的个人空间 - OSCHINA - 中文开源技术交流社区  https://my.oschina.net/u/6148470/blog/10118131  
