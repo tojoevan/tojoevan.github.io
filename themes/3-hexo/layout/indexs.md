@@ -27,3 +27,5 @@ study3d.com - GoToSocial  https://study3d.com/
 一份谷歌写给 CTO 们的报告 - DORA 2023 版全面解读 - Bytebase的个人空间 - OSCHINA - 中文开源技术交流社区  https://my.oschina.net/u/6148470/blog/10118131  
 
 特赞科技Tezign创始人及CEO范凌：人工智能与产业想象力_亿欧  https://www.iyiou.com/news/202307081048044  
+
+轻量级PHP框架|专注WEB应用开发18年 · ThinkPHP  https://www.thinkphp.cn/  
