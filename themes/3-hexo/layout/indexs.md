@@ -45,3 +45,5 @@ GitHub - fengxxc/wechatmp2markdown: 微信公众号文章转Markdown  https://gi
 Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently  https://picsmaller.com/  
 
 电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始  https://eleduck.com/  
+
+介绍 - NocoBase  https://docs-cn.nocobase.com/welcome/introduction  
