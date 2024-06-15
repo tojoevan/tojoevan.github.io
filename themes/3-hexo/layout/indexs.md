@@ -49,3 +49,5 @@ Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
 介绍 - NocoBase  https://docs-cn.nocobase.com/welcome/introduction  
 
 NocoBase-开源、私有部署的轻量级无代码和低代码开发平台  https://cn.nocobase.com/  
+
+Lemmy Cafe - A general purpose fediverse instance  https://lemmy.cafe/  
