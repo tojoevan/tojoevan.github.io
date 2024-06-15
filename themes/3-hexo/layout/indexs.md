@@ -55,3 +55,5 @@ Lemmy Cafe - A general purpose fediverse instance  https://lemmy.cafe/
 使用Docker部署GotoSocial - LemonCat  https://blog.kaixin.meme/2024/02/27/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2gotosocial/  
 
 Joevan (@joevan@masto.nyc) - Mastodon NYC  https://masto.nyc/@joevan  
+
+bad-licenses/hot-potato-license at master · ErikMcClure/bad-licenses · GitHub  https://github.com/ErikMcClure/bad-licenses/blob/master/hot-potato-license  
