@@ -103,8 +103,8 @@ theme: 3-hexo #iLiKE
 deploy:
   type: git
   repo:
-    # github: git@github.com:tojoevan/tojoevan.github.io.git
-    github: https://github.com/tojoevan/tojoevan.github.io.git  # username是Github用户名
+    github: git@github.com:tojoevan/tojoevan.github.io.git
+    # github: https://github.com/tojoevan/tojoevan.github.io.git  # username是Github用户名
   branch: master 
 
 search:
