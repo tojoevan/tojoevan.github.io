@@ -43,3 +43,5 @@ Xterminal - 更好用的开发工具，但不止于(SSH/控制台/More)  https:/
 GitHub - fengxxc/wechatmp2markdown: 微信公众号文章转Markdown  https://github.com/fengxxc/wechatmp2markdown  
 
 Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently  https://picsmaller.com/  
+
+电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始  https://eleduck.com/  
