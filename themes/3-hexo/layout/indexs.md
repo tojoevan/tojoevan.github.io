@@ -51,3 +51,5 @@ Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
 NocoBase-开源、私有部署的轻量级无代码和低代码开发平台  https://cn.nocobase.com/  
 
 Lemmy Cafe - A general purpose fediverse instance  https://lemmy.cafe/  
+
+使用Docker部署GotoSocial - LemonCat  https://blog.kaixin.meme/2024/02/27/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2gotosocial/  
