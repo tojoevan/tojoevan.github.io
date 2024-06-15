@@ -6,3 +6,5 @@ blog.joevan.top  https://blog.joevan.top
 长得不像微博,但就叫微博 - GoToSocial  https://ima.cm/  
 
 Migrating from Misskey to Firefish | Firefish  https://joinfirefish.org/docs/en/migrating/#  
+
+长毛象中文站 - Mastodon Chinese  https://cmx-im.github.io/index.html  
