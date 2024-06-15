@@ -106,11 +106,11 @@ if (theme.category && theme.category.sub) {
                <% if(theme.menu.about.type == 2){ %>target="_self"
                <% }else if(theme.menu.about.type == 3){ %>target="_blank"
                     <% } %>
-               href="<%= theme.menu.about.url %>"><%= __('about') %></a>
+               href="<%= theme.menu.about.url %>"><%= __('me') %></a>
         <% } %>
         <% if (theme.menu.friend.on){ %><a <% if (theme.menu.about.on) { %>style="width: 50%"
                 <% } %>
-                                           class="friends"><%= __('friends') %></a>
+                                           class="friends"><%= __('we') %></a>
         <% } %>
     </div>
 </div>
