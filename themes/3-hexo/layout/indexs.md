@@ -41,3 +41,5 @@ Build Web Apps with No-Code | Momen  https://momen.app/
 Xterminal - 更好用的开发工具，但不止于(SSH/控制台/More)  https://www.xterminal.cn/  
 
 GitHub - fengxxc/wechatmp2markdown: 微信公众号文章转Markdown  https://github.com/fengxxc/wechatmp2markdown  
+
+Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently  https://picsmaller.com/  
