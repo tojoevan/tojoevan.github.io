@@ -57,3 +57,5 @@ Lemmy Cafe - A general purpose fediverse instance  https://lemmy.cafe/
 Joevan (@joevan@masto.nyc) - Mastodon NYC  https://masto.nyc/@joevan  
 
 bad-licenses/hot-potato-license at master · ErikMcClure/bad-licenses · GitHub  https://github.com/ErikMcClure/bad-licenses/blob/master/hot-potato-license  
+
+开源简读 - 追踪开源动态，挖掘技术创新，关注社区发展。  https://www.inkspcl.com/index.html  
