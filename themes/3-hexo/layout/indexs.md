@@ -37,3 +37,5 @@ study3d.com - GoToSocial  https://study3d.com/
 iPadly | 网址最短的中文 iPhone/iPad 资源导航站  http://ipad.ly/  
 
 Build Web Apps with No-Code | Momen  https://momen.app/  
+
+Xterminal - 更好用的开发工具，但不止于(SSH/控制台/More)  https://www.xterminal.cn/  
