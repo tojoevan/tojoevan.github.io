@@ -47,3 +47,5 @@ Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
 电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始  https://eleduck.com/  
 
 介绍 - NocoBase  https://docs-cn.nocobase.com/welcome/introduction  
+
+NocoBase-开源、私有部署的轻量级无代码和低代码开发平台  https://cn.nocobase.com/  
