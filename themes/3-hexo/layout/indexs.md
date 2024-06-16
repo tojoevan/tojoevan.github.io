@@ -17,3 +17,5 @@ AI知识库升级，以Obsidian为核心  https://mp.weixin.qq.com/s/ODFYCP0lOtK
 Coolify：24.2K 星星！使用全新、开源免费且自托管的替代方案，部署应用程序的最佳工具（停止使用 Vercel）  https://mp.weixin.qq.com/s/hAizVtPziCmANmYw1ZJojQ  
 
 eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认证，微软学生认证等  https://mp.weixin.qq.com/s/Jb1HyEszjZSWYi2gsqBDvQ  
+
+优秀！3个强大的在线处理黑科技工具！良心好用！  https://mp.weixin.qq.com/s/9xRUdrEYps0xXuQcF1EOGw  
