@@ -60,3 +60,5 @@ GitHub Actions 监测网站是否在线 - 掘金  https://juejin.cn/post/6909759
 中国国际矿物宝石化石博览会免费领门票  https://z.zcyit.cn/cimge/#/?regid=81  
 
 Yonsm.NET  https://yonsm.github.io/  
+
+微博  https://m.weibo.cn/status/O9DEXiyvy?jumpfrom=weibocom  
