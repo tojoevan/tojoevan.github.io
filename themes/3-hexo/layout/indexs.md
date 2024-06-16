@@ -12,3 +12,5 @@ Migrating from Misskey to Firefish | Firefish  https://joinfirefish.org/docs/en/
 Buy & Sell 交易服务区 - 4D4Y  https://www.4d4y.com/forum/forumdisplay.php?fid=6  
 
 群晖 (Synology) NAS 穿透指南 | SakuraFrp 帮助文档  https://doc.natfrp.com/app/synology.html  
+
+GitHub - xtekky/gpt4free: The official gpt4free repository | various collection of powerful language models  https://github.com/xtekky/gpt4free  
