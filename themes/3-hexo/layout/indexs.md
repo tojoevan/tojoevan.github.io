@@ -35,3 +35,5 @@ eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认�
 资源汇总（三）游戏相关网站  https://mp.weixin.qq.com/s/CzJAc6B2o5cDf82giVbo5w  
 
 stux@me:~$ /personal blog stux  https://stux.me/  
+
+Latest Software/Mastodon topics - SocialHub  https://socialhub.activitypub.rocks/c/software/mastodon/17  
