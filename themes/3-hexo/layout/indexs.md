@@ -28,3 +28,5 @@ Lemmy.World - A generic Lemmy server for everyone to use.  https://lemmy.world/
 亂筆  https://blog.l3zc.com/  
 
 Server List | Firefish  https://joinfirefish.org/join/  
+
+Docker 搭建 Misskey 实例 // Sanae's Blog  https://blog.sanae.im/posts/docker-misskey/  
