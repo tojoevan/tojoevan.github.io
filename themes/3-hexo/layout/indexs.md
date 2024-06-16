@@ -13,3 +13,5 @@ AI知识库升级，以Obsidian为核心  https://mp.weixin.qq.com/s/ODFYCP0lOtK
 一部手机搞定微信公众号发文，超级无敌巨方便！（火速收藏码住！）  https://mp.weixin.qq.com/s/NiEjvvKrbx6dp-PZsaiHnw  
 
 2024智源大会Agent：群体智能、AI OS、Scaling Law  https://mp.weixin.qq.com/s/WPvEBHXZETzDvfUvbPBxFg  
+
+Coolify：24.2K 星星！使用全新、开源免费且自托管的替代方案，部署应用程序的最佳工具（停止使用 Vercel）  https://mp.weixin.qq.com/s/hAizVtPziCmANmYw1ZJojQ  
