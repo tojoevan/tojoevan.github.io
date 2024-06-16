@@ -62,3 +62,5 @@ GitHub Actions 监测网站是否在线 - 掘金  https://juejin.cn/post/6909759
 Yonsm.NET  https://yonsm.github.io/  
 
 微博  https://m.weibo.cn/status/O9DEXiyvy?jumpfrom=weibocom  
+
+长窗口大战要终结了？谷歌魔改Transformer，推出了“无限注意力”  https://mp.weixin.qq.com/s?src=11&timestamp=1718529096&ver=5326&signature=H2iWl09rT4meKS31IKvd4*8zb3RIxZIkdP5RjoYBParYaRAtORNLNFhX-tzDSPdPJhOAn3Gt4aatqrUE4W1z84O0wW*Aevzf64MfKWLNAkeufVavxznbYtnOgM2nAvID&new=1  
