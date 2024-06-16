@@ -19,3 +19,5 @@ Coolify：24.2K 星星！使用全新、开源免费且自托管的替代方案�
 eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认证，微软学生认证等  https://mp.weixin.qq.com/s/Jb1HyEszjZSWYi2gsqBDvQ  
 
 优秀！3个强大的在线处理黑科技工具！良心好用！  https://mp.weixin.qq.com/s/9xRUdrEYps0xXuQcF1EOGw  
+
+我是如何用一天时间搞定三个AI证书的？速成Prompt & Agent Engineer  https://mp.weixin.qq.com/s/6WOUgm28NN3DTLWiWXpcCQ  
