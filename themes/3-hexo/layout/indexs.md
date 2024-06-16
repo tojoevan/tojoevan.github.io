@@ -23,3 +23,5 @@ eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认�
 我是如何用一天时间搞定三个AI证书的？速成Prompt & Agent Engineer  https://mp.weixin.qq.com/s/6WOUgm28NN3DTLWiWXpcCQ  
 
 #端午节安康，太炸裂了，解锁GPT-4o体验，免费无限制！  https://mp.weixin.qq.com/s/2P5m_8tQdzKsJx51nawjKQ  
+
+一款『 图云 』神器，让效率提高10000%  https://mp.weixin.qq.com/s/uccJq0bSX7djR8HJ5IG27g  
