@@ -37,3 +37,5 @@ eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认�
 stux@me:~$ /personal blog stux  https://stux.me/  
 
 Latest Software/Mastodon topics - SocialHub  https://socialhub.activitypub.rocks/c/software/mastodon/17  
+
+Memos | 一个开源的碎片化笔记工具的不完全指南  https://blog.memos.ee/  
