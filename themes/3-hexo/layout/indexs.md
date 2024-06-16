@@ -32,3 +32,5 @@ Server List | Firefish  https://joinfirefish.org/join/
 Docker 搭建 Misskey 实例 // Sanae's Blog  https://blog.sanae.im/posts/docker-misskey/  
 
 Misskey API | Misskey Hub  https://misskey-hub.net/tw/docs/for-developers/api/  
+
+我不是咕咕鸽  https://blog.laoda.de/  
