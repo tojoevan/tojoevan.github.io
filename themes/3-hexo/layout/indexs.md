@@ -10,3 +10,5 @@ Migrating from Misskey to Firefish | Firefish  https://joinfirefish.org/docs/en/
 长毛象中文站 - Mastodon Chinese  https://cmx-im.github.io/index.html  
 
 Buy & Sell 交易服务区 - 4D4Y  https://www.4d4y.com/forum/forumdisplay.php?fid=6  
+
+群晖 (Synology) NAS 穿透指南 | SakuraFrp 帮助文档  https://doc.natfrp.com/app/synology.html  
