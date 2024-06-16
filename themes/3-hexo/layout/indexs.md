@@ -16,3 +16,5 @@ Buy & Sell 交易服务区 - 4D4Y  https://www.4d4y.com/forum/forumdisplay.php?f
 GitHub - xtekky/gpt4free: The official gpt4free repository | various collection of powerful language models  https://github.com/xtekky/gpt4free  
 
 从中心化平台跑路：迁移到联邦宇宙（Fediverse） · Lhc_fl Home  https://lhcfl.github.io/2023/10/18/GotoFediverse/  
+
+GotoSocial Setup and Usage Instructions - 柠檬猫  https://0w0.xlog.app/Gts?locale=en  
