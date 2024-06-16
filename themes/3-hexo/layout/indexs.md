@@ -22,3 +22,5 @@ GotoSocial Setup and Usage Instructions - 柠檬猫  https://0w0.xlog.app/Gts?lo
 Calckey.world | Calckey.world  https://calckey.world/  
 
 Lemmy.World - A generic Lemmy server for everyone to use.  https://lemmy.world/  
+
+最速 Firefish 部署指南  https://blog.l3zc.com/2023/12/firefish-deploy/  
