@@ -33,3 +33,5 @@ eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认�
 全网最全BT 磁力搜索  https://mp.weixin.qq.com/s/FsEqCbrCKRPYAIFOM3O_dQ  
 
 资源汇总（三）游戏相关网站  https://mp.weixin.qq.com/s/CzJAc6B2o5cDf82giVbo5w  
+
+stux@me:~$ /personal blog stux  https://stux.me/  
