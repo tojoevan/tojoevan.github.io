@@ -20,3 +20,5 @@ GitHub - xtekky/gpt4free: The official gpt4free repository | various collection 
 GotoSocial Setup and Usage Instructions - 柠檬猫  https://0w0.xlog.app/Gts?locale=en  
 
 Calckey.world | Calckey.world  https://calckey.world/  
+
+Lemmy.World - A generic Lemmy server for everyone to use.  https://lemmy.world/  
