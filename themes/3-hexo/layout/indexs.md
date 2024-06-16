@@ -40,3 +40,5 @@ Misskey API | Misskey Hub  https://misskey-hub.net/tw/docs/for-developers/api/
 新晋顶流“卡皮巴拉”是社恐还是社牛？  https://m.thepaper.cn/newsDetail_forward_26158289  
 
 Memos | 一个开源的碎片化笔记工具的不完全指南  https://blog.memos.ee/  
+
+今日热榜官网  https://tophub.today/  
