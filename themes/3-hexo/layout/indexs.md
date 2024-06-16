@@ -5,3 +5,5 @@
 blog.joevan.top  https://blog.joevan.top  
 
 GitHub - idootop/mi-gpt: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。  https://github.com/idootop/mi-gpt?tab=readme-ov-file  
+
+AI知识库升级，以Obsidian为核心  https://mp.weixin.qq.com/s/ODFYCP0lOtKEdT6S874Qjg  
