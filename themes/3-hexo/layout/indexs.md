@@ -14,3 +14,5 @@ Buy & Sell 交易服务区 - 4D4Y  https://www.4d4y.com/forum/forumdisplay.php?f
 群晖 (Synology) NAS 穿透指南 | SakuraFrp 帮助文档  https://doc.natfrp.com/app/synology.html  
 
 GitHub - xtekky/gpt4free: The official gpt4free repository | various collection of powerful language models  https://github.com/xtekky/gpt4free  
+
+从中心化平台跑路：迁移到联邦宇宙（Fediverse） · Lhc_fl Home  https://lhcfl.github.io/2023/10/18/GotoFediverse/  
