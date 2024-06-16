@@ -50,3 +50,5 @@ Notion 推出新的付费计划：个人版本免费使用啦！ - 少数派  ht
 网站被CloudFlare拖慢？来看解决方法 - 知乎  https://zhuanlan.zhihu.com/p/652201511?utm_id=0  
 
 不使用第三方软件实现Obsidian多平台实时同步 by YingYue - Obsidian中文教程 - Obsidian Publish  https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/%E4%B8%8D%E4%BD%BF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0Obsidian%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%97%B6%E5%90%8C%E6%AD%A5+by+YingYue  
+
+GitHub - YMFE/yapi: YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台  https://github.com/YMFE/yapi  
