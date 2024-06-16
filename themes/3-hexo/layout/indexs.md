@@ -9,3 +9,5 @@ GitHub - idootop/mi-gpt: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造�
 AI知识库升级，以Obsidian为核心  https://mp.weixin.qq.com/s/ODFYCP0lOtKEdT6S874Qjg  
 
 扔掉小红书，国外自由行：Pokémon Go 和 Google Gemini 帮助打造最强旅游 Copilot  https://mp.weixin.qq.com/s/0CUVvZk0X7k6iQoL0ymExQ  
+
+一部手机搞定微信公众号发文，超级无敌巨方便！（火速收藏码住！）  https://mp.weixin.qq.com/s/NiEjvvKrbx6dp-PZsaiHnw  
