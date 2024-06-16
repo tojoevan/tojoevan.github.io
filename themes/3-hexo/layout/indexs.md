@@ -56,3 +56,5 @@ GitHub - YMFE/yapi: YApi 是一个可本地部署的、打通前后端及QA的�
 GitHub Actions 监测网站是否在线 - 掘金  https://juejin.cn/post/6909759690368876551  
 
 更好用的开发工具，但不止于 SSHNoteTerminal  https://www.xterminal.cn    
+
+中国国际矿物宝石化石博览会免费领门票  https://z.zcyit.cn/cimge/#/?regid=81  
