@@ -47,3 +47,5 @@ Leonus - 进一寸有进一寸的欢喜。  https://blog.leonus.cn/
 12 种适合您网站性能的最佳网站速度测试工具 | AppMaster  https://appmaster.io/zh/blog/12ge-zui-hao-de-wang-zhan-su-du-ce-shi-gong-ju  
 
 gpt应用大全  https://chatgpt123.com/tag/tuningbox-gpt  
+
+Download Duplicati application  https://duplicati.com/download  
