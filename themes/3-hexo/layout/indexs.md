@@ -42,3 +42,5 @@ Misskey API | Misskey Hub  https://misskey-hub.net/tw/docs/for-developers/api/
 Memos | 一个开源的碎片化笔记工具的不完全指南  https://blog.memos.ee/  
 
 今日热榜官网  https://tophub.today/  
+
+Notion 推出新的付费计划：个人版本免费使用啦！ - 少数派  https://sspai.com/post/60575  
