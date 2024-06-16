@@ -54,3 +54,5 @@ Notion 推出新的付费计划：个人版本免费使用啦！ - 少数派  ht
 GitHub - YMFE/yapi: YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台  https://github.com/YMFE/yapi  
 
 GitHub Actions 监测网站是否在线 - 掘金  https://juejin.cn/post/6909759690368876551  
+
+更好用的开发工具，但不止于 SSHNoteTerminal  https://www.xterminal.cn    
