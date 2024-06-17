@@ -65,3 +65,5 @@ Memos 一个开源且免费的自托管知识库 - 少数派  https://sspai.com/
 dvadmin3 | Django-vue3-admin  https://www.django-vue-admin.com/  
 
 果酱站长  https://wpjam.com/  
+
+Linux 中国◆开源社区  https://linux.cn/  
