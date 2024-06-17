@@ -67,3 +67,5 @@ dvadmin3 | Django-vue3-admin  https://www.django-vue-admin.com/
 果酱站长  https://wpjam.com/  
 
 Linux 中国◆开源社区  https://linux.cn/  
+
+AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全  https://ai-bot.cn/  
