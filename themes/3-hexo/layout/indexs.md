@@ -69,3 +69,5 @@ dvadmin3 | Django-vue3-admin  https://www.django-vue-admin.com/
 Linux 中国◆开源社区  https://linux.cn/  
 
 AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全  https://ai-bot.cn/  
+
+logo-maker——几秒内即可生成专业 logo  https://mp.weixin.qq.com/s/Dk0GaPceGPcMBeEb0Ldc7Q  
