@@ -9,3 +9,5 @@
 快讯_独立开发前线  https://www.91wink.com/index.php/kuaixun/  
 
 独立开发前线-独立开发者的成长指南 - 掘金  https://juejin.cn/post/7320288264202698790  
+
+Uptime & Cronjob Monitoring tool - PHP Script - 66uptime  https://66uptime.com/  
