@@ -49,3 +49,5 @@ Comparison and Motivations - APIFlask  https://apiflask.com/comparison/
 GitHub - greyli/flask-extension-status: Let's make Flask ecosystem better together!  https://github.com/greyli/flask-extension-status  
 
 GitHub - geekape/geek-navigation: ❤️ 极客猿导航－独立开发者的导航站！  https://github.com/geekape/geek-navigation  
+
+GitHub - ALIILAPRO/MTProtoProxy: Get daily and high-speed MTProto proxy for Telegram.  https://github.com/ALIILAPRO/MTProtoProxy  
