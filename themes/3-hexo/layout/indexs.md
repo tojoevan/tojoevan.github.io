@@ -35,3 +35,5 @@ ICANN Lookup  https://lookup.icann.org/en
 Codeium · Free AI Code Completion & Chat  https://codeium.com/  
 
 NAT VPS的正确食用方式 - tlanyan  https://itlanyan.com/nat-vps-the-right-way/  
+
+优秀开源导航合集 - 知乎  https://zhuanlan.zhihu.com/p/623361855?utm_id=0  
