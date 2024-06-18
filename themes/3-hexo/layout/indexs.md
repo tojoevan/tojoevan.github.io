@@ -37,3 +37,5 @@ Codeium · Free AI Code Completion & Chat  https://codeium.com/
 NAT VPS的正确食用方式 - tlanyan  https://itlanyan.com/nat-vps-the-right-way/  
 
 优秀开源导航合集 - 知乎  https://zhuanlan.zhihu.com/p/623361855?utm_id=0  
+
+强势开源，Star 破百，仅一行代码，拥有网址导航 + 博客 + 后台管理网站。 - 掘金  https://juejin.cn/post/7197433837341442104  
