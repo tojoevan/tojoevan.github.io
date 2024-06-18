@@ -27,3 +27,5 @@ BTSCHOOL :: 登录 比特校园PT小乐园 - Powered by NexusPHP  https://pt.bts
 我的节点 - 西部世界VPN  https://sjxb92710.xyz/portal/order/node  
 
 IPv6 test  https://v6t.ipip.net/  
+
+美国VPS综合讨论-全球主机交流论坛 - 手机版 - Powered by Discuz!  https://hostloc.com/forum.php?mod=forumdisplay&fid=45&page=2&mobile=2  
