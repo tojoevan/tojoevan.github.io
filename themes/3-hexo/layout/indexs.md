@@ -31,3 +31,5 @@ IPv6 test  https://v6t.ipip.net/
 美国VPS综合讨论-全球主机交流论坛 - 手机版 - Powered by Discuz!  https://hostloc.com/forum.php?mod=forumdisplay&fid=45&page=2&mobile=2  
 
 ICANN Lookup  https://lookup.icann.org/en  
+
+Codeium · Free AI Code Completion & Chat  https://codeium.com/  
