@@ -33,3 +33,5 @@ IPv6 test  https://v6t.ipip.net/
 ICANN Lookup  https://lookup.icann.org/en  
 
 Codeium · Free AI Code Completion & Chat  https://codeium.com/  
+
+NAT VPS的正确食用方式 - tlanyan  https://itlanyan.com/nat-vps-the-right-way/  
