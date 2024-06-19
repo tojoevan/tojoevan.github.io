@@ -21,3 +21,5 @@ Architecture | Hoarder Docs  https://docs.hoarder.app/Development/architecture/
 快发卡自动发卡平台 - 更有效率、好用的自动发卡网站(kuaifaka.com)  http://m.kuaifaka.net/  
 
 Rourf-Qiu/QOJ  https://gitee.com/Rourf-Qiu/QOJ  
+
+Apple ID分享网 | 免费共享海外App Store账号密码——丸子分享 -  https://www.e524.cn/  
