@@ -41,3 +41,5 @@ VIP介绍_GoingMac游戏工坊  https://www.goingmac.com/vip-prices/
 Autumn-Pro，WordPress个人博客和新闻资讯杂志类主题 - 新主题-XinTheme  https://www.xintheme.com/theme/57904.html  
 
 发现更多 - AIHub | AI导航  https://www.aihub.cn/cat-group/tools  
+
+GitHub - xtekky/gpt4free: The official gpt4free repository | various collection of powerful language models  https://github.com/xtekky/gpt4free  
