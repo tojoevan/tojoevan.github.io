@@ -11,3 +11,5 @@ GitHub - hoarder-app/hoarder: A self-hostable bookmark-everything app (links, no
 Architecture | Hoarder Docs  https://docs.hoarder.app/Development/architecture/  
 
 司南社区 - 专注优质信息源整理和分享  https://sinan.fun/  
+
+完美的背景图全屏css代码 – background-size:cover? -腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/1412147  
