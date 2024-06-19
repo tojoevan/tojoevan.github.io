@@ -35,3 +35,5 @@ Apple ID分享网 | 免费共享海外App Store账号密码——丸子分享 - 
 Mattermost | Collaboration for Your Mission-Critical Work  https://mattermost.com/  
 
 GitHub - mattermost/mattermost: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..  https://github.com/mattermost/mattermost  
+
+VIP介绍_GoingMac游戏工坊  https://www.goingmac.com/vip-prices/  
