@@ -17,3 +17,5 @@ Architecture | Hoarder Docs  https://docs.hoarder.app/Development/architecture/
 [陈同学i前端] 一起学Astro｜内容专注-唯快不破 - 掘金  https://juejin.cn/post/7176932089831358519  
 
 无需美国手机号码注册苹果美区Apple ID - 接码号  https://jiemahao.com/create-us-apple-id/  
+
+快发卡自动发卡平台 - 更有效率、好用的自动发卡网站(kuaifaka.com)  http://m.kuaifaka.net/  
