@@ -49,3 +49,5 @@ GitHub - xtekky/gpt4free: The official gpt4free repository | various collection 
 GPP项目精选  http://github.gitpp.com/  
 
 烙馍网| ai工具网址导航,ai最新产品  https://nav-ai.luomor.com/?github_web  
+
+GitHub - luomor-ai/nav-ai: AI工具导航，免费chatgpt，chatgpt4，midjourney，notion ai，tome  https://github.com/luomor-ai/nav-ai  
