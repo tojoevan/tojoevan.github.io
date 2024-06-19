@@ -47,3 +47,5 @@ GitHub - xtekky/gpt4free: The official gpt4free repository | various collection 
 七款适合英文网站文章标题分析的SEO工具推荐 – 奶爸建站笔记  https://blog.naibabiji.com/google-seo/headline-analyzer.html  
 
 GPP项目精选  http://github.gitpp.com/  
+
+烙馍网| ai工具网址导航,ai最新产品  https://nav-ai.luomor.com/?github_web  
