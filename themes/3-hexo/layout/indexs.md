@@ -45,3 +45,5 @@ Autumn-Pro，WordPress个人博客和新闻资讯杂志类主题 - 新主题-Xin
 GitHub - xtekky/gpt4free: The official gpt4free repository | various collection of powerful language models  https://github.com/xtekky/gpt4free  
 
 七款适合英文网站文章标题分析的SEO工具推荐 – 奶爸建站笔记  https://blog.naibabiji.com/google-seo/headline-analyzer.html  
+
+GPP项目精选  http://github.gitpp.com/  
