@@ -5,3 +5,5 @@
 分享站： https://blog.joevan.top/  
 
 阅读站： https://www.inkspcl.com/  
+
+GitHub - hoarder-app/hoarder: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search  https://github.com/hoarder-app/hoarder  
