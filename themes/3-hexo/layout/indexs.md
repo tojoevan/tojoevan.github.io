@@ -9,3 +9,5 @@
 GitHub - hoarder-app/hoarder: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search  https://github.com/hoarder-app/hoarder  
 
 Architecture | Hoarder Docs  https://docs.hoarder.app/Development/architecture/  
+
+司南社区 - 专注优质信息源整理和分享  https://sinan.fun/  
