@@ -51,3 +51,5 @@ GPP项目精选  http://github.gitpp.com/
 烙馍网| ai工具网址导航,ai最新产品  https://nav-ai.luomor.com/?github_web  
 
 GitHub - luomor-ai/nav-ai: AI工具导航，免费chatgpt，chatgpt4，midjourney，notion ai，tome  https://github.com/luomor-ai/nav-ai  
+
+GitHub - liaocp666/Jasmine: A Typecho Theme. 一款 Typecho 主题。专为博客类网站开发，响应式设计，在移动端也有不错体验。主要使用白、灰、黑三种配色，整体简洁、精致、美观。  https://github.com/liaocp666/Jasmine  
