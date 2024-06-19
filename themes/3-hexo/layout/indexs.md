@@ -13,3 +13,5 @@ Architecture | Hoarder Docs  https://docs.hoarder.app/Development/architecture/
 司南社区 - 专注优质信息源整理和分享  https://sinan.fun/  
 
 完美的背景图全屏css代码 – background-size:cover? -腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/1412147  
+
+[陈同学i前端] 一起学Astro｜内容专注-唯快不破 - 掘金  https://juejin.cn/post/7176932089831358519  
