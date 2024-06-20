@@ -12,3 +12,5 @@
 关于网站 - 南巷清风  https://www.liaocp.cn/about/    
 
 YetiShare File Hosting 5.5.1 - PHP网盘商业版+17个插件+12国语言包+2个模板_资源_Chieng个人博客  https://www.chieng.cn/post/145.html  
+
+纯代码免插件优化WordPress6.3实现0sql-强化拓展－网站建设－老白博客  https://www.xcbtmw.com/29717.html  
