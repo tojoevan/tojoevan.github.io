@@ -18,3 +18,5 @@ YetiShare File Hosting 5.5.1 - PHP网盘商业版+17个插件+12国语言包+2�
 Gitea - 轻量级全功能 DevSecOps 平台  https://about.gitea.cn/  
 
 乌橘子技术博客  https://www.wujuzi.cn/  
+
+AIGC官网|AIGC官方网站|AIGC工具导航|AI工具集|AI工具官网 | AIGC工具导航  https://www.aigc.cn/aigcnetwork  
