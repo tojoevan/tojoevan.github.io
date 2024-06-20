@@ -30,3 +30,5 @@ Home - Wcowin's Web  https://wcowin.work/index.html
 v2ex.com Traffic Analytics, Ranking & Audience [May 2024] | Similarweb  https://www.similarweb.com/website/v2ex.com/  
 
 影刀RPA在获取公众号文章上的运用 - 知乎  https://zhuanlan.zhihu.com/p/597339757?utm_id=0  
+
+Typecho+Sqlite3轻量化建博客方案。 - BambOvC——三相奏的小站  https://bambovc.com/index.php/archives/8/  
