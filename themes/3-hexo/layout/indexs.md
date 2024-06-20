@@ -34,3 +34,5 @@ v2ex.com Traffic Analytics, Ranking & Audience [May 2024] | Similarweb  https://
 Typecho+Sqlite3轻量化建博客方案。 - BambOvC——三相奏的小站  https://bambovc.com/index.php/archives/8/  
 
 通过 Docker 搭建 Typecho 详细教程_docker安装typecho-CSDN博客  https://blog.csdn.net/sculpta/article/details/108292853  
+
+为了「开心点」，这帮 10 后做了个小程序  https://mp.weixin.qq.com/s/xN_SFJYe1bg3YkDbfMOi8Q  
