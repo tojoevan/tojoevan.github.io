@@ -46,3 +46,5 @@ Typecho+Sqlite3轻量化建博客方案。 - BambOvC——三相奏的小站  ht
 Most Visited Websites in Worldwide 2024 | Open .Trends  https://www.semrush.com/trending-websites/global/all  
 
 用高德开放平台做自己的旅行地图 - 知乎  https://zhuanlan.zhihu.com/p/359071992?utm_id=0  
+
+男儿志歌词完整版_刘德华 - 歌词汇  https://www.gecih.com/geci/2875  
