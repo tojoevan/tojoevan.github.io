@@ -42,3 +42,5 @@ Typecho+Sqlite3轻量化建博客方案。 - BambOvC——三相奏的小站  ht
 商店 - Npcink  https://www.npc.ink/shop  
 
 商店 - Npcink  https://www.npc.ink/shop  
+
+Most Visited Websites in Worldwide 2024 | Open .Trends  https://www.semrush.com/trending-websites/global/all  
