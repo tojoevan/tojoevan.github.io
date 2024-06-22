@@ -70,3 +70,5 @@ HelloFlask  https://helloflask.com/
 请不要把 Flask 和 FastAPI 放到一起比较 - 知乎  https://zhuanlan.zhihu.com/p/369591096?utm_id=0  
 
 如何评价最近爆红的FastAPI？ - 知乎  https://www.zhihu.com/question/424133076?utm_id=0  
+
+Configuration Overview — Gunicorn 22.0.0 documentation  https://docs.gunicorn.org/en/latest/configure.html  
