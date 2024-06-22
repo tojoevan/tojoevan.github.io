@@ -128,3 +128,5 @@ WeFound | 我们发现.我们创造  https://wefound.cc/
 Qt Account Login  https://login.qt.io/login  
 
 实测OpenAI信用卡付款方式和升级ChatGPT Plus订阅 - 如有乐享  https://51.ruyo.net/18298.html  
+
+如有乐享 - 分享是一种态度，是一种美德  https://51.ruyo.net/  
