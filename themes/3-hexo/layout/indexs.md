@@ -82,3 +82,5 @@ Configuration Overview — Gunicorn 22.0.0 documentation  https://docs.gunicorn.
 1000部烧鸡小蛆蛆视频[已上传] | Tskms BBS  https://bbs.tskms.org/index.php?threads/1000%E9%83%A8%E7%83%A7%E9%B8%A1%E5%B0%8F%E8%9B%86%E8%9B%86%E8%A7%86%E9%A2%91-%E5%B7%B2%E4%B8%8A%E4%BC%A0.87464/  
 
 Vditor 示例 - 链滴  https://ld246.com/guide/markdown  
+
+Vercel应用部署指南  https://gacfox.com/articles/5  
