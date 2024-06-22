@@ -148,3 +148,5 @@ GitHub - RealKai42/qwerty-learner: 为键盘工作者设计的单词记忆与英
 MyIP.la - A Simple IP Address And IP Geolocation API  https://www.myip.la/  
 
 22 Best offline note-taking apps for Windows as of 2024 - Slant  https://www.slant.co/topics/4437/~offline-note-taking-apps-for-windows  
+
+云东方-分享让生活更美好！  https://www.yundongfang.com/  
