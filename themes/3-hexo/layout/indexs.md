@@ -66,3 +66,5 @@ v2ex站长专访 - 100offer专访Livid：不仅仅是V站站长 - poterliu - 博
 【技术种草】手把手教大家用97元撸到一个10年域名-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/1907236  
 
 HelloFlask  https://helloflask.com/  
+
+请不要把 Flask 和 FastAPI 放到一起比较 - 知乎  https://zhuanlan.zhihu.com/p/369591096?utm_id=0  
