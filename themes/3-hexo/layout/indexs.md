@@ -132,3 +132,5 @@ Qt Account Login  https://login.qt.io/login
 如有乐享 - 分享是一种态度，是一种美德  https://51.ruyo.net/  
 
 WordPress Themes, Plugins, Scripts, Templates - WeaDown  https://weadown.com/  
+
+2023最新墨鱼AI导航系统网站源码/AI站点分类+AI工具集合精选源码_导航类网站 源码-CSDN博客  https://blog.csdn.net/erggggef/article/details/130588389  
