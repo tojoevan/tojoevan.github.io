@@ -104,3 +104,5 @@ GitHub - nicejade/markdown-online-editor: 📝基于 Vue、Vditor，所构建的
 2024年最好的免费域名注册平台网站大全（长期更新，建议收藏） - 一灯不是和尚  https://iyideng.net/welfare/best-free-domain-name-registration-platform.html  
 
 WhatRuns - Discover Website Technologies | Identify CMS, Frameworks, and More  https://www.whatruns.com/  
+
+SM ONE 官网  https://web.sm-one.com/  
