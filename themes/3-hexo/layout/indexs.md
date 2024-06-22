@@ -92,3 +92,5 @@ Vercel应用部署指南  https://gacfox.com/articles/5
 Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excalidraw.com/  
 
 递归软件  https://www.voldp.com/  
+
+有没有一个工具，可以设置排版形成一个文档格式，然后填写数据，自动生成word文档？ - 知乎  https://www.zhihu.com/question/430688863?utm_id=0  
