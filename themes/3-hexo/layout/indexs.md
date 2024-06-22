@@ -144,3 +144,5 @@ Discuz！官方网站 - 开放、连接、共赢  https://www.discuz.vip/
 GitHub - RealKai42/qwerty-learner: 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 / Words learning and English muscle memory training software designed for keyboard workers  https://github.com/RealKai42/qwerty-learner  
 
 🚀机场订阅推荐🍒（长期更新2023） 🌟 我爱导航💖  https://www.52nav.icu/recommend/jichangtuijian/  
+
+MyIP.la - A Simple IP Address And IP Geolocation API  https://www.myip.la/  
