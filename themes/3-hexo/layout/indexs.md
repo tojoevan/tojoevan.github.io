@@ -118,3 +118,5 @@ HIFIDIY论坛-音响交易区-交易专区 - 手机版 - Powered by Discuz!  htt
 WeFound | 我们发现.我们创造  https://wefound.cc/  
 
 「iptv-sources」可能是目前最全的免费直播源了，还支持自动更新 | WeFound  https://wefound.cc/p/1043  
+
+自己动手开发安卓版按键精灵_安卓是纯协议 按键精灵-CSDN博客  https://blog.csdn.net/ithouse/article/details/50854539  
