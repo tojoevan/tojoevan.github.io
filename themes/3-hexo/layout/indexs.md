@@ -72,3 +72,5 @@ HelloFlask  https://helloflask.com/
 如何评价最近爆红的FastAPI？ - 知乎  https://www.zhihu.com/question/424133076?utm_id=0  
 
 Configuration Overview — Gunicorn 22.0.0 documentation  https://docs.gunicorn.org/en/latest/configure.html  
+
+几十个ChatGPT免费镜像，包含GPT4和3 - 掘金  https://juejin.cn/post/7221020355291676733  
