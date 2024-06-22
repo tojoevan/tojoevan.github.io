@@ -96,3 +96,5 @@ Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excali
 有没有一个工具，可以设置排版形成一个文档格式，然后填写数据，自动生成word文档？ - 知乎  https://www.zhihu.com/question/430688863?utm_id=0  
 
 部署 Logto - Zeabur  https://zeabur.com/docs/zh-CN/marketplace/logto  
+
+GitHub - nicejade/markdown-online-editor: 📝基于 Vue、Vditor，所构建的在线 Markdown 编辑器，支持流程图、甘特图、时序图、任务列表、HTML 自动转换为 Markdown 等功能；🎉新增「所见即所得」编辑模式。  https://github.com/nicejade/markdown-online-editor  
