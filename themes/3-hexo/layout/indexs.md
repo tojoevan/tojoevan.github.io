@@ -126,3 +126,5 @@ WeFound | 我们发现.我们创造  https://wefound.cc/
 无需服务器实现阿里云盘自动签到并推送消息 - 『编程语言区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn  https://www.52pojie.cn/thread-1757911-1-1.html  
 
 Qt Account Login  https://login.qt.io/login  
+
+实测OpenAI信用卡付款方式和升级ChatGPT Plus订阅 - 如有乐享  https://51.ruyo.net/18298.html  
