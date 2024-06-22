@@ -106,3 +106,5 @@ GitHub - nicejade/markdown-online-editor: 📝基于 Vue、Vditor，所构建的
 WhatRuns - Discover Website Technologies | Identify CMS, Frameworks, and More  https://www.whatruns.com/  
 
 SM ONE 官网  https://web.sm-one.com/  
+
+登录或注册 | Aternos | 免费Minecraft服务器  https://aternos.org/go/  
