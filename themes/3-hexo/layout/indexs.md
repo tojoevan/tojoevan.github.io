@@ -116,3 +116,5 @@ HIFIDIY论坛-音响交易区-交易专区 - 手机版 - Powered by Discuz!  htt
 注册美区 Apple ID 帐号的终极指南  https://xbrss.site/pagesv2/blog/appleid.html  
 
 WeFound | 我们发现.我们创造  https://wefound.cc/  
+
+「iptv-sources」可能是目前最全的免费直播源了，还支持自动更新 | WeFound  https://wefound.cc/p/1043  
