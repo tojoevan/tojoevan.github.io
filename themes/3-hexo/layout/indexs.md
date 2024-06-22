@@ -68,3 +68,5 @@ v2ex站长专访 - 100offer专访Livid：不仅仅是V站站长 - poterliu - 博
 HelloFlask  https://helloflask.com/  
 
 请不要把 Flask 和 FastAPI 放到一起比较 - 知乎  https://zhuanlan.zhihu.com/p/369591096?utm_id=0  
+
+如何评价最近爆红的FastAPI？ - 知乎  https://www.zhihu.com/question/424133076?utm_id=0  
