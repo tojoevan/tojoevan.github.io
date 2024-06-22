@@ -124,3 +124,5 @@ WeFound | 我们发现.我们创造  https://wefound.cc/
 8个免费下载无损歌曲的网站，值得收藏 - 知乎  https://zhuanlan.zhihu.com/p/577560145?utm_id=0  
 
 无需服务器实现阿里云盘自动签到并推送消息 - 『编程语言区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn  https://www.52pojie.cn/thread-1757911-1-1.html  
+
+Qt Account Login  https://login.qt.io/login  
