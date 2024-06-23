@@ -158,3 +158,5 @@ ChatGPT 镜像网站 - 最优网址  https://www.ooopn.com/tool/chatgpt/#google_
 MyFreeMP3  https://tool.liumingye.cn/music/?page=searchPage#/  
 
 crDroid.net - increase performance and reliability over stock Android for your device  https://crdroid.net/  
+
+打通ACGN产业链：七创社的蜕变与进化  https://m.thepaper.cn/baijiahao_10205654  
