@@ -156,3 +156,5 @@ ChatGPT 镜像网站 - 最优网址  https://www.ooopn.com/tool/chatgpt/#google_
 无需服务器实现阿里云盘自动签到并推送消息 - 『编程语言区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn  https://www.52pojie.cn/thread-1757911-1-1.html  
 
 MyFreeMP3  https://tool.liumingye.cn/music/?page=searchPage#/  
+
+crDroid.net - increase performance and reliability over stock Android for your device  https://crdroid.net/  
