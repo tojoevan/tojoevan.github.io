@@ -12,3 +12,5 @@
 TrendingKeywords | Discover Trending Keywords Before They Breakout  https://trendingkeywords.net/  
 
 2款个人收款工具（可用于个人博客、WordPress，网站等） - 知乎  https://zhuanlan.zhihu.com/p/589208397?utm_id=0  
+
+下载Comate | 百度研发编码助手 | 免费  https://comate.baidu.com/zh/download?inviteCode=xiextnv8  
