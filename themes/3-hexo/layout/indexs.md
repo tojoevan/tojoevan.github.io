@@ -16,3 +16,5 @@ TrendingKeywords | Discover Trending Keywords Before They Breakout  https://tren
 下载Comate | 百度研发编码助手 | 免费  https://comate.baidu.com/zh/download?inviteCode=xiextnv8  
 
 GitHub - mdnice/markdown-nice: 支持主题设计的 Markdown 编辑器，让排版变 Nice  https://github.com/mdnice/markdown-nice  
+
+Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excalidraw.com/  
