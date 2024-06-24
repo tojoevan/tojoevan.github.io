@@ -14,3 +14,5 @@ TrendingKeywords | Discover Trending Keywords Before They Breakout  https://tren
 2款个人收款工具（可用于个人博客、WordPress，网站等） - 知乎  https://zhuanlan.zhihu.com/p/589208397?utm_id=0  
 
 下载Comate | 百度研发编码助手 | 免费  https://comate.baidu.com/zh/download?inviteCode=xiextnv8  
+
+GitHub - mdnice/markdown-nice: 支持主题设计的 Markdown 编辑器，让排版变 Nice  https://github.com/mdnice/markdown-nice  
