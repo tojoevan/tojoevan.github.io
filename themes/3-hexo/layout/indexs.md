@@ -19,3 +19,5 @@ V2方圆 – 发掘稀缺资源 v2fy zhaoolee  https://v2fy.com/
 GitHub - yb/uptime-status: A pretty dashboard of uptime status based on UptimeRobot API  https://github.com/yb/uptime-status  
 
 ShirtAI Public Status  https://status.myshirtai.com/  
+
+ShirtAI - 渗透智能  https://www.myshirtai.com/  
