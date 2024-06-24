@@ -18,3 +18,5 @@ TrendingKeywords | Discover Trending Keywords Before They Breakout  https://tren
 GitHub - mdnice/markdown-nice: 支持主题设计的 Markdown 编辑器，让排版变 Nice  https://github.com/mdnice/markdown-nice  
 
 Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excalidraw.com/  
+
+在不受支持的 Mac 上安装 macOS Ventura (OpenCore Legacy Patcher) - sysin | SYStem INside | 软件与技术分享  https://sysin.org/blog/install-macos-13-on-unsupported-mac/  
