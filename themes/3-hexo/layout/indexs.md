@@ -20,3 +20,5 @@ GitHub - mdnice/markdown-nice: 支持主题设计的 Markdown 编辑器，让排
 Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excalidraw.com/  
 
 在不受支持的 Mac 上安装 macOS Ventura (OpenCore Legacy Patcher) - sysin | SYStem INside | 软件与技术分享  https://sysin.org/blog/install-macos-13-on-unsupported-mac/  
+
+盘点丨12款数据库建模工具特点，总有一款适合你！-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/1509425  
