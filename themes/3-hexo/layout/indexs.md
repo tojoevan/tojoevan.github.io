@@ -21,3 +21,5 @@ GitHub - yb/uptime-status: A pretty dashboard of uptime status based on UptimeRo
 ShirtAI Public Status  https://status.myshirtai.com/  
 
 ShirtAI - 渗透智能  https://www.myshirtai.com/  
+
+Public Status  https://status.org.cn/  
