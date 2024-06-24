@@ -13,3 +13,5 @@
 新榜 小豆芽 公众号排版  https://newrank.cn/    
 
 V2方圆 – 发掘稀缺资源 v2fy zhaoolee  https://v2fy.com/  
+
+值得用的微信公众号排版工具！ - 知乎  https://zhuanlan.zhihu.com/p/650932031?utm_id=0  
