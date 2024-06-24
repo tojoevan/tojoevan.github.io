@@ -29,3 +29,5 @@ Public Status  https://status.org.cn/
 UptimeRobot: Free Website Monitoring Service  https://uptimerobot.com/  
 
 📙《高并发的哲学原理》纸质版书稿完全开源，共 16 万多字 - OSCHINA - 中文开源技术交流社区  https://www.oschina.net/news/264073  
+
+小程序交流专区 | 微信开放社区  https://developers.weixin.qq.com/community/develop/mixflow  
