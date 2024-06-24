@@ -27,3 +27,5 @@ Public Status  https://status.org.cn/
 熊猫乐活 | 舍即为得 – SUNOWO | SLOW IS FAST  http://www.org.cn/  
 
 UptimeRobot: Free Website Monitoring Service  https://uptimerobot.com/  
+
+📙《高并发的哲学原理》纸质版书稿完全开源，共 16 万多字 - OSCHINA - 中文开源技术交流社区  https://www.oschina.net/news/264073  
