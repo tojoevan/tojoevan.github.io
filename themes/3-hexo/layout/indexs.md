@@ -24,3 +24,5 @@ Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excali
 盘点丨12款数据库建模工具特点，总有一款适合你！-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/1509425  
 
 五大优秀的数据库设计工具 - 知乎  https://zhuanlan.zhihu.com/p/374024443?utm_id=0  
+
+FiimeROM-小米原生ROM下载|小米澎湃OS  https://mi.fiime.cn/  
