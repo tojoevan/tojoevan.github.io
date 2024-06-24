@@ -28,3 +28,5 @@ Excalidraw | Hand-drawn look & feel • Collaborative • Secure  https://excali
 FiimeROM-小米原生ROM下载|小米澎湃OS  https://mi.fiime.cn/  
 
 PetCarrierBag Instructions - YouTube  https://m.youtube.com/watch?v=X3mnf0Ff-OQ  
+
+5款非常好用的免费数据库建模工具（免费）_drawsql-CSDN博客  https://blog.csdn.net/u010164507/article/details/104748945  
