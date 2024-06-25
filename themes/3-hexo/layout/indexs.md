@@ -45,3 +45,5 @@ TRUSTWORTHY PRODUCT RANKINGS FOR ALL YOUR SHOPPING NEEDS  https://www.slant.co
 蚁阅  https://rss.anyant.com/register  
 
 Centos 7x 安装 Telegram MTproxy代理【完美可用】 - BenTok - 博客园  https://www.cnblogs.com/bentok/p/mtproxy.html  
+
+About GetSimple | GetSimple CMS  http://get-simple.info/start/  
