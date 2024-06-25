@@ -37,3 +37,5 @@ UptimeRobot: Free Website Monitoring Service  https://uptimerobot.com/
 群晖 VMM 安装失败 Virtual Machine Manager 提示无法正确安装此套件 – 学习笔记  http://nccc.fun/index.php/2021/11/14/%E7%BE%A4%E6%99%96-vmm-%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5-virtual-machine-manager-%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95%E6%AD%A3%E7%A1%AE%E5%AE%89%E8%A3%85%E6%AD%A4%E5%A5%97%E4%BB%B6/  
 
 TRUSTWORTHY PRODUCT RANKINGS FOR ALL YOUR SHOPPING NEEDS  https://www.slant.co    
+
+电信光猫获取超级管理员密码[通俗易懂]-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/2105083  
