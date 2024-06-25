@@ -14,3 +14,5 @@ RoamEdit官网-双向链接大纲笔记工具  https://roamedit.com/
 Blossom | Blossom  https://www.wangyunf.com/blossom-doc/index.html  
 
 Logseq 的跨平台同步方案：如何在 Mac、Windows、Linux 和 iPhone 上保持笔记一致  https://www.jungley.net/logseq-cross-platform-sync-solution/    
+
+卡片笔记法、Roam Research 与个人笔记体系的建立——拯救「写过就忘」 - 少数派  https://sspai.com/post/65224  
