@@ -55,3 +55,5 @@ About GetSimple | GetSimple CMS  http://get-simple.info/start/
 竹白 - 专为创作者设计的一站式工具  https://zhubai.love/  
 
 树莓派-3-制作音乐播放器+语音控制_树莓派安装音乐软件-CSDN博客  https://blog.csdn.net/qq_20466211/article/details/114174332  
+
+GitHub - ttglad/xiaoai-music-bridge: 小米小爱开放平台开发三方音乐技能  https://github.com/ttglad/xiaoai-music-bridge  
