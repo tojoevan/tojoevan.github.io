@@ -39,3 +39,5 @@ UptimeRobot: Free Website Monitoring Service  https://uptimerobot.com/
 TRUSTWORTHY PRODUCT RANKINGS FOR ALL YOUR SHOPPING NEEDS  https://www.slant.co    
 
 电信光猫获取超级管理员密码[通俗易懂]-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/2105083  
+
+这个服务器监控微信小程序，有点意思 - 知乎  https://zhuanlan.zhihu.com/p/140930059?utm_id=0  
