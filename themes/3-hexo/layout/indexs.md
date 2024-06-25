@@ -31,3 +31,5 @@ UptimeRobot: Free Website Monitoring Service  https://uptimerobot.com/
 📙《高并发的哲学原理》纸质版书稿完全开源，共 16 万多字 - OSCHINA - 中文开源技术交流社区  https://www.oschina.net/news/264073  
 
 小程序交流专区 | 微信开放社区  https://developers.weixin.qq.com/community/develop/mixflow  
+
+[python] ffmpeg-python读取rtsp(tcp方式)_ffmpeg-python rtsp 截取-CSDN博客  https://blog.csdn.net/qq_32815807/article/details/119959451  
