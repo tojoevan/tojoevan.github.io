@@ -26,3 +26,5 @@ Logseq 的跨平台同步方案：如何在 Mac、Windows、Linux 和 iPhone 上
 秀米_公众号图文编辑器和H5制作 - 秀米XIUMI  https://xiumi.us/#/    
 
 使用 Markdown + CSS 搞定公众号的排版规范 - 少数派  https://sspai.com/post/59091    
+
+Memo Card : Turn your words into beautiful sharing cards!  https://www.memocard.net/  
