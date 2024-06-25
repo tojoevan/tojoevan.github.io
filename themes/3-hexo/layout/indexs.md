@@ -8,3 +8,5 @@
 
 
 RoamEdit官网-双向链接大纲笔记工具  https://roamedit.com/  
+
+免费、优秀、强大的笔记软件推荐：Obsidian、Zettlr、Joplin、FlowUs-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/2036936  
