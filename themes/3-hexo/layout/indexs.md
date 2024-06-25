@@ -12,3 +12,5 @@ RoamEdit官网-双向链接大纲笔记工具  https://roamedit.com/
 免费、优秀、强大的笔记软件推荐：Obsidian、Zettlr、Joplin、FlowUs-腾讯云开发者社区-腾讯云  https://cloud.tencent.com/developer/article/2036936  
 
 Blossom | Blossom  https://www.wangyunf.com/blossom-doc/index.html  
+
+Logseq 的跨平台同步方案：如何在 Mac、Windows、Linux 和 iPhone 上保持笔记一致  https://www.jungley.net/logseq-cross-platform-sync-solution/    
