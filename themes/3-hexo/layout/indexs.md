@@ -51,3 +51,5 @@ About GetSimple | GetSimple CMS  http://get-simple.info/start/
 顶级机场推荐 | 节点猫  https://nodecats.com/  
 
 九月PPT模板_九月PPT模板下载_熊猫办公  https://www.tukuppt.com/pptmuban/jiuyue.html  
+
+竹白 - 专为创作者设计的一站式工具  https://zhubai.love/  
