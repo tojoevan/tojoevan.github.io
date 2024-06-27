@@ -7,3 +7,5 @@
 阅读站： https://www.inkspcl.com/  
 
 项目简介 - itchat  https://itchat.readthedocs.io/zh/latest/  
+
+python flask四步配置微信公众号自动回复_python使用微信公众号实现自动回复-CSDN博客  https://blog.csdn.net/weixin_56924782/article/details/127906562  
