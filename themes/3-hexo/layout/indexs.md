@@ -13,3 +13,5 @@ python flask四步配置微信公众号自动回复_python使用微信公众号�
 开箱即用——开源导航站系统AigoTools，一键部署你的导航站！  https://mp.weixin.qq.com/s/s2VrxWvmtM0161gGKSi-FQ  
 
 GitHub - jointakahe/takahe: An ActivityPub/Fediverse server  https://github.com/jointakahe/takahe  
+
+谷歌我的商家是什么 | Google My Business有什么用 | 图帕先生  https://www.yestupa.com/google-my-business.html  
