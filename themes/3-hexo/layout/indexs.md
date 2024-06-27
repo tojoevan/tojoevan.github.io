@@ -7,15 +7,3 @@
 阅读站： https://www.inkspcl.com/  
 
 项目简介 - itchat  https://itchat.readthedocs.io/zh/latest/  
-
-python flask四步配置微信公众号自动回复_python使用微信公众号实现自动回复-CSDN博客  https://blog.csdn.net/weixin_56924782/article/details/127906562  
-
-开箱即用——开源导航站系统AigoTools，一键部署你的导航站！  https://mp.weixin.qq.com/s/s2VrxWvmtM0161gGKSi-FQ  
-
-GitHub - jointakahe/takahe: An ActivityPub/Fediverse server  https://github.com/jointakahe/takahe  
-
-谷歌我的商家是什么 | Google My Business有什么用 | 图帕先生  https://www.yestupa.com/google-my-business.html  
-
-重新认识uTools：你的全能效率工具箱  https://mp.weixin.qq.com/s/6ZJD3Ta4TcfvdhxgvJ5-TA  
-
-使用Docker安装苹果系统MacOS，告别黑苹果  https://mp.weixin.qq.com/s/nBxSM2RGyuNA_VdnE31ueg  
