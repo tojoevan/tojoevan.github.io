@@ -17,3 +17,5 @@ GitHub - jointakahe/takahe: An ActivityPub/Fediverse server  https://github.com/
 谷歌我的商家是什么 | Google My Business有什么用 | 图帕先生  https://www.yestupa.com/google-my-business.html  
 
 重新认识uTools：你的全能效率工具箱  https://mp.weixin.qq.com/s/6ZJD3Ta4TcfvdhxgvJ5-TA  
+
+使用Docker安装苹果系统MacOS，告别黑苹果  https://mp.weixin.qq.com/s/nBxSM2RGyuNA_VdnE31ueg  
