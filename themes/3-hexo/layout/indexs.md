@@ -15,3 +15,5 @@ python flask四步配置微信公众号自动回复_python使用微信公众号�
 GitHub - jointakahe/takahe: An ActivityPub/Fediverse server  https://github.com/jointakahe/takahe  
 
 谷歌我的商家是什么 | Google My Business有什么用 | 图帕先生  https://www.yestupa.com/google-my-business.html  
+
+重新认识uTools：你的全能效率工具箱  https://mp.weixin.qq.com/s/6ZJD3Ta4TcfvdhxgvJ5-TA  
