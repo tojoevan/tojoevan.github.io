@@ -6,6 +6,4 @@
 
 阅读站： https://www.inkspcl.com/  
 
-项目简介 - itchat  https://itchat.readthedocs.io/zh/latest/  
-
-VidHub - iOS/Mac/tvOS网盘视频播放器 - 自动刮削视频文件信息，获取整理电影剧集封面和详细信息，打造私人影视库。 - Oka Apps  https://zh.okaapps.com/product/1659622164  
+UU在线工具 - 便捷实用的工具集合站  https://uutool.cn/    
