@@ -19,3 +19,5 @@ UU在线工具 - 便捷实用的工具集合站  https://uutool.cn/
 135编辑器官网_微信公众号图文排版工具_一键在线文章内容编辑器  https://www.135editor.com/    
 
 秀米_公众号图文编辑器和H5制作 - 秀米XIUMI  https://xiumi.us/#/    
+
+SVG花式排版_SVG交互式排版_黑科技排版  https://svg.ipaiban.com/login    
