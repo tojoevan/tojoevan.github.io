@@ -25,3 +25,5 @@ SVG花式排版_SVG交互式排版_黑科技排版  https://svg.ipaiban.com/logi
 365微信编辑器_微信公众号文章一键排版,微信图文美化,在线内容编辑工具-365编辑器,微梦传媒  https://www.365editor.com/?f=b&k=0305llc&bd_vid=11633574219417336869    
 
 GitHub - doocs/md: ✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS 样式、一键重置等特性  https://github.com/doocs/md    
+
+GitHub - ufologist/wechat-mp-article: 高颜值的微信公众号图文消息排版  https://github.com/ufologist/wechat-mp-article?tab=readme-ov-file    
