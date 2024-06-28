@@ -23,3 +23,5 @@ UU在线工具 - 便捷实用的工具集合站  https://uutool.cn/
 SVG花式排版_SVG交互式排版_黑科技排版  https://svg.ipaiban.com/login    
 
 365微信编辑器_微信公众号文章一键排版,微信图文美化,在线内容编辑工具-365编辑器,微梦传媒  https://www.365editor.com/?f=b&k=0305llc&bd_vid=11633574219417336869    
+
+GitHub - doocs/md: ✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS 样式、一键重置等特性  https://github.com/doocs/md    
