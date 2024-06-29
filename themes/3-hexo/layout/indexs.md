@@ -11,3 +11,5 @@
 小浣熊家族 Raccoon - AI 智能助手 - 商汤科技  https://raccoon.sensetime.com/    
 
 drawdb-io/drawdb: Free, simple, and intuitive online database design tool and SQL generator.  https://github.com/drawdb-io/drawdb    
+
+Duplicati  https://duplicati.com/  
