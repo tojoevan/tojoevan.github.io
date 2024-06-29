@@ -45,3 +45,5 @@ NGA玩家社区 - NGA.CN  https://nga.cn/
 怡氧 - 一站式生产力工具集  https://www.eo2suite.cn/home/index    
 
 Home - capy.lol  https://capy.lol/    
+
+GitHub - Looskie/capybara-web: capybara website for https://api.capy.lol  https://github.com/looskie/capybara-web    
