@@ -35,3 +35,5 @@ xdm 现在ios17有手柄推荐吗？ NGA玩家社区  https://g.nga.cn/read.php?
 wiseflow/README_CN.md at master · TeamWiseFlow/wiseflow · GitHub  https://github.com/TeamWiseFlow/wiseflow/blob/master/README_CN.md  
 
 GitHub - rajnandan1/kener: Kener is a Modern Self hosted Status Page, batteries included  https://github.com/rajnandan1/kener  
+
+Public Status  https://status.org.cn/  
