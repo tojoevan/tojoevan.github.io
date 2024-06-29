@@ -37,3 +37,5 @@ wiseflow/README_CN.md at master · TeamWiseFlow/wiseflow · GitHub  https://gith
 GitHub - rajnandan1/kener: Kener is a Modern Self hosted Status Page, batteries included  https://github.com/rajnandan1/kener  
 
 Public Status  https://status.org.cn/  
+
+NGA玩家社区 - NGA.CN  https://nga.cn/    
