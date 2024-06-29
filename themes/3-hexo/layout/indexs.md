@@ -13,3 +13,5 @@
 drawdb-io/drawdb: Free, simple, and intuitive online database design tool and SQL generator.  https://github.com/drawdb-io/drawdb    
 
 Duplicati  https://duplicati.com/  
+
+有码笔记  https://abo.xyz/  
