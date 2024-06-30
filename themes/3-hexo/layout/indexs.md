@@ -5,19 +5,3 @@
 分享站： https://blog.joevan.top/  
 
 阅读站： https://www.inkspcl.com/  
-
-墨滴 | 看颜值的文章社区  https://mdnice.com/    
-
-小浣熊家族 Raccoon - AI 智能助手 - 商汤科技  https://raccoon.sensetime.com/    
-
-drawdb-io/drawdb: Free, simple, and intuitive online database design tool and SQL generator.  https://github.com/drawdb-io/drawdb    
-
-Duplicati  https://duplicati.com/  
-
-有码笔记  https://abo.xyz/  
-
-GitHub - rajnandan1/kener: Kener is a Modern Self hosted Status Page, batteries included  https://github.com/rajnandan1/kener  
-
-85年，40岁，从零开始做游戏，重新出发永远都不会晚  https://mp.weixin.qq.com/s/kRgguuwjNFC-f6CwbCI6Sw  
-
-首页-北京永诚时代科技有限公司  https://www.ycforever.com/  
