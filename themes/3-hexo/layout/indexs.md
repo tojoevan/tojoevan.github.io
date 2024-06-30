@@ -17,3 +17,5 @@ Duplicati  https://duplicati.com/
 有码笔记  https://abo.xyz/  
 
 GitHub - rajnandan1/kener: Kener is a Modern Self hosted Status Page, batteries included  https://github.com/rajnandan1/kener  
+
+85年，40岁，从零开始做游戏，重新出发永远都不会晚  https://mp.weixin.qq.com/s/kRgguuwjNFC-f6CwbCI6Sw  
