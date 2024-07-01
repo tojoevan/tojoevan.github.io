@@ -13,3 +13,5 @@ GitHub - pipipi-pikachu/PPTist: An online presentation application that replicat
 免费免费！！字节跳动 发布编程神器：支持代码补全、Bug 修复  https://mp.weixin.qq.com/s/S7w3O-ecMW9pWIRZaUBBpw  
 
 我们是否需要一个Seeed Home Assistant Green  https://mp.weixin.qq.com/s/HPV0lSdSvxMxOXn0KNqOxQ  
+
+小饭桌  https://www.xfz.cn/  
