@@ -7,3 +7,5 @@
 阅读站： https://www.inkspcl.com/  
 
 Jina Reader API 的四种用法 | 「智图派」  https://www.axtonliu.com/jina-reader-api/  
+
+AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全  https://ai-bot.cn/  
