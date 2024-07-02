@@ -13,3 +13,5 @@ AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全  http
 GitHub - jina-ai/reader: Convert any URL to an LLM-friendly input with a simple prefix https:/r.jina  https://github.com/jina-ai/reader  
 
 Jina Reader API 的四种用法 | 「智图派」  https://www.axtonliu.com/jina-reader-api/  
+
+请不要把 Flask 和 FastAPI 放到一起比较 | 李辉  https://greyli.com/flask-fastapi/  
