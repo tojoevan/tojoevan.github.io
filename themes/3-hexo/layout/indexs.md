@@ -17,3 +17,5 @@ Bootstrap新闻html模板 - Bootstrap模板库  https://www.bootstrapmb.com/tag/
 bootstrap-table真香系列-数据渲染与导出_bootstrap table 数据渲染-CSDN博客  https://blog.csdn.net/linmengmeng_1314/article/details/109716764  
 
 GitHub - KyleBing/ipad: iPad 所有机型参数大全  https://github.com/KyleBing/ipad  
+
+GitHub - fantasticit/think: 云策文档是一款开源知识管理工具。通过独立的知识库空间，结构化地组织在线协作文档，实现知识的积累与沉淀，促进知识的复用与流通。  https://github.com/fantasticit/think  
