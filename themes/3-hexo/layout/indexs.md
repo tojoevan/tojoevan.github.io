@@ -9,3 +9,5 @@
 Sequel Pro  https://sequelpro.com/    
 
 公开镜像加速 - DaoCloud Enterprise  https://docs.daocloud.io/community/mirror/    
+
+DaoCloud/public-image-mirror: 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。致力于提供连接全世界的稳定可靠安全的容器镜像服务。  https://github.com/DaoCloud/public-image-mirror    
