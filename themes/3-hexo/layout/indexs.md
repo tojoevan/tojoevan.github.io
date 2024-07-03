@@ -11,3 +11,5 @@ Eqvpkbz - 博客园  https://www.cnblogs.com/eqvpkbz
 【第175期】掌握 nextjs 的最佳 6 个项目  https://mp.weixin.qq.com/s/TmqzSEkSRd1899peXDMVoA  
 
 常用的Bootstrap模板资源站_w3cschool  https://www.w3cschool.cn/msv2es/qmaj1pyd.html  
+
+Bootstrap新闻html模板 - Bootstrap模板库  https://www.bootstrapmb.com/tag/xinwenhtmlmoban  
