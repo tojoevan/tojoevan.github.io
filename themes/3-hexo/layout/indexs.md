@@ -23,3 +23,5 @@ GitHub - fantasticit/think: 云策文档是一款开源知识管理工具。通�
 CocoMaterial  https://cocomaterial.com/  
 
 Snipaste - 截图 + 贴图  https://zh.snipaste.com/    
+
+p0deje/Maccy: Lightweight clipboard manager for macOS  https://github.com/p0deje/Maccy    
