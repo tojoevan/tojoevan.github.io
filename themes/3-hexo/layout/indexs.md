@@ -15,3 +15,5 @@ Eqvpkbz - 博客园  https://www.cnblogs.com/eqvpkbz
 Bootstrap新闻html模板 - Bootstrap模板库  https://www.bootstrapmb.com/tag/xinwenhtmlmoban  
 
 bootstrap-table真香系列-数据渲染与导出_bootstrap table 数据渲染-CSDN博客  https://blog.csdn.net/linmengmeng_1314/article/details/109716764  
+
+GitHub - KyleBing/ipad: iPad 所有机型参数大全  https://github.com/KyleBing/ipad  
