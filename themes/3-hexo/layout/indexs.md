@@ -21,3 +21,5 @@ GitHub - KyleBing/ipad: iPad 所有机型参数大全  https://github.com/KyleBi
 GitHub - fantasticit/think: 云策文档是一款开源知识管理工具。通过独立的知识库空间，结构化地组织在线协作文档，实现知识的积累与沉淀，促进知识的复用与流通。  https://github.com/fantasticit/think  
 
 CocoMaterial  https://cocomaterial.com/  
+
+Snipaste - 截图 + 贴图  https://zh.snipaste.com/    
