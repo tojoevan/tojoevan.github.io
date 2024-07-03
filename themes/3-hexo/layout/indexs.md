@@ -7,3 +7,5 @@
 阅读站： https://www.inkspcl.com/  
 
 Eqvpkbz - 博客园  https://www.cnblogs.com/eqvpkbz  
+
+【第175期】掌握 nextjs 的最佳 6 个项目  https://mp.weixin.qq.com/s/TmqzSEkSRd1899peXDMVoA  
