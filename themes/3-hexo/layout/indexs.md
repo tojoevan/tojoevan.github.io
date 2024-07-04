@@ -15,3 +15,5 @@ DaoCloud/public-image-mirror: 很多镜像都在国外。比如 gcr 。国内下
 饭太硬 | 导航  https://www.xn--sss604efuw.com/  
 
 OrbStack · Fast, light, simple Docker & Linux on macOS  https://orbstack.dev/  
+
+我的个人博客开源了，开箱即用，结合 GitHub Pages，几乎零成本  https://mp.weixin.qq.com/s/tMRVQIpd2pJt-AKPRqkA1w  
