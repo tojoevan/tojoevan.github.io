@@ -12,3 +12,5 @@
 132  https://demo-tools.mereith.com/    
 
 Jiumo Search 鸠摩搜索 - 文档搜索引擎  https://www.jiumodiary.com/  
+
+Lite XL  https://lite-xl.com/  
