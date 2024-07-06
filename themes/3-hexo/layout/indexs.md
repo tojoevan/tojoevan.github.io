@@ -16,3 +16,5 @@ Jiumo Search 鸠摩搜索 - 文档搜索引擎  https://www.jiumodiary.com/
 Lite XL  https://lite-xl.com/  
 
 GitHub - traefik/traefik: The Cloud Native Application Proxy  https://github.com/traefik/traefik  
+
+笔记文档一把梭——MkDocs 快速上手指南 ｜ 少数派会员 π+Prime  https://sspai.com/prime/story/mkdocs-primer#!  
