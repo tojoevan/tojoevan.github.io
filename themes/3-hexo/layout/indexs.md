@@ -36,3 +36,5 @@ PEP 3333 – Python Web Server Gateway Interface v1.0.1 | peps.python.org  https
 Flask-MongoEngine documentation — Flask-MongoEngine 1.0.1.dev289+gd452613 documentation  http://docs.mongoengine.org/projects/flask-mongoengine/en/latest/  
 
 mongoengine  http://mongoengine.org/  
+
+产品经理资料库-PMhub构建最全产品经理的知识体系与资源中心  https://pmhub.cc/  
