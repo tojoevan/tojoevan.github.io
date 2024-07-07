@@ -26,3 +26,5 @@ Installation - Material for MkDocs  https://squidfunk.github.io/mkdocs-material/
 FastAPI  https://fastapi.tiangolo.com/zh/  
 
 Sphinx — Sphinx documentation  https://www.sphinx-doc.org/en/master/  
+
+Query Language Understood by SQLite  https://sqlite.org/lang.html  
