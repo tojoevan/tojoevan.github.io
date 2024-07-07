@@ -30,3 +30,5 @@ Sphinx — Sphinx documentation  https://www.sphinx-doc.org/en/master/
 Query Language Understood by SQLite  https://sqlite.org/lang.html  
 
 CSS：层叠样式表 | MDN  https://developer.mozilla.org/zh-CN/docs/Web/CSS  
+
+PEP 3333 – Python Web Server Gateway Interface v1.0.1 | peps.python.org  https://peps.python.org/pep-3333/  
