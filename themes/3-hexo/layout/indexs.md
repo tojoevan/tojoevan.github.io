@@ -24,3 +24,5 @@ Usage — Federation 0.25.1 documentation  https://federation.readthedocs.io/en/
 Installation - Material for MkDocs  https://squidfunk.github.io/mkdocs-material/getting-started/  
 
 FastAPI  https://fastapi.tiangolo.com/zh/  
+
+Sphinx — Sphinx documentation  https://www.sphinx-doc.org/en/master/  
