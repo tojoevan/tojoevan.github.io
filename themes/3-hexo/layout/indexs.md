@@ -26,3 +26,5 @@ Xiaolog  https://www.pwxiao.top/
 Koala hacker news  https://zutjoe.github.io/KoalaHackerNews/  
 
 Koala OSS  https://koala-oss.app/  
+
+权威发布丨2022 中国开源先锋 33 人之心尖上的开源人物 - SegmentFault 思否之声 - SegmentFault 思否  https://segmentfault.com/a/1190000043208486  
