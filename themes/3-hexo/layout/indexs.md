@@ -12,3 +12,5 @@
 免费Sitemap在线生成器,网站地图在线生成工具 - 在线工具  http://tools.bugscaner.com/sitemapspider  
 
 AI排行榜 - AIGCRank.cn  https://aigcrank.cn/  
+
+Flask 3.0 documentation — DevDocs  https://devdocs.io/flask~3.0/  
