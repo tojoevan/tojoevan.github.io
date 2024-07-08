@@ -20,3 +20,5 @@ Home · Docus  https://docus.dev/
 Find out what websites are built with - Wappalyzer  https://www.wappalyzer.com/  
 
 Xiaolog  https://www.pwxiao.top/  
+
+基于Vercel和Flask部署API | Xiaolog  https://www.pwxiao.top/blog/vercel_deploy_api.html  
