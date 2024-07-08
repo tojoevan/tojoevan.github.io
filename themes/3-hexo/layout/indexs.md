@@ -7,3 +7,5 @@
 阅读站： https://www.inkspcl.com/  
 
 hygd0813/cactusplus at 1.7  https://github.com/hygd0813/cactusplus/tree/1.7.0  
+
+probberechts/hexo-theme-cactus: :cactus: A responsive, clean and simple theme for Hexo.  https://github.com/probberechts/hexo-theme-cactus  
