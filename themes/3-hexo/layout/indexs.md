@@ -10,3 +10,5 @@
 陈钇蒙/nginxWebUI  https://gitee.com/cym1102/nginxWebUI  
 
 免费Sitemap在线生成器,网站地图在线生成工具 - 在线工具  http://tools.bugscaner.com/sitemapspider  
+
+AI排行榜 - AIGCRank.cn  https://aigcrank.cn/  
