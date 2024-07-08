@@ -30,3 +30,5 @@ Koala OSS  https://koala-oss.app/
 权威发布丨2022 中国开源先锋 33 人之心尖上的开源人物 - SegmentFault 思否之声 - SegmentFault 思否  https://segmentfault.com/a/1190000043208486  
 
 Marketing, Automation & Email Platform | Mailchimp  https://mailchimp.com/  
+
+Eidos：离线版 Notion 的开源替代选择 - 漫话开发者 - UWL.ME  https://uwl.me/n/a.VFxZVVw=  
