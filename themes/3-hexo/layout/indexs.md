@@ -24,3 +24,5 @@ Xiaolog  https://www.pwxiao.top/
 基于Vercel和Flask部署API | Xiaolog  https://www.pwxiao.top/blog/vercel_deploy_api.html  
 
 Koala hacker news  https://zutjoe.github.io/KoalaHackerNews/  
+
+Koala OSS  https://koala-oss.app/  
