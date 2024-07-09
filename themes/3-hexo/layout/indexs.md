@@ -5,3 +5,5 @@
 分享站： https://blog.joevan.top/  
 
 阅读站： https://www.inkspcl.com/  
+
+bitfree  https://bitfree.cn/home  
