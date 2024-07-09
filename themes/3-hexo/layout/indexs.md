@@ -9,3 +9,5 @@
 bitfree  https://bitfree.cn/home  
 
 开源观察分享  https://blog.joevan.top/  
+
+缘觉影视（简称YJYS），热门电影，最新电影，最新电视剧，免费下载，迅雷下载，磁力下载，电驴下载，免费在线观看  https://www.yjys02.com/?ref=www.jspoo.com    
