@@ -15,3 +15,5 @@ APP热搜榜接口提供 --- 微博 - 目的地-Destination  https://chrison.cn/
 继续生活 - 感悟人生  https://www.heylc.com/#  
 
 项目简介 | GeekAI 用户手册  https://ai.r9it.com/docs/info/  
+
+unSafe.sh - 不安全  https://buaq.net/  
