@@ -7,3 +7,5 @@
 阅读站： https://www.inkspcl.com/  
 
 bitfree  https://bitfree.cn/home  
+
+开源观察分享  https://blog.joevan.top/  
