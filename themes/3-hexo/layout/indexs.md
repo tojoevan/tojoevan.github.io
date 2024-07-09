@@ -15,3 +15,5 @@ bitfree  https://bitfree.cn/home
 Podman Desktop - Containers and Kubernetes | Podman Desktop  https://podman-desktop.io/    
 
 PicList  https://piclist.cn/    
+
+projectsets/PicGo  https://gitee.com/projectsets/PicGo    
