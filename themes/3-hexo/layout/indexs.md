@@ -19,3 +19,5 @@ PicList  https://piclist.cn/
 projectsets/PicGo  https://gitee.com/projectsets/PicGo    
 
 主页 | Java突击队  http://www.susan.net.cn/  
+
+gchq/CyberChef: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis  https://github.com/gchq/CyberChef  
