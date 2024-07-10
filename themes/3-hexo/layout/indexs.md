@@ -17,3 +17,5 @@ Podman Desktop - Containers and Kubernetes | Podman Desktop  https://podman-desk
 PicList  https://piclist.cn/    
 
 projectsets/PicGo  https://gitee.com/projectsets/PicGo    
+
+主页 | Java突击队  http://www.susan.net.cn/  
