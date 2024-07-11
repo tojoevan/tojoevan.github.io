@@ -13,3 +13,5 @@ yuanxw0828/NLP-: 中英文敏感词、语言检测、中外手机/电话归属�
 敏感词过滤方案那些事 - ToolGood - 博客园  https://www.cnblogs.com/toolgood/p/15208734.html  
 
 文本识别_智能鉴黄_敏感词过滤_涉政检测_在线体验_wordscheck  http://wordscheck.com/  
+
+敏感词检测免费API - 提供免费接口调用平台  https://api.aa1.cn/doc/api-mgc.html    
