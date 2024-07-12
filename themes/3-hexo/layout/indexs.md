@@ -21,3 +21,5 @@ yuanxw0828/NLP-: 中英文敏感词、语言检测、中外手机/电话归属�
 局长的个人空间 - OSCHINA  https://my.oschina.net/hardbone?tab=comment  
 
 通过Nginx Proxy Manager为我们的自建图床配置防盗链  https://mp.weixin.qq.com/s/NEBdp6O1qm43MCo6N_rMPw  
+
+Moom · Many Tricks  https://manytricks.com/moom/    
