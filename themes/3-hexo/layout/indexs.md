@@ -23,3 +23,5 @@ yuanxw0828/NLP-: 中英文敏感词、语言检测、中外手机/电话归属�
 通过Nginx Proxy Manager为我们的自建图床配置防盗链  https://mp.weixin.qq.com/s/NEBdp6O1qm43MCo6N_rMPw  
 
 Moom · Many Tricks  https://manytricks.com/moom/    
+
+Moom替代品和类似软件 — Altapps.net  https://zh.altapps.net/soft/moom    
