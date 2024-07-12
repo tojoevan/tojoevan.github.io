@@ -25,3 +25,5 @@ yuanxw0828/NLP-: 中英文敏感词、语言检测、中外手机/电话归属�
 Moom · Many Tricks  https://manytricks.com/moom/    
 
 Moom替代品和类似软件 — Altapps.net  https://zh.altapps.net/soft/moom    
+
+Moom 的国产替代品 Magnet （Moom VS Magnet） | Mac小站  https://v2mac.cn/2023/12/04/moom-vs-magnet/    
