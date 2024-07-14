@@ -2,6 +2,8 @@
 title: mac_moom
 date: 2024-07-14 19:39:24
 tags:
+ - 工具
+ - Mac
 ---
 ![https://manytricks.com/moom/](https://s2.loli.net/2024/07/14/jF9m6BPRLpO1AXY.png)  
 
