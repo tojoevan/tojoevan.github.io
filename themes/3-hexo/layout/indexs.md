@@ -11,3 +11,5 @@ Mac小站 | V2mac = Way to Mac  https://v2mac.cn/
 10 个最佳 SEO 工具 - SEO 分析变得简单且免费 | HIX.AI  https://hix.ai/zh/hub/writing/best-seo-tools    
 
 Moom 3.2.25 破解版 - 强大的窗口布局工具 | MacKed - 专注于mac软件分享与下载  https://macked.app/moom.html  
+
+MacKed - 专注于mac软件分享与下载  https://macked.app/  
