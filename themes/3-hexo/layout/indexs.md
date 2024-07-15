@@ -15,3 +15,5 @@ Moom 3.2.25 破解版 - 强大的窗口布局工具 | MacKed - 专注于mac软�
 MacKed - 专注于mac软件分享与下载  https://macked.app/  
 
 心流·AI助手 - 让知识随心流动  https://www.iflow.cn/  
+
+3D云打印平台在线报价系统DayinCMS - 3D云打印在线报价系统 3D打印服务在线接单系统网站  http://www.dayincms.com/    
