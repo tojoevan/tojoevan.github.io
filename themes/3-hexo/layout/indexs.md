@@ -13,3 +13,5 @@ Mac小站 | V2mac = Way to Mac  https://v2mac.cn/
 Moom 3.2.25 破解版 - 强大的窗口布局工具 | MacKed - 专注于mac软件分享与下载  https://macked.app/moom.html  
 
 MacKed - 专注于mac软件分享与下载  https://macked.app/  
+
+心流·AI助手 - 让知识随心流动  https://www.iflow.cn/  
