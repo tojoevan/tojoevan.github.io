@@ -17,3 +17,5 @@ LLM-Red-Team/kimi-free-api: 🚀 KIMI AI 长文本大模型逆向API白嫖测试
 Chat - Moonshot AI 开放平台  https://platform.moonshot.cn/docs/price/chat#%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E4%BB%B7%E6%A0%BC%E8%AF%B4%E6%98%8E    
 
 秘塔AI搜索  https://metaso.cn/?s=sbypc1&msclkid=dc9d469e1f3615f15b8b2009c5ca13df    
+
+Kimi.ai - 帮你看更大的世界  https://kimi.moonshot.cn/    
