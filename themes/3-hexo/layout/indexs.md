@@ -7,3 +7,5 @@
 阅读站： https://www.inkspcl.com/  
 
 UTM | Virtual machines for Mac  https://mac.getutm.app/    
+
+KIMI AI Free 服务 | Free API  https://llm-red-team.github.io/free-api/freeapi/kimi/#nginx-%E5%8F%8D%E4%BB%A3%E4%BC%98%E5%8C%96    
