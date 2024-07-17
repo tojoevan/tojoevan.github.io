@@ -19,3 +19,5 @@ Chat - Moonshot AI 开放平台  https://platform.moonshot.cn/docs/price/chat#%E
 秘塔AI搜索  https://metaso.cn/?s=sbypc1&msclkid=dc9d469e1f3615f15b8b2009c5ca13df    
 
 Kimi.ai - 帮你看更大的世界  https://kimi.moonshot.cn/    
+
+综合资源区 - YiOVE论坛  https://bbs.yiove.com/forum-4-1.htm?tagids=_36__    
