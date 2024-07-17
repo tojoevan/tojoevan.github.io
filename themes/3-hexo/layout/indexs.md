@@ -21,3 +21,5 @@ MacKed - 专注于mac软件分享与下载  https://macked.app/
 https://decisionproblem.com/paperclips/index2.html  https://decisionproblem.com/paperclips/index2.html    
 
 程序员阿歪  https://mp.weixin.qq.com/s/q10zBySc0mSdYGVxMWZXQw  
+
+paperclips: 回形针（Paperclips）  https://gitee.com/likexia/paperclips    
