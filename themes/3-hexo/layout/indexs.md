@@ -29,3 +29,5 @@ Hoarder  https://try.hoarder.app/signin
 Introduction | Hoarder Docs  https://docs.hoarder.app/#demo  
 
 UTM | Virtual machines for Mac  https://mac.getutm.app/  
+
+Buy Plugins & Code from CodeCanyon  https://codecanyon.net/  
