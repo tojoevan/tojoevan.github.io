@@ -5,3 +5,5 @@
 分享站： https://blog.joevan.top/  
 
 阅读站： https://www.inkspcl.com/  
+
+基本功 | 一文讲清多线程和多线程同步  https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg  
