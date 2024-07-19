@@ -15,3 +15,5 @@ V3小店 | ChatGPT API批发购买 - V3小店  https://shop.gpt.ge/
 首页 | Ai365  https://ai365vip.shop/    
 
 New API  https://api.g4f.icu/    
+
+MeiliSearch，一个轻量级搜索引擎 | 日思录  http://www.tubring.cn/articles/melisearch-introduction    
