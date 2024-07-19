@@ -9,3 +9,5 @@
 基本功 | 一文讲清多线程和多线程同步  https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg  
 
 V3小店 | ChatGPT API批发购买 - V3小店  https://shop.gpt.ge/  
+
+技术极简主义：一切皆用Postgres | Pigsty  https://pigsty.cc/zh/blog/pg/just-use-pg/  
