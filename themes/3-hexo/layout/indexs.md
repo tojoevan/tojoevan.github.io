@@ -11,3 +11,5 @@
 V3小店 | ChatGPT API批发购买 - V3小店  https://shop.gpt.ge/  
 
 技术极简主义：一切皆用Postgres | Pigsty  https://pigsty.cc/zh/blog/pg/just-use-pg/  
+
+首页 | Ai365  https://ai365vip.shop/    
