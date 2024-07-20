@@ -19,3 +19,5 @@ New API  https://api.g4f.icu/
 MeiliSearch，一个轻量级搜索引擎 | 日思录  http://www.tubring.cn/articles/melisearch-introduction    
 
 欢迎使用 SmallAI：个人 AI 效能工具 · SmallAI  https://www.smallai.asia/welcome  
+
+cobalt  https://cobalt.tools/    
