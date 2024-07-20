@@ -23,3 +23,5 @@ MeiliSearch，一个轻量级搜索引擎 | 日思录  http://www.tubring.cn/art
 cobalt  https://cobalt.tools/    
 
 imputnet/cobalt: save what you love  https://github.com/imputnet/cobalt    
+
+胡萝虎的博客  https://www.huluohu.com/    
