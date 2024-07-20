@@ -21,3 +21,5 @@ MeiliSearch，一个轻量级搜索引擎 | 日思录  http://www.tubring.cn/art
 欢迎使用 SmallAI：个人 AI 效能工具 · SmallAI  https://www.smallai.asia/welcome  
 
 cobalt  https://cobalt.tools/    
+
+imputnet/cobalt: save what you love  https://github.com/imputnet/cobalt    
