@@ -25,3 +25,5 @@ cobalt  https://cobalt.tools/
 imputnet/cobalt: save what you love  https://github.com/imputnet/cobalt    
 
 胡萝虎的博客  https://www.huluohu.com/    
+
+Maestro + Qwen2 + DeepCoderV2：几秒钟生成一个应用程序（本地、快速、一次提示）  https://mp.weixin.qq.com/s/JasBepRPC3Kk7Itx3IJjyw  
