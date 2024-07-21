@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>开源观察分享 240721晚</title>
+      <link href="/2024/07/21/202407212253/"/>
+      <url>/2024/07/21/202407212253/</url>
+      
+        <content type="html"><![CDATA[<h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p><p>分享站： <a href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p><p>阅读站： <a href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p><h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>基本功 | 一文讲清多线程和多线程同步  <a href="https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg">https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg</a>  </p><p>技术极简主义：一切皆用Postgres | Pigsty  <a href="https://pigsty.cc/zh/blog/pg/just-use-pg/">https://pigsty.cc/zh/blog/pg/just-use-pg/</a>  </p><p>MeiliSearch，一个轻量级搜索引擎 | 日思录  <a href="http://www.tubring.cn/articles/melisearch-introduction">http://www.tubring.cn/articles/melisearch-introduction</a>  </p><h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p>V3小店 | ChatGPT API批发购买 - V3小店  <a href="https://shop.gpt.ge/">https://shop.gpt.ge/</a>  </p><p>首页 | Ai365  <a href="https://ai365vip.shop/">https://ai365vip.shop/</a>    </p><p>New API  <a href="https://api.g4f.icu/">https://api.g4f.icu/</a>    </p><p>欢迎使用 SmallAI：个人 AI 效能工具 · SmallAI  <a href="https://www.smallai.asia/welcome">https://www.smallai.asia/welcome</a>  </p><p>Maestro + Qwen2 + DeepCoderV2：几秒钟生成一个应用程序（本地、快速、一次提示）  <a href="https://mp.weixin.qq.com/s/JasBepRPC3Kk7Itx3IJjyw">https://mp.weixin.qq.com/s/JasBepRPC3Kk7Itx3IJjyw</a>  </p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>cobalt  <a href="https://cobalt.tools/">https://cobalt.tools/</a>    </p><p>imputnet&#x2F;cobalt: save what you love  <a href="https://github.com/imputnet/cobalt">https://github.com/imputnet/cobalt</a>    </p><h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><p>胡萝虎的博客  <a href="https://www.huluohu.com/">https://www.huluohu.com/</a>    </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> AI </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mac_bartender</title>
       <link href="/2024/07/19/mac-bartender/"/>
       <url>/2024/07/19/mac-bartender/</url>
