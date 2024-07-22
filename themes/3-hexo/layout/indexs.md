@@ -5,25 +5,3 @@
 分享站： https://blog.joevan.top/  
 
 阅读站： https://www.inkspcl.com/  
-
-基本功 | 一文讲清多线程和多线程同步  https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg  
-
-V3小店 | ChatGPT API批发购买 - V3小店  https://shop.gpt.ge/  
-
-技术极简主义：一切皆用Postgres | Pigsty  https://pigsty.cc/zh/blog/pg/just-use-pg/  
-
-首页 | Ai365  https://ai365vip.shop/    
-
-New API  https://api.g4f.icu/    
-
-MeiliSearch，一个轻量级搜索引擎 | 日思录  http://www.tubring.cn/articles/melisearch-introduction    
-
-欢迎使用 SmallAI：个人 AI 效能工具 · SmallAI  https://www.smallai.asia/welcome  
-
-cobalt  https://cobalt.tools/    
-
-imputnet/cobalt: save what you love  https://github.com/imputnet/cobalt    
-
-胡萝虎的博客  https://www.huluohu.com/    
-
-Maestro + Qwen2 + DeepCoderV2：几秒钟生成一个应用程序（本地、快速、一次提示）  https://mp.weixin.qq.com/s/JasBepRPC3Kk7Itx3IJjyw  
