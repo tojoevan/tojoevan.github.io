@@ -1,58 +1,30 @@
-extends base
-
-block title
-  title= page.title + ' | ' + config.title
-
-block content
-  .post
-    h1.post-title= page.title
-    .post-meta= page.date.format(config.date_format)
-      if page.categories.length > 0
-        span= ' | '
-        span.category
-          for category in page.categories.toArray()
-            a(href=url_for(category.path))= category.name
-      if theme.busuanzi == true
-        script(src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
-        span#busuanzi_container_page_pv= ' | '
-          span#busuanzi_value_page_pv
-          span= ' ' + __('Hits')
-      if theme.wordcount == true
-        include _partial/wordcount.pug
-    if theme.disqus.enable == true
-      a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')
-    if theme.changyan
-      a.ds-thread-count(href=url_for(page.path) + '#SOHUCS')
-        span#changyan_count_unit(style='font-size: 15px; color: #6E7173;') 0
-        span= ' ' + __('Comment')
-      script(src='https://assets.changyan.sohu.com/upload/plugins/plugins.count.js', async)
-    if theme.valine.enable == true
-      a.disqus-comment-count(href=url_for(page.path) + '#vcomment')
-        span.valine-comment-count(data-xid=url_for(page.path))
-        span= ' ' + __('Comment')
-    if theme.waline.enable == true
-      a.disqus-comment-count(href=url_for(page.path) + '#waline')
-        span.waline-comment-count(id=url_for(page.path))
-        span= ' ' + __('Comment')
-    if page.toc
-      .clear
-        #toc.toc-article
-          .toc-title= __('contents')
-          != toc(page.content, {list_number: theme.toc_number})
-    .post-content
-      != page.content
-    if theme.donate.enable == true && page.donate != false
-      include _widget/donate.pug
-
-    if theme.post_copyright.enable == true && page.copyright != false
-      include _widget/copyright.pug
-
-    if theme.shareto == true
-      script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
-      a.article-share-link(data-url=page.permalink, data-id=page._id, data-qrcode=qrcode(page.permalink))= __('shareto')
-
-    include _partial/tag.pug
-    include _partial/post_nav.pug
-
-    if page.comments
-      include _partial/comments.pug
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>开源观察分享 240615 | 开源观察分享</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 7.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">开源观察分享 240615</h1><a id="logo" href="/.">开源观察分享</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">开源观察分享 240615</h1><div class="post-meta">2024-06-15</div><div class="post-content"><p>Home - capy.lol  <a target="_blank" rel="noopener" href="https://capy.lol/">https://capy.lol/</a>  </p>
+<p>卡皮巴拉 | Kapibala  <a target="_blank" rel="noopener" href="https://kapibala.icu/">https://kapibala.icu/</a>  </p>
+<p>GitHub - superseriousbusiness&#x2F;gotosocial: Fast, fun, small ActivityPub server.  <a target="_blank" rel="noopener" href="https://github.com/superseriousbusiness/gotosocial">https://github.com/superseriousbusiness/gotosocial</a>  </p>
+<p>GoToSocial Documentation  <a target="_blank" rel="noopener" href="https://docs.gotosocial.org/en/latest/">https://docs.gotosocial.org/en/latest/</a>  </p>
+<p>iOS14搭配快捷指令在手机上写hexo博客 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/346159204?utm_medium=social&utm_psn=1783399423356731392&utm_source=ZHShareTargetIDMore&utm_id=0">https://zhuanlan.zhihu.com/p/346159204?utm_medium=social&amp;utm_psn=1783399423356731392&amp;utm_source=ZHShareTargetIDMore&amp;utm_id=0</a>  </p>
+<p>study3d.com - GoToSocial  <a target="_blank" rel="noopener" href="https://study3d.com/">https://study3d.com/</a>  </p>
+<p>荒岛-分享创造快乐  <a target="_blank" rel="noopener" href="https://lala.im/">https://lala.im/</a>  </p>
+<p>小米发布《小米澎湃OS技术白皮书》 - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://www.oschina.net/news/270045">https://www.oschina.net/news/270045</a>  </p>
+<p>2023 年度人工智能现状报告 (State of AI Report 2023) - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://www.oschina.net/news/262155/state-of-ai-2023-report">https://www.oschina.net/news/262155/state-of-ai-2023-report</a>  </p>
+<p>有道开源RAG引擎 QAnything 版本更新啦 - 有道技术团队的个人空间 - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://my.oschina.net/youdaotech/blog/10894309">https://my.oschina.net/youdaotech/blog/10894309</a>  </p>
+<p>一份谷歌写给 CTO 们的报告 - DORA 2023 版全面解读 - Bytebase的个人空间 - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://my.oschina.net/u/6148470/blog/10118131">https://my.oschina.net/u/6148470/blog/10118131</a>  </p>
+<p>特赞科技Tezign创始人及CEO范凌：人工智能与产业想象力_亿欧  <a target="_blank" rel="noopener" href="https://www.iyiou.com/news/202307081048044">https://www.iyiou.com/news/202307081048044</a>  </p>
+<p>轻量级PHP框架|专注WEB应用开发18年 · ThinkPHP  <a target="_blank" rel="noopener" href="https://www.thinkphp.cn/">https://www.thinkphp.cn/</a>  </p>
+<p>行业应用 - 复志科技Raise3D中国官方网站  <a target="_blank" rel="noopener" href="https://www.raise3d.cn/solutions/">https://www.raise3d.cn/solutions/</a>  </p>
+<p>创见 tech2ipo 何时已不见？  </p>
+<p>iPadly | 网址最短的中文 iPhone&#x2F;iPad 资源导航站  <a target="_blank" rel="noopener" href="http://ipad.ly/">http://ipad.ly/</a>  </p>
+<p>Build Web Apps with No-Code | Momen  <a target="_blank" rel="noopener" href="https://momen.app/">https://momen.app/</a>  </p>
+<p>Xterminal - 更好用的开发工具，但不止于(SSH&#x2F;控制台&#x2F;More)  <a target="_blank" rel="noopener" href="https://www.xterminal.cn/">https://www.xterminal.cn/</a>  </p>
+<p>GitHub - fengxxc&#x2F;wechatmp2markdown: 微信公众号文章转Markdown  <a target="_blank" rel="noopener" href="https://github.com/fengxxc/wechatmp2markdown">https://github.com/fengxxc/wechatmp2markdown</a>  </p>
+<p>Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently  <a target="_blank" rel="noopener" href="https://picsmaller.com/">https://picsmaller.com/</a>  </p>
+<p>电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始  <a target="_blank" rel="noopener" href="https://eleduck.com/">https://eleduck.com/</a>  </p>
+<p>介绍 - NocoBase  <a target="_blank" rel="noopener" href="https://docs-cn.nocobase.com/welcome/introduction">https://docs-cn.nocobase.com/welcome/introduction</a>  </p>
+<p>NocoBase-开源、私有部署的轻量级无代码和低代码开发平台  <a target="_blank" rel="noopener" href="https://cn.nocobase.com/">https://cn.nocobase.com/</a>  </p>
+<p>Lemmy Cafe - A general purpose fediverse instance  <a target="_blank" rel="noopener" href="https://lemmy.cafe/">https://lemmy.cafe/</a>  </p>
+<p>使用Docker部署GotoSocial - LemonCat  <a target="_blank" rel="noopener" href="https://blog.kaixin.meme/2024/02/27/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2gotosocial/">https://blog.kaixin.meme/2024/02/27/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2gotosocial/</a>  </p>
+<p>Joevan (@<a href="mailto:&#106;&#111;&#101;&#118;&#97;&#x6e;&#x40;&#x6d;&#x61;&#115;&#x74;&#111;&#46;&#x6e;&#x79;&#99;">&#106;&#111;&#101;&#118;&#97;&#x6e;&#x40;&#x6d;&#x61;&#115;&#x74;&#111;&#46;&#x6e;&#x79;&#99;</a>) - Mastodon NYC  <a target="_blank" rel="noopener" href="https://masto.nyc/@joevan">https://masto.nyc/@joevan</a>  </p>
+<p>bad-licenses&#x2F;hot-potato-license at master · ErikMcClure&#x2F;bad-licenses · GitHub  <a target="_blank" rel="noopener" href="https://github.com/ErikMcClure/bad-licenses/blob/master/hot-potato-license">https://github.com/ErikMcClure/bad-licenses/blob/master/hot-potato-license</a>  </p>
+<p>开源简读 - 追踪开源动态，挖掘技术创新，关注社区发展。  <a target="_blank" rel="noopener" href="https://www.inkspcl.com/index.html">https://www.inkspcl.com/index.html</a>  </p>
+<p>解决 Hexo 部署 Github Pages 自定义域名失效的问题(即使已添加 CNAME） gitpages cname值在哪里找到-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41747528/article/details/102772937">https://blog.csdn.net/weixin_41747528/article/details/102772937</a>  </p>
+</div><div class="tags"></div><div class="post-nav"><a class="pre" href="/2024/06/15/about/">about</a><a class="next" href="/2024/06/14/shortcut/">iOS14搭配快捷指令在手机上写hexo博客</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://tojoevan.github.io"/></form></div><div class="widget"><div class="author-info"><a class="info-avatar" href="/about/" title="关于"><img class="nofancybox" src="/img/avatar.png"/></a><p>To be a better man.</p><a class="info-icon" href="https://twitter.com/username" title="Twitter" target="_blank" style="margin-inline:5px"> <i class="fa fa-twitter-square" style="margin-inline:5px"></i></a><a class="info-icon" href="mailto:admin@domain.com" title="Email" target="_blank" style="margin-inline:5px"> <i class="fa fa-envelope-square" style="margin-inline:5px"></i></a><a class="info-icon" href="https://github.com/username" title="Github" target="_blank" style="margin-inline:5px"> <i class="fa fa-github-square" style="margin-inline:5px"></i></a><a class="info-icon" href="/atom.xml" title="RSS" target="_blank" style="margin-inline:5px"> <i class="fa fa-rss-square" style="margin-inline:5px"></i></a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 15px;">工具</a> <a href="/tags/%E4%BA%A7%E5%93%81/" style="font-size: 15px;">产品</a> <a href="/tags/%E7%A1%AC%E4%BB%B6/" style="font-size: 15px;">硬件</a> <a href="/tags/%E8%AE%BA%E5%9D%9B/" style="font-size: 15px;">论坛</a> <a href="/tags/%E5%BC%80%E5%8F%91%E8%80%85/" style="font-size: 15px;">开发者</a> <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/" style="font-size: 15px;">工作流</a> <a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 15px;">开源</a> <a href="/tags/Mac/" style="font-size: 15px;">Mac</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/" style="font-size: 15px;">公众号</a> <a href="/tags/AI/" style="font-size: 15px;">AI</a> <a href="/tags/Python/" style="font-size: 15px;">Python</a> <a href="/tags/Code/" style="font-size: 15px;">Code</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E7%BC%96%E7%A0%81/" style="font-size: 15px;">编码</a> <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 15px;">资源</a> <a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 15px;">开发</a> <a href="/tags/%E5%BD%B1%E8%A7%86/" style="font-size: 15px;">影视</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 15px;">游戏</a> <a href="/tags/%E6%A8%A1%E6%9D%BF/" style="font-size: 15px;">模板</a> <a href="/tags/%E7%A4%BE%E5%8C%BA/" style="font-size: 15px;">社区</a> <a href="/tags/APP/" style="font-size: 15px;">APP</a> <a href="/tags/snagit/" style="font-size: 15px;">snagit</a> <a href="/tags/mac/" style="font-size: 15px;">mac</a> <a href="/tags/%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/" style="font-size: 15px;">应用推荐</a> <a href="/tags/bartender/" style="font-size: 15px;">bartender</a> <a href="/tags/%E6%95%88%E7%8E%87/" style="font-size: 15px;">效率</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 15px;">安全</a> <a href="/tags/%E8%AF%BB%E4%B9%A6/" style="font-size: 15px;">读书</a> <a href="/tags/%E5%86%99%E4%BD%9C/" style="font-size: 15px;">写作</a> <a href="/tags/SEO/" style="font-size: 15px;">SEO</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2024/07/24/202407242116/">开源观察分享 240724晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/23/202407232100/">开源观察分享 240723晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/22/202407222236/">开源观察分享 240722晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/21/202407212253/">开源观察分享 240721晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/19/mac-bartender/">mac_bartender</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/18/mac-snagit/">mac_snagit</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/18/202407182210/">开源观察分享 240718晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/17/202407172116/">开源观察分享 240717晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/14/mac-moom/">mac_moom</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/14/202407141928/">开源观察分享 240714晚</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">开源观察分享.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
