@@ -108,5 +108,5 @@ deploy:
   branch: master 
 
 search:
-  path: search.xml
+  path: theme/purely/search.xml
   field: post
