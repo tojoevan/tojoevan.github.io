@@ -1,59 +1,428 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>开源观察分享</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 7.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">开源观察分享</h1><a id="logo" href="/.">开源观察分享</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/2024/07/24/202407242116/">开源观察分享 240724晚</a></h1><div class="post-meta">2024-07-24</div><div class="post-content">开源简读
-旧闻新顾，温故知新： https://www.inkspcl.com/
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  
+  <title>开源观察分享</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="开源观察分享">
+<meta property="og:url" content="https://tojoevan.github.io/index.html">
+<meta property="og:site_name" content="开源观察分享">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Joevan">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="开源观察分享" type="application/atom+xml">
+  
+  
+  
+  
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0.css">
 
-工具
-锤子在线工具网
+  
+<link rel="stylesheet" href="/lib/fancybox/dist/jquery.fancybox.min.css">
 
-开发
-wechaty python 接入公众号
-万字长文解析谷歌日历的数据库是怎么设计的！
+  
+<link rel="stylesheet" href="/css/main.css">
 
-AI
-SiliconCloud 高性价比的GenAI云服务
-warp AI, at your command
-解锁终端超能力：Warp AI Agent 使用...</div><p class="readmore"><a href="/2024/07/24/202407242116/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/23/202407232100/">开源观察分享 240723晚</a></h1><div class="post-meta">2024-07-23</div><div class="post-content">今日观察
-搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）
-分享站： https://blog.joevan.top/
-阅读站： https://www.inkspcl.com/
-资源
-小众软件
-剪映字幕在线工具 字幕导出 | 字幕导入
-SMTP + IMAP + POP3 + Antispam + Antivirus Web
+  
+<script src="/lib/jquery/dist/jquery.min.js"></script>
 
-AI...</div><p class="readmore"><a href="/2024/07/23/202407232100/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/22/202407222236/">开源观察分享 240722晚</a></h1><div class="post-meta">2024-07-22</div><div class="post-content">今日观察搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）
-分享站： https://blog.joevan.top/
-阅读站： https://www.inkspcl.com/
-博客
-日思录 - 一只妄图语冰的夏虫
+  
+  
+  
+  
+<meta name="generator" content="Hexo 7.2.0"></head>
+<body>
+  <div id="wrapper">
+    <header id="header" class="clearfix">
+	<a id="logo" href="/" title="开源观察分享">开源观察分享</a>
+	
+	<nav id="nav-menu" class="clearfix">
+		<form id="search" method="post" action="./" role="search">
+			<input id="search-input" type="text" name="s" class="inputbox" value="Search" onfocus="if (value =='Search'){value =''}" onblur="if (value ==''){value='Search'}">
+		</form>
+		<ul>
+      
+				
+        <li><a class="main-nav-link" href="/">Home</a></li>
+      
+				
+        <li><a class="main-nav-link" href="/archives">Archives</a></li>
+      
+		</ul>
+	</nav>
+</header>
+    <section id="main" class="clearfix">
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/24/202407242116/">开源观察分享 240724晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
 
-安全
-微软：850 万台 Windows 设备受到 CrowdStrike 中断影响
 
-周鸿祎谈为何微软蓝屏故障在中国...</div><p class="readmore"><a href="/2024/07/22/202407222236/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/21/202407212253/">开源观察分享 240721晚</a></h1><div class="post-meta">2024-07-21</div><div class="post-content">今日观察搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  
-分享站： https://blog.joevan.top/  
-阅读站： https://www.inkspcl.com/  
-开发基本功 | 一文讲清多线程和多线程同步  https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg ...</div><p class="readmore"><a href="/2024/07/21/202407212253/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/19/mac-bartender/">mac_bartender</a></h1><div class="post-meta">2024-07-19</div><div class="post-content">Bartender是一款Mac的一站式菜单栏整理工具，它有助于组织、搜索和实际使用Mac菜单栏图标，同时保持桌面整洁。Bartender具有简洁的界面和直接的价值，既不会妨碍你，也在你需要的时候随时为你服务。
-功能
 
-自定义macOS菜单栏：Bartender允许你选择哪些图标留在Mac的主菜单栏中，哪些图标收进可折叠的Bartender菜单栏。这样可以减少...</div><p class="readmore"><a href="/2024/07/19/mac-bartender/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/18/mac-snagit/">mac_snagit</a></h1><div class="post-meta">2024-07-18</div><div class="post-content">TechSmith Snagit是一款专为屏幕捕获设计的软件，它使用户能够轻松捕捉屏幕上任何部分的图像，进行编辑和组织，并通过一个方便的搜索工具查找计算机上保存的信息。  
 
-全能捕获：捕获整个屏幕、特定区域、窗口或带滚动条的窗口。
-图像圆角保存：保留捕获图像的圆角。
-内置编辑器：处理捕获的图像，支持批量处理文件。
-与screencast.com的紧密集成：...</div><p class="readmore"><a href="/2024/07/18/mac-snagit/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/18/202407182210/">开源观察分享 240718晚</a></h1><div class="post-meta">2024-07-18</div><div class="post-content">今日观察搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  
-分享站： https://blog.joevan.top/  
-阅读站： https://www.inkspcl.com/  
-APPUTM | Virtual machines for Mac  https://mac.getutm.app/    
-AIKIMI AI ...</div><p class="readmore"><a href="/2024/07/18/202407182210/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/17/202407172116/">开源观察分享 240717晚</a></h1><div class="post-meta">2024-07-17</div><div class="post-content">今日观察搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  
-分享站： https://blog.joevan.top/  
-阅读站： https://www.inkspcl.com/  
-思考大龄程序员的出路在哪？  https://mp.weixin.qq.com/s/q10zBySc0mSdYGVxMWZXQw
-资源Mac小站 ...</div><p class="readmore"><a href="/2024/07/17/202407172116/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/14/mac-moom/">mac_moom</a></h1><div class="post-meta">2024-07-14</div><div class="post-content">  
-Moom ，专为Mac用户设计，功能强大且易于使用，窗口管理应用程序。
-Moom的主要特点和优势：
+        <h2 id="开源简读"><a href="#开源简读" class="headerlink" title="开源简读"></a>开源简读</h2><ul>
+<li><strong>旧闻新顾，温故知新</strong>： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a></li>
+</ul>
+<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.toolhelper.cn/">锤子在线工具网</a></li>
+</ul>
+<h3 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://wechaty.js.org/zh/v/zh">wechaty python 接入公众号</a></li>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/ws0vI_gvTCkDTfYQ434QzA">万字长文解析谷歌日历的数据库是怎么设计的！</a></li>
+</ul>
+<h3 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://siliconflow.cn/zh-cn/siliconcloud">SiliconCloud 高性价比的GenAI云服务</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.warp.dev/warp-ai">warp AI, at your command</a></li>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/xzycJrLeBezjEU6BaVELpg">解锁终端超能力：Warp AI Agent 使用指南</a></li>
+</ul>
+<h3 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://ziyuan.baidu.com/">百度搜索资源平台 百度收录</a></li>
+<li><a target="_blank" rel="noopener" href="https://mseo.chinaz.com/">SEO综合查询 chinaz</a></li>
+</ul>
+<h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/sunbooshi/note-to-mp">note-to-mp obsidian</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/TfTHacker/obsidian42-brat">brat obsidian</a></li>
+</ul>
 
-窗口移动和调整：Moom允许您轻松地移动和调整窗口的大小和位置。您可以使用鼠标点击或键盘快捷键将窗口移动到屏幕的一半、四分之一或全屏，并根据需要自定义窗口的大小和位置。自定义布局和保存窗口排列：Moom允许您设置自定义布局，并保存窗口排列以便快速定位。...</div><p class="readmore"><a href="/2024/07/14/mac-moom/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2024/07/14/202407141928/">开源观察分享 240714晚</a></h1><div class="post-meta">2024-07-14</div><div class="post-content">今日观察搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  
-分享站： https://blog.joevan.top/  
-阅读站： https://www.inkspcl.com/  
-开发免费敏感词检测API - 掘金  https://juejin.cn/post/7191848000044400700  
-中英文敏感词  h...</div><p class="readmore"><a href="/2024/07/14/202407141928/">阅读全文</a></p></div><nav class="page-navigator"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">下一页</a></nav></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://tojoevan.github.io"/></form></div><div class="widget"><div class="author-info"><a class="info-avatar" href="/about/" title="关于"><img class="nofancybox" src="/img/avatar.png"/></a><p>To be a better man.</p><a class="info-icon" href="https://twitter.com/username" title="Twitter" target="_blank" style="margin-inline:5px"> <i class="fa fa-twitter-square" style="margin-inline:5px"></i></a><a class="info-icon" href="mailto:admin@domain.com" title="Email" target="_blank" style="margin-inline:5px"> <i class="fa fa-envelope-square" style="margin-inline:5px"></i></a><a class="info-icon" href="https://github.com/username" title="Github" target="_blank" style="margin-inline:5px"> <i class="fa fa-github-square" style="margin-inline:5px"></i></a><a class="info-icon" href="/atom.xml" title="RSS" target="_blank" style="margin-inline:5px"> <i class="fa fa-rss-square" style="margin-inline:5px"></i></a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 15px;">工具</a> <a href="/tags/%E4%BA%A7%E5%93%81/" style="font-size: 15px;">产品</a> <a href="/tags/%E7%A1%AC%E4%BB%B6/" style="font-size: 15px;">硬件</a> <a href="/tags/%E8%AE%BA%E5%9D%9B/" style="font-size: 15px;">论坛</a> <a href="/tags/%E5%BC%80%E5%8F%91%E8%80%85/" style="font-size: 15px;">开发者</a> <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/" style="font-size: 15px;">工作流</a> <a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 15px;">开源</a> <a href="/tags/Mac/" style="font-size: 15px;">Mac</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/" style="font-size: 15px;">公众号</a> <a href="/tags/AI/" style="font-size: 15px;">AI</a> <a href="/tags/Python/" style="font-size: 15px;">Python</a> <a href="/tags/Code/" style="font-size: 15px;">Code</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E7%BC%96%E7%A0%81/" style="font-size: 15px;">编码</a> <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 15px;">资源</a> <a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 15px;">开发</a> <a href="/tags/%E5%BD%B1%E8%A7%86/" style="font-size: 15px;">影视</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 15px;">游戏</a> <a href="/tags/%E6%A8%A1%E6%9D%BF/" style="font-size: 15px;">模板</a> <a href="/tags/%E7%A4%BE%E5%8C%BA/" style="font-size: 15px;">社区</a> <a href="/tags/APP/" style="font-size: 15px;">APP</a> <a href="/tags/snagit/" style="font-size: 15px;">snagit</a> <a href="/tags/mac/" style="font-size: 15px;">mac</a> <a href="/tags/%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/" style="font-size: 15px;">应用推荐</a> <a href="/tags/bartender/" style="font-size: 15px;">bartender</a> <a href="/tags/%E6%95%88%E7%8E%87/" style="font-size: 15px;">效率</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 15px;">安全</a> <a href="/tags/%E8%AF%BB%E4%B9%A6/" style="font-size: 15px;">读书</a> <a href="/tags/%E5%86%99%E4%BD%9C/" style="font-size: 15px;">写作</a> <a href="/tags/SEO/" style="font-size: 15px;">SEO</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2024/07/24/202407242116/">开源观察分享 240724晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/23/202407232100/">开源观察分享 240723晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/22/202407222236/">开源观察分享 240722晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/21/202407212253/">开源观察分享 240721晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/19/mac-bartender/">mac_bartender</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/18/mac-snagit/">mac_snagit</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/18/202407182210/">开源观察分享 240718晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/17/202407172116/">开源观察分享 240717晚</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/14/mac-moom/">mac_moom</a></li><li class="post-list-item"><a class="post-list-link" href="/2024/07/14/202407141928/">开源观察分享 240714晚</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">开源观察分享.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/23/202407232100/">开源观察分享 240723晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>今日观察</p>
+<p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）</p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a></p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a></p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.appinn.com/">小众软件</a></li>
+<li><a target="_blank" rel="noopener" href="https://jy.mzh.ren/">剪映字幕在线工具 字幕导出 | 字幕导入</a></li>
+<li><a target="_blank" rel="noopener" href="https://poste.io/">SMTP + IMAP + POP3 + Antispam + Antivirus Web</a></li>
+</ul>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://seekall.ai/zh/">一键尽揽所有搜索结果 SeekAll</a></li>
+<li><a target="_blank" rel="noopener" href="https://dnipkggqxh.feishu.cn/wiki/YTIUwM6Vmij4IQkSm9PctPWunIb">ai产品榜 aicpb.com</a></li>
+<li><a target="_blank" rel="noopener" href="https://comate.baidu.com/zh">文心快码 - Baidu Comate</a></li>
+</ul>
+<h2 id="开源"><a href="#开源" class="headerlink" title="开源"></a>开源</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.oschina.net/news/303246/zrlog-3-1-released">ZrLog 3.1 发布，用更快的速度、更便捷的功能，让你的记录更生动</a></li>
+<li><a target="_blank" rel="noopener" href="https://im.iamtsm.cn/">webRTC 发送文件 共享屏幕 语音视频 直播等</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/ZuodaoTech/everyone-can-use-english">人人都能用英语</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp">yt-dlp：音频&#x2F;视频下载器</a></li>
+<li><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000041496772%23">Pico.css - 简单优雅的纯 CSS 开源 UI 框架，用原始的 HTML 元素标签来做界面</a></li>
+</ul>
+<h2 id="读书"><a href="#读书" class="headerlink" title="读书"></a>读书</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/7zWjToZBO7CPXak-WQDQKg">系统设计蓝图指南</a></li>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/XmPHfbUlPW4UMSd3N4UQnA">爆火免费书《深入理解深度学习》终于出中文版了</a></li>
+<li><a target="_blank" rel="noopener" href="https://my.oschina.net/meituantech/blog/11585606">一文讲清多线程和多线程同步</a></li>
+</ul>
+<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://forum-zh.obsidian.md/t/topic/18744">关于微信公众号文章导入Obsidian的探索</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.omnivore.app/zh/integrations/obsidian.html">将所有阅读数据同步到 Obsidian Omnivore</a></li>
+</ul>
+<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.daemonology.net/hn-daily/">Hacker News Daily Daily top stories from Hacker News</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.woshipm.com/operate/6086370.html">一文讲清小红书推荐算法的秘密</a></li>
+</ul>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/22/202407222236/">开源观察分享 240722晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）</p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a></p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a></p>
+<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><ul>
+<li><a target="_blank" rel="noopener" href="http://www.tubring.cn/">日思录 - 一只妄图语冰的夏虫</a></li>
+</ul>
+<h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://www.oschina.net/news/303145/8-5m-windows-devices-crowdstrike-outage">微软：850 万台 Windows 设备受到 CrowdStrike 中断影响</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.oschina.net/news/303143">周鸿祎谈为何微软蓝屏故障在中国少：90% 的电脑大多数用 360</a></p>
+</li>
+</ul>
+<h2 id="工具-开源"><a href="#工具-开源" class="headerlink" title="工具 开源"></a>工具 开源</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://www.sharedrop.io/">ShareDrop</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://im.iamtsm.cn/">webRTC 发送文件 共享屏幕 语音视频 直播等</a></p>
+</li>
+</ul>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/21/202407212253/">开源观察分享 240721晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>基本功 | 一文讲清多线程和多线程同步  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg">https://mp.weixin.qq.com/s/a9BUf6N93uOw8JSAxza7cg</a>  </p>
+<p>技术极简主义：一切皆用Postgres | Pigsty  <a target="_blank" rel="noopener" href="https://pigsty.cc/zh/blog/pg/just-use-pg/">https://pigsty.cc/zh/blog/pg/just-use-pg/</a>  </p>
+<p>MeiliSearch，一个轻量级搜索引擎 | 日思录  <a target="_blank" rel="noopener" href="http://www.tubring.cn/articles/melisearch-introduction">http://www.tubring.cn/articles/melisearch-introduction</a>  </p>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p>V3小店 | ChatGPT API批发购买 - V3小店  <a target="_blank" rel="noopener" href="https://shop.gpt.ge/">https://shop.gpt.ge/</a>  </p>
+<p>首页 | Ai365  <a target="_blank" rel="noopener" href="https://ai365vip.shop/">https://ai365vip.shop/</a>    </p>
+<p>New API  <a target="_blank" rel="noopener" href="https://api.g4f.icu/">https://api.g4f.icu/</a>    </p>
+<p>欢迎使用 SmallAI：个人 AI 效能工具 · SmallAI  <a target="_blank" rel="noopener" href="https://www.smallai.asia/welcome">https://www.smallai.asia/welcome</a>  </p>
+<p>Maestro + Qwen2 + DeepCoderV2：几秒钟生成一个应用程序（本地、快速、一次提示）  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/JasBepRPC3Kk7Itx3IJjyw">https://mp.weixin.qq.com/s/JasBepRPC3Kk7Itx3IJjyw</a>  </p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>cobalt  <a target="_blank" rel="noopener" href="https://cobalt.tools/">https://cobalt.tools/</a>    </p>
+<p>imputnet&#x2F;cobalt: save what you love  <a target="_blank" rel="noopener" href="https://github.com/imputnet/cobalt">https://github.com/imputnet/cobalt</a>    </p>
+<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><p>胡萝虎的博客  <a target="_blank" rel="noopener" href="https://www.huluohu.com/">https://www.huluohu.com/</a>    </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/19/mac-bartender/">mac_bartender</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 10px; padding-right: 10px; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; font-family: Optima, 'Microsoft YaHei', PingFangSC-regular, serif; font-size: 16px; color: rgb(0, 0, 0); line-height: 1.5em; word-spacing: 0em; letter-spacing: 0em; word-break: break-word; overflow-wrap: break-word; text-align: left;"><p data-tool="mdnice编辑器" style="color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">Bartender是一款Mac的一站式菜单栏整理工具，它有助于组织、搜索和实际使用Mac菜单栏图标，同时保持桌面整洁。Bartender具有简洁的界面和直接的价值，既不会妨碍你，也在你需要的时候随时为你服务。</p>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; display: flex;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 22px; color: rgb(53, 179, 120); line-height: 1.5em; letter-spacing: 0em; font-weight: bold; display: block;">功能</span><span class="suffix" style="display: none;"></span></h2>
+<ul data-tool="mdnice编辑器" style="list-style-type: disc; margin-top: 8px; margin-bottom: 8px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 25px; padding-right: 0px; color: rgb(0, 0, 0);">
+<li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; font-weight: normal;"><strong style="color: rgb(53, 179, 120); font-weight: bold; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; height: auto; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;">自定义macOS菜单栏</strong>：Bartender允许你选择哪些图标留在Mac的主菜单栏中，哪些图标收进可折叠的Bartender菜单栏。这样可以减少桌面的混乱，同时将所有东西都放在手边。甚至Bartender图标本身也可以隐藏，实现完全的简约风格。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; font-weight: normal;"><strong style="color: rgb(53, 179, 120); font-weight: bold; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; height: auto; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;">重新排序所有图标</strong>：你可以按住⌘键并拖动图标，以按照你喜欢的顺序设置菜单栏项目和Bartender菜单栏。这样可以快速重新安排和隐藏应用程序，带来极简和专注的工作环境。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; font-weight: normal;"><strong style="color: rgb(53, 179, 120); font-weight: bold; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; height: auto; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;">注意应用程序的变化</strong>：Bartender提供了一个功能，可以自动显示更新、同步或显示错误的应用程序图标。一旦处理过程解决，它们将再次消失。这是一种在不引起混乱的情况下获取更新通知的好办法。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; font-weight: normal;"><strong style="color: rgb(53, 179, 120); font-weight: bold; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; height: auto; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;">搜索菜单项</strong>：Bartender配备了搜索功能，所以你总能够访问到需要的图标。无论你选择怎样排列图标，你都可以点击搜索功能并开始输入以查找正在寻找的应用程序。这个功能是对混乱菜单栏引起困惑的完美解药。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; font-weight: normal;"><strong style="color: rgb(53, 179, 120); font-weight: bold; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; height: auto; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;">自定义热键</strong>：Bartender支持热键和键盘快捷键，适合那些更喜欢打字而不是点击的人。你可以选择合适的键组合来激活菜单栏，并在不离开键盘的情况下调用应用程序。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; font-weight: normal;"><strong style="color: rgb(53, 179, 120); font-weight: bold; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; height: auto; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;">使用键盘进行导航</strong>：你可以激活菜单栏中的任何项目，并使用箭头键和Enter键进行操作。这样你可以轻松查看最重要的信息，并在专注于手头任务的同时，使用已经打开的应用程序。</section></li></ul>
+<p data-tool="mdnice编辑器" style="color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">以上是对Bartender软件的简洁描述，它是一款精巧的实用程序应用，帮助你整理Mac的菜单栏，提供了多种功能以满足你的需求。</p>
+<p data-tool="mdnice编辑器" style="color: rgb(89, 89, 89); font-size: 15px; line-height: 1.8em; letter-spacing: 0.04em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">https://www.macbartender.com/Bartender4/</p>
+<figure data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; display: flex; flex-direction: column; justify-content: center; align-items: center;"><img src="https://s2.loli.net/2024/07/19/cN3BHvy1VhYbLsk.gif" alt="Bartender 4 - 菜单栏图标管理工具 | 系统增强" style="display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 100%; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; object-fit: fill; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;"><figcaption style="color: rgb(136, 136, 136); font-size: 14px; line-height: 1.5em; letter-spacing: 0em; text-align: center; font-weight: normal; margin-top: 5px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">Bartender 4 - 菜单栏图标管理工具 | 系统增强</figcaption></figure>
+<figure data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; display: flex; flex-direction: column; justify-content: center; align-items: center;"><img src="https://s2.loli.net/2024/07/19/CQKrfz46pID5kYL.png" alt="Bartender 4 - 菜单栏图标管理工具 | 系统增强" style="display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 100%; border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-right-width: 3px; border-top-color: rgba(0, 0, 0, 0.4); border-bottom-color: rgba(0, 0, 0, 0.4); border-left-color: rgba(0, 0, 0, 0.4); border-right-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; object-fit: fill; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;"><figcaption style="color: rgb(136, 136, 136); font-size: 14px; line-height: 1.5em; letter-spacing: 0em; text-align: center; font-weight: normal; margin-top: 5px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">Bartender 4 - 菜单栏图标管理工具 | 系统增强</figcaption></figure>
+</section>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/18/mac-snagit/">mac_snagit</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>TechSmith Snagit是一款专为屏幕捕获设计的软件，它使用户能够轻松捕捉屏幕上任何部分的图像，进行编辑和组织，并通过一个方便的搜索工具查找计算机上保存的信息。  </p>
+<ul>
+<li>全能捕获：捕获整个屏幕、特定区域、窗口或带滚动条的窗口。</li>
+<li>图像圆角保存：保留捕获图像的圆角。</li>
+<li>内置编辑器：处理捕获的图像，支持批量处理文件。</li>
+<li>与screencast.com的紧密集成：快速上传图像到网站。</li>
+<li>在线存储管理：管理在线存储中的对象并提供共享访问。</li>
+<li>图像缩略图放置：在网站上放置图像缩略图并链接到源文件。</li>
+<li>改进的自动滚动功能：在页面滚动时自动移动捕获区域。</li>
+<li>放大镜工具更新。</li>
+<li>捕获网页文本功能：直接从网页捕获文本。</li>
+<li>图像部分删除：删除图像的某一部分。</li>
+<li>创建页面折角效果。</li>
+<li>更换背景功能。</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.techsmith.com/download/snagit/">https://www.techsmith.com/download/snagit/</a><br><a target="_blank" rel="noopener" href="https://macked.app/snagit-2024-crack.html">https://macked.app/snagit-2024-crack.html</a></p>
+<p><img src="https://s2.loli.net/2024/07/18/EGtTc8VeO4WQqHS.png" alt="SnagitTutorialImage.png"></p>
+<p><img src="https://s2.loli.net/2024/07/18/PHCpWxhekmwXlAB.png" alt="TemplateOnboarding.png"></p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/18/202407182210/">开源观察分享 240718晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<h2 id="APP"><a href="#APP" class="headerlink" title="APP"></a>APP</h2><p>UTM | Virtual machines for Mac  <a target="_blank" rel="noopener" href="https://mac.getutm.app/">https://mac.getutm.app/</a>    </p>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p>KIMI AI Free 服务 | Free API  <a target="_blank" rel="noopener" href="https://llm-red-team.github.io/free-api/freeapi/kimi/#nginx-%E5%8F%8D%E4%BB%A3%E4%BC%98%E5%8C%96">https://llm-red-team.github.io/free-api/freeapi/kimi/#nginx-%E5%8F%8D%E4%BB%A3%E4%BC%98%E5%8C%96</a>    </p>
+<p>LLM-Red-Team&#x2F;kimi-free-api: 🚀 KIMI AI 长文本大模型逆向API白嫖测试【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、长文档解读、图像OCR、多轮对话，零配置部署，多路token支持，自动清理会话痕迹。  <a target="_blank" rel="noopener" href="https://github.com/LLM-Red-Team/kimi-free-api?spm=a2c6h.12873639.article-detail.7.7749544a7zLbiq">https://github.com/LLM-Red-Team/kimi-free-api?spm=a2c6h.12873639.article-detail.7.7749544a7zLbiq</a>    </p>
+<p>免费使用Kimi的API接口，kimi-free-api真香-阿里云开发者社区  <a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/1481619">https://developer.aliyun.com/article/1481619</a></p>
+<p>Chat - Moonshot AI 开放平台  <a target="_blank" rel="noopener" href="https://platform.moonshot.cn/docs/price/chat#%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E4%BB%B7%E6%A0%BC%E8%AF%B4%E6%98%8E">https://platform.moonshot.cn/docs/price/chat#%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E4%BB%B7%E6%A0%BC%E8%AF%B4%E6%98%8E</a>    </p>
+<p>秘塔AI搜索  <a target="_blank" rel="noopener" href="https://metaso.cn/?s=sbypc1&msclkid=dc9d469e1f3615f15b8b2009c5ca13df">https://metaso.cn/?s=sbypc1&amp;msclkid=dc9d469e1f3615f15b8b2009c5ca13df</a>    </p>
+<p>Kimi.ai - 帮你看更大的世界  <a target="_blank" rel="noopener" href="https://kimi.moonshot.cn/">https://kimi.moonshot.cn/</a>    </p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><p>综合资源区 - YiOVE论坛  <a target="_blank" rel="noopener" href="https://bbs.yiove.com/forum-4-1.htm?tagids=_36">https://bbs.yiove.com/forum-4-1.htm?tagids=_36</a>__    </p>
+<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><p>Home | Bill Gates  <a target="_blank" rel="noopener" href="https://www.gatesnotes.com/">https://www.gatesnotes.com/</a>    </p>
+<h2 id="开源"><a href="#开源" class="headerlink" title="开源"></a>开源</h2><p>Hoarder  <a target="_blank" rel="noopener" href="https://try.hoarder.app/signin">https://try.hoarder.app/signin</a>  </p>
+<p>Introduction | Hoarder Docs  <a target="_blank" rel="noopener" href="https://docs.hoarder.app/#demo">https://docs.hoarder.app/#demo</a>  </p>
+<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>Buy Plugins &amp; Code from CodeCanyon  <a target="_blank" rel="noopener" href="https://codecanyon.net/">https://codecanyon.net/</a>  </p>
+<p>STL3D Viewer by pushkarparanjpe | CodeCanyon  <a target="_blank" rel="noopener" href="https://codecanyon.net/item/stl3d-viewer/3222913">https://codecanyon.net/item/stl3d-viewer/3222913</a>  </p>
+<p>社区  <a target="_blank" rel="noopener" href="https://ask.dcloud.net.cn/m/#/">https://ask.dcloud.net.cn/m/#/</a>  </p>
+<p>停服公告  <a target="_blank" rel="noopener" href="https://www.apicloud.com/portal-web/close">https://www.apicloud.com/portal-web/close</a> </p>
+<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><p>复志科技Raise3D中国官方网站  <a target="_blank" rel="noopener" href="https://www.raise3d.cn/">https://www.raise3d.cn/</a> </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/17/202407172116/">开源观察分享 240717晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<h2 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h2><p>大龄程序员的出路在哪？  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/q10zBySc0mSdYGVxMWZXQw">https://mp.weixin.qq.com/s/q10zBySc0mSdYGVxMWZXQw</a></p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><p>Mac小站 | V2mac &#x3D; Way to Mac  <a target="_blank" rel="noopener" href="https://v2mac.cn/">https://v2mac.cn/</a>    </p>
+<p>MacKed - 专注于mac软件分享与下载  <a target="_blank" rel="noopener" href="https://macked.app/">https://macked.app/</a>  </p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>10 个最佳 SEO 工具 - SEO 分析变得简单且免费 | HIX.AI  <a target="_blank" rel="noopener" href="https://hix.ai/zh/hub/writing/best-seo-tools">https://hix.ai/zh/hub/writing/best-seo-tools</a>    </p>
+<p>Moom 3.2.25 破解版 - 强大的窗口布局工具 | MacKed - 专注于mac软件分享与下载  <a target="_blank" rel="noopener" href="https://macked.app/moom.html">https://macked.app/moom.html</a>  </p>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p>心流·AI助手 - 让知识随心流动  <a target="_blank" rel="noopener" href="https://www.iflow.cn/">https://www.iflow.cn/</a>  </p>
+<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><p>3D云打印平台在线报价系统DayinCMS - 3D云打印在线报价系统 3D打印服务在线接单系统网站  <a target="_blank" rel="noopener" href="http://www.dayincms.com/">http://www.dayincms.com/</a>    </p>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p><a target="_blank" rel="noopener" href="https://decisionproblem.com/paperclips/index2.html">https://decisionproblem.com/paperclips/index2.html</a>  <a target="_blank" rel="noopener" href="https://decisionproblem.com/paperclips/index2.html">https://decisionproblem.com/paperclips/index2.html</a>    </p>
+<p>paperclips: 回形针（Paperclips）  <a target="_blank" rel="noopener" href="https://gitee.com/likexia/paperclips">https://gitee.com/likexia/paperclips</a>    </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/14/mac-moom/">mac_moom</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p><img src="https://s2.loli.net/2024/07/14/jF9m6BPRLpO1AXY.png" alt="https://manytricks.com/moom/">  </p>
+<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 10px; padding-right: 10px; background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: left; background-position-y: top; background-repeat: no-repeat; background-size: auto; width: auto; font-family: Optima, 'Microsoft YaHei', PingFangSC-regular, serif; font-size: 16px; color: rgb(0, 0, 0); line-height: 1.5em; word-spacing: 0em; letter-spacing: 0em; word-break: break-word; overflow-wrap: break-word; text-align: left;"><p data-tool="mdnice编辑器" style="color: rgb(0, 0, 0); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">Moom ，专为Mac用户设计，功能强大且易于使用，窗口管理应用程序。</p>
+<p data-tool="mdnice编辑器" style="color: rgb(0, 0, 0); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">Moom的主要特点和优势：</p>
+<ul data-tool="mdnice编辑器" style="list-style-type: disc; margin-top: 8px; margin-bottom: 8px; margin-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 25px; padding-right: 0px; color: rgb(0, 0, 0);">
+<li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(1, 1, 1); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; font-weight: normal;">窗口移动和调整：Moom允许您轻松地移动和调整窗口的大小和位置。您可以使用鼠标点击或键盘快捷键将窗口移动到屏幕的一半、四分之一或全屏，并根据需要自定义窗口的大小和位置。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(1, 1, 1); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; font-weight: normal;">自定义布局和保存窗口排列：Moom允许您设置自定义布局，并保存窗口排列以便快速定位。您可以将多个窗口组合在一起，并在需要时一键恢复它们的位置和大小。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(1, 1, 1); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; font-weight: normal;">直观的用户界面：Moom具有直观的用户界面，通过简单的鼠标点击或键盘快捷键即可管理窗口。您可以通过悬停在窗口的绿色按钮上来访问Moom的弹出面板，从中选择所需的窗口&gt;布局。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(1, 1, 1); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; font-weight: normal;">与最新版本的macOS兼容：Moom与最新版本的macOS兼容，这意味着您可以放心地升级操作系统而不会失去对Moom的支持。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; color: rgb(1, 1, 1); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; font-weight: normal;">Moom已经受到许多Mac用户的积极反馈。他们赞赏Moom的易用性和在Mac上管理窗口的便利性。使用Moom可以节省时间并提高窗口管理的效率。</section></li></ul>
+<p data-tool="mdnice编辑器" style="color: rgb(0, 0, 0); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">总而言之，如果希望简化窗口管理过程，我强烈推荐尝试Moom。</p>
+<p data-tool="mdnice编辑器" style="color: rgb(0, 0, 0); font-size: 16px; line-height: 1.8em; letter-spacing: 0em; text-align: left; text-indent: 0em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 8px; padding-bottom: 8px; padding-left: 0px; padding-right: 0px;">https://manytricks.com/moom/</p>
+</section>  
+
+<p><img src="https://s2.loli.net/2024/07/14/ak4PUeMQTRSfiyo.png" alt="在窗口按钮显示控制器">  </p>
+<p><img src="https://s2.loli.net/2024/07/14/kwvEN3jp7lDhz6F.png" alt="初始安装基本配置">  </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/07/14/202407141928/">开源观察分享 240714晚</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>免费敏感词检测API - 掘金  <a target="_blank" rel="noopener" href="https://juejin.cn/post/7191848000044400700">https://juejin.cn/post/7191848000044400700</a>  </p>
+<p>中英文敏感词  <a target="_blank" rel="noopener" href="https://github.com/yuanxw0828/NLP-">https://github.com/yuanxw0828/NLP-</a></p>
+<p>敏感词过滤方案那些事 - ToolGood - 博客园  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/toolgood/p/15208734.html">https://www.cnblogs.com/toolgood/p/15208734.html</a>  </p>
+<p>文本识别_智能鉴黄_敏感词过滤_涉政检测_在线体验_wordscheck  <a target="_blank" rel="noopener" href="http://wordscheck.com/">http://wordscheck.com/</a>  </p>
+<p>敏感词检测免费API - 提供免费接口调用平台  <a target="_blank" rel="noopener" href="https://api.aa1.cn/doc/api-mgc.html">https://api.aa1.cn/doc/api-mgc.html</a>    </p>
+<p>通过Nginx Proxy Manager为我们的自建图床配置防盗链  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/NEBdp6O1qm43MCo6N_rMPw">https://mp.weixin.qq.com/s/NEBdp6O1qm43MCo6N_rMPw</a></p>
+<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><p>「北京零点一克文化传媒有限公司招聘」-BOSS直聘  <a target="_blank" rel="noopener" href="https://m.zhipin.com/companys/1eb1e564d19710250X1_2t-4Fg~~.html">https://m.zhipin.com/companys/1eb1e564d19710250X1_2t-4Fg~~.html</a>  </p>
+<p>局长的个人空间 - OSCHINA  <a target="_blank" rel="noopener" href="https://my.oschina.net/hardbone?tab=comment">https://my.oschina.net/hardbone?tab=comment</a>  </p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>Moom · Many Tricks  <a target="_blank" rel="noopener" href="https://manytricks.com/moom/">https://manytricks.com/moom/</a>    </p>
+<p>Moom替代品和类似软件 — Altapps.net  <a target="_blank" rel="noopener" href="https://zh.altapps.net/soft/moom">https://zh.altapps.net/soft/moom</a>    </p>
+<p>Moom 的国产替代品 Magnet （Moom VS Magnet） | Mac小站  <a target="_blank" rel="noopener" href="https://v2mac.cn/2023/12/04/moom-vs-magnet/">https://v2mac.cn/2023/12/04/moom-vs-magnet/</a>    </p>
+
+      </div>
+  </article>
+
+
+  <nav class="pagination clearfix">
+  <ul>
+    
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">&lt;i class&#x3D;&quot;fa fa-chevron-circle-right&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;&#x2F;i&gt;</a>
+  </ul>
+</nav>
+
+
+</section>
+    <footer id="footer" role="contentinfo">
+    <div>&copy; 2024 <a href="/">开源观察分享</a>.
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Designed by <a href="http://rainylog.com" target="_blank">Rainy.</a>
+	</div>
+</footer><!-- end #footer -->
+
+  </div>
+  
+<script src="/lib/fancybox/dist/jquery.fancybox.min.js"></script>
+
+
+  
+<script src="/js/helper.js"></script>
+
+  
+<script src="/js/_third-party/gitment.js"></script>
+
+</body>
+</html>
