@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>开源观察分享 240725晚</title>
+      <link href="/2024/07/25/202407252348/"/>
+      <url>/2024/07/25/202407252348/</url>
+      
+        <content type="html"><![CDATA[<h2 id="开源简读"><a href="#开源简读" class="headerlink" title="开源简读"></a>开源简读</h2><ul><li><strong>旧闻新顾，温故知新</strong><br><a href="https://www.inkspcl.com/">https://www.inkspcl.com/</a></li></ul><h3 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h3><ul><li><p><a href="https://mp.weixin.qq.com/s/-DH6_hNTq4x8hDSS_Nk4vQ">Llama 3.1发布后的几点体验 | 附本地运行Llama 3.1模型的Streamlit应用完整代码 2024-07-25 00:16:58</a></p></li><li><p><a href="https://isou.chat/">iSou AI Search 2024-07-25 09:12:26</a></p></li><li><p>[Search with AI 开源 2024-07-25 09:17:08](<a href="https://github.com/yokingma/search_with_ai/blob/main/README_CN.md">https://github.com/yokingma/search_with_ai/blob/main/README_CN.md</a></p></li></ul><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li><p><a href="https://sorcererxw.com/zh/articles/github-pages-reverse-proxy">Github Pages 反向代理跨域实践 2024-07-25 08:59:07</a></p></li><li><p><a href="https://github.com/cuber/ngx_http_google_filter_module">Nginx Module for Google Mirror 2024-07-25 09:03:58</a></p></li><li><p><a href="http://xs.3822808.com/">谷歌学术镜像 2024-07-25 09:09:19</a></p></li><li><p><a href="https://malagis.com/google-mirror-sites.html">推荐几个Google镜像网站 2024-07-25 10:05:04</a></p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>开源观察分享 240724晚</title>
       <link href="/2024/07/24/202407242116/"/>
       <url>/2024/07/24/202407242116/</url>
