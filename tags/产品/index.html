@@ -1,213 +1,893 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
   <meta charset="utf-8">
-  
-  <title>tag: 产品 | 开源观察分享</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="开源观察分享">
-<meta property="og:url" content="https://tojoevan.github.io/tags/%E4%BA%A7%E5%93%81/index.html">
+  <title>开源观察分享</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="开源观察分享">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="开源简读 旧闻新顾，温故知新https:&#x2F;&#x2F;www.inkspcl.com&#x2F;  AI漫天的AI突破，Meta的llama，OpenAI的SearchGPT，以及GPU.cpp，持续输出中。  2024年AI+爬虫指南：使用JinaAI、FireCrawl、Crawl4AI（别用Beautiful Soup了）  GPU地震！C++大神推出gpu.cpp，这波操作，让CUDA和PyTorch都慌了">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI热度不减，纳斯达克来了都拦不住">
+<meta property="og:url" content="https://tojoevan.github.io/2024/07/26/202407262251/index.html">
 <meta property="og:site_name" content="开源观察分享">
+<meta property="og:description" content="开源简读 旧闻新顾，温故知新https:&#x2F;&#x2F;www.inkspcl.com&#x2F;  AI漫天的AI突破，Meta的llama，OpenAI的SearchGPT，以及GPU.cpp，持续输出中。  2024年AI+爬虫指南：使用JinaAI、FireCrawl、Crawl4AI（别用Beautiful Soup了）  GPU地震！C++大神推出gpu.cpp，这波操作，让CUDA和PyTorch都慌了">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-07-26T14:51:06.000Z">
+<meta property="article:modified_time" content="2024-07-26T14:54:51.819Z">
 <meta property="article:author" content="Joevan">
+<meta property="article:tag" content="AI">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="开源观察分享" type="application/atom+xml">
-  
-  
-  
-  
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0.css">
 
-  
-<link rel="stylesheet" href="/lib/fancybox/dist/jquery.fancybox.min.css">
 
-  
-<link rel="stylesheet" href="/css/main.css">
+<link rel="icon" href="/img/avatar-512x512.png">
 
-  
-<script src="/lib/jquery/dist/jquery.min.js"></script>
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
 
-  
-  
-  
-  
+<link href="/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
 <meta name="generator" content="Hexo 7.2.0"></head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
 <body>
-  <div id="wrapper">
-    <header id="header" class="clearfix">
-	<a id="logo" href="/" title="开源观察分享">开源观察分享</a>
-	
-	<nav id="nav-menu" class="clearfix">
-		<form id="search" method="post" action="./" role="search">
-			<input id="search-input" type="text" name="s" class="inputbox" value="搜索" onfocus="if (value =='搜索'){value =''}" onblur="if (value ==''){value='搜索'}">
-		</form>
-		<ul>
-      
-				
-        <li><a class="main-nav-link" href="/">主页</a></li>
-      
-				
-        <li><a class="main-nav-link" href="/archives">归档</a></li>
-      
-		</ul>
-	</nav>
-</header>
-    <section id="main" class="clearfix">
-  <article class="post-detail">
-    <h1 class="post-title"><a href="/">开源观察分享 240723晚</a></h1>
-    <ul class="post-meta">
-  <li><i class="fa fa-user"></i> 作者 Joevan</li>
-  <li><i class="fa fa-calendar"></i> 日期 7月 23</li>
-  <li><i class="fa fa-folder"></i> 分类
-  
-    no_categories
-  
-  </li>
+<aside class="nav mobile">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/img/avatar-512x512.png"/>
+</a>
+<div class="author">
+    <span>Joevan</span>
+</div>
+
+<div class="icon">
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="全部文章">全部文章
+            
+                <small>(39)</small>
+            
+        </div>
+    </li>
+    
 </ul>
-    <div class="post-content">
-      <p>今日观察</p>
-<p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）</p>
-<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a></p>
-<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a></p>
-<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://www.appinn.com/">小众软件</a></li>
-<li><a target="_blank" rel="noopener" href="https://jy.mzh.ren/">剪映字幕在线工具 字幕导出 | 字幕导入</a></li>
-<li><a target="_blank" rel="noopener" href="https://poste.io/">SMTP + IMAP + POP3 + Antispam + Antivirus Web</a></li>
-</ul>
-<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://seekall.ai/zh/">一键尽揽所有搜索结果 SeekAll</a></li>
-<li><a target="_blank" rel="noopener" href="https://dnipkggqxh.feishu.cn/wiki/YTIUwM6Vmij4IQkSm9PctPWunIb">ai产品榜 aicpb.com</a></li>
-<li><a target="_blank" rel="noopener" href="https://comate.baidu.com/zh">文心快码 - Baidu Comate</a></li>
-</ul>
-<h2 id="开源"><a href="#开源" class="headerlink" title="开源"></a>开源</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://www.oschina.net/news/303246/zrlog-3-1-released">ZrLog 3.1 发布，用更快的速度、更便捷的功能，让你的记录更生动</a></li>
-<li><a target="_blank" rel="noopener" href="https://im.iamtsm.cn/">webRTC 发送文件 共享屏幕 语音视频 直播等</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/ZuodaoTech/everyone-can-use-english">人人都能用英语</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp">yt-dlp：音频&#x2F;视频下载器</a></li>
-<li><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000041496772%23">Pico.css - 简单优雅的纯 CSS 开源 UI 框架，用原始的 HTML 元素标签来做界面</a></li>
-</ul>
-<h2 id="读书"><a href="#读书" class="headerlink" title="读书"></a>读书</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/7zWjToZBO7CPXak-WQDQKg">系统设计蓝图指南</a></li>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/XmPHfbUlPW4UMSd3N4UQnA">爆火免费书《深入理解深度学习》终于出中文版了</a></li>
-<li><a target="_blank" rel="noopener" href="https://my.oschina.net/meituantech/blog/11585606">一文讲清多线程和多线程同步</a></li>
-</ul>
-<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://forum-zh.obsidian.md/t/topic/18744">关于微信公众号文章导入Obsidian的探索</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.omnivore.app/zh/integrations/obsidian.html">将所有阅读数据同步到 Obsidian Omnivore</a></li>
-</ul>
-<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://www.daemonology.net/hn-daily/">Hacker News Daily Daily top stories from Hacker News</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.woshipm.com/operate/6086370.html">一文讲清小红书推荐算法的秘密</a></li>
-</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/2024/06/15/about/">me</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">we</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="39">
+
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
 
     </div>
-  </article>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="https://blog.joevan.top/">开源观察分享</a></li>
+            
+            <li><a target="_blank" href="https://www.inkspcl.com/">开源简读</a></li>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
 
-  <article class="post-detail">
-    <h1 class="post-title"><a href="/">开源观察分享 240718晚</a></h1>
-    <ul class="post-meta">
-  <li><i class="fa fa-user"></i> 作者 Joevan</li>
-  <li><i class="fa fa-calendar"></i> 日期 7月 18</li>
-  <li><i class="fa fa-folder"></i> 分类
-  
-    no_categories
-  
-  </li>
-</ul>
-    <div class="post-content">
-      <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>安全</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>编码</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>博客</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>产品</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>读书</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>工具</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>工作流</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>公众号</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>开发</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>开发者</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>开源</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>论坛</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>模板</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>社区</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>效率</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>写作</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>应用推荐</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>影视</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>硬件</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>游戏</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>资源</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>AI</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>APP</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>bartender</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Code</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>mac</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Mac</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Python</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>SEO</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>snagit</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Win</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/26/202407262251/"
+           data-tag="AI"
+           data-author="" >
+            <span class="post-title" title="AI热度不减，纳斯达克来了都拦不住">AI热度不减，纳斯达克来了都拦不住</span>
+            <span class="post-date" title="2024-07-26 22:51:06">2024/07/26</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/25/202407252348/"
+           data-tag="工具,AI"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240725晚">开源观察分享 240725晚</span>
+            <span class="post-date" title="2024-07-25 23:48:50">2024/07/25</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/24/202407242116/"
+           data-tag="工具,AI,开发,写作,SEO"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240724晚">开源观察分享 240724晚</span>
+            <span class="post-date" title="2024-07-24 21:16:51">2024/07/24</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/23/202407232100/"
+           data-tag="产品,开源,AI,资源,读书,写作"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240723晚">开源观察分享 240723晚</span>
+            <span class="post-date" title="2024-07-23 21:00:18">2024/07/23</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/22/202407222236/"
+           data-tag="工具,开源,博客,安全"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240722晚">开源观察分享 240722晚</span>
+            <span class="post-date" title="2024-07-22 22:36:55">2024/07/22</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/21/202407212253/"
+           data-tag="工具,AI,博客,开发"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240721晚">开源观察分享 240721晚</span>
+            <span class="post-date" title="2024-07-21 22:53:38">2024/07/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/19/mac-bartender/"
+           data-tag="工具,mac,bartender,效率"
+           data-author="" >
+            <span class="post-title" title="mac_bartender">mac_bartender</span>
+            <span class="post-date" title="2024-07-19 23:00:46">2024/07/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/18/mac-snagit/"
+           data-tag="snagit,mac,应用推荐"
+           data-author="" >
+            <span class="post-title" title="mac_snagit">mac_snagit</span>
+            <span class="post-date" title="2024-07-18 22:34:07">2024/07/18</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/18/202407182210/"
+           data-tag="产品,开源,AI,博客,资源,开发,APP"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240718晚">开源观察分享 240718晚</span>
+            <span class="post-date" title="2024-07-18 22:10:49">2024/07/18</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/17/202407172116/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240717晚">开源观察分享 240717晚</span>
+            <span class="post-date" title="2024-07-17 21:16:44">2024/07/17</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/14/mac-moom/"
+           data-tag="工具,Mac"
+           data-author="" >
+            <span class="post-title" title="mac_moom">mac_moom</span>
+            <span class="post-date" title="2024-07-14 19:39:24">2024/07/14</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/14/202407141928/"
+           data-tag="工具,博客,开发"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240714晚">开源观察分享 240714晚</span>
+            <span class="post-date" title="2024-07-14 19:28:12">2024/07/14</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/10/202407102059/"
+           data-tag="工具,开发,影视,社区"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240710晚">开源观察分享 240710晚</span>
+            <span class="post-date" title="2024-07-10 20:59:11">2024/07/10</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/10/202407100058/"
+           data-tag="AI,博客,开发,模板"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240709晚">开源观察分享 240709晚</span>
+            <span class="post-date" title="2024-07-10 00:59:03">2024/07/10</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/08/202407082349/"
+           data-tag="工具,开源,AI,博客,编码"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240708晚">开源观察分享 240708晚</span>
+            <span class="post-date" title="2024-07-08 23:49:43">2024/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/08/202407080111/"
+           data-tag="工具,资源,开发"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240707晚">开源观察分享 240707晚</span>
+            <span class="post-date" title="2024-07-08 01:11:15">2024/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/04/202407042319/"
+           data-tag="工具,开源,开发,影视,游戏"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240704晚">开源观察分享 240704晚</span>
+            <span class="post-date" title="2024-07-04 23:20:03">2024/07/04</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/03/202407032242/"
+           data-tag="产品,博客,编码,资源"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240703晚">开源观察分享 240703晚</span>
+            <span class="post-date" title="2024-07-03 22:42:42">2024/07/03</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/02/202407022344/"
+           data-tag="AI,Python,Code,博客"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240702晚">开源观察分享 240702晚</span>
+            <span class="post-date" title="2024-07-02 23:44:19">2024/07/02</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/02/coder/"
+           data-tag="开发者,工作流,开源"
+           data-author="" >
+            <span class="post-title" title="开发工作流 转身开源开发">开发工作流 转身开源开发</span>
+            <span class="post-date" title="2024-07-02 00:40:46">2024/07/02</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/02/mac-win-soft-better/"
+           data-tag="工具,Mac,Win,效率"
+           data-author="" >
+            <span class="post-title" title="Mac、Win必备软件">Mac、Win必备软件</span>
+            <span class="post-date" title="2024-07-02 00:40:16">2024/07/02</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/02/wechat-press/"
+           data-tag="公众号"
+           data-author="" >
+            <span class="post-title" title="公众号冷启动 玩转公众号">公众号冷启动 玩转公众号</span>
+            <span class="post-date" title="2024-07-02 00:38:18">2024/07/02</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/01/202407012335/"
+           data-tag="工具,产品,硬件,论坛"
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240701晚">开源观察分享 240701晚</span>
+            <span class="post-date" title="2024-07-01 23:35:27">2024/07/01</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/07/01/202407010754/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240701早">开源观察分享 240701早</span>
+            <span class="post-date" title="2024-07-01 07:54:53">2024/07/01</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/29/202406292323/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240630">开源观察分享 240630</span>
+            <span class="post-date" title="2024-06-29 23:23:13">2024/06/29</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/29/202406290110/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240629">开源观察分享 240629</span>
+            <span class="post-date" title="2024-06-29 01:10:05">2024/06/29</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/28/202406280114/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240628">开源观察分享 240628</span>
+            <span class="post-date" title="2024-06-28 01:15:52">2024/06/28</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/27/202406270030/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240627">开源观察分享 240627</span>
+            <span class="post-date" title="2024-06-27 00:30:16">2024/06/27</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/25/202406252327/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240626">开源观察分享 240626</span>
+            <span class="post-date" title="2024-06-25 23:27:45">2024/06/25</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/25/202406250025/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240625">开源观察分享 240625</span>
+            <span class="post-date" title="2024-06-25 00:25:42">2024/06/25</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/24/202406240038/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240624">开源观察分享 240624</span>
+            <span class="post-date" title="2024-06-24 00:38:56">2024/06/24</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/19/202406192340/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240619">开源观察分享 240619</span>
+            <span class="post-date" title="2024-06-19 23:40:29">2024/06/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/18/202406182327/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240618">开源观察分享 240618</span>
+            <span class="post-date" title="2024-06-18 23:27:16">2024/06/18</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/17/202406172242/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240617">开源观察分享 240617</span>
+            <span class="post-date" title="2024-06-17 22:42:56">2024/06/17</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/16/202406162355/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240616">开源观察分享 240616</span>
+            <span class="post-date" title="2024-06-16 23:55:21">2024/06/16</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/15/about/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="about">about</span>
+            <span class="post-date" title="2024-06-15 23:03:16">2024/06/15</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/15/202406152258/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="开源观察分享 240615">开源观察分享 240615</span>
+            <span class="post-date" title="2024-06-15 22:58:49">2024/06/15</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/14/shortcut/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="iOS14搭配快捷指令在手机上写hexo博客">iOS14搭配快捷指令在手机上写hexo博客</span>
+            <span class="post-date" title="2024-06-14 20:46:13">2024/06/14</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/06/14/hello-world/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2024-06-14 20:46:13">2024/06/14</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post" class="index">
+    <div class="pjax">
+        <article class="index">
+            <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%8A%E6%97%A5%E8%A7%82%E5%AF%9F"><span class="toc-text">今日观察</span></a></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+            <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
 <p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
 <p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
-<h2 id="APP"><a href="#APP" class="headerlink" title="APP"></a>APP</h2><p>UTM | Virtual machines for Mac  <a target="_blank" rel="noopener" href="https://mac.getutm.app/">https://mac.getutm.app/</a>    </p>
-<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p>KIMI AI Free 服务 | Free API  <a target="_blank" rel="noopener" href="https://llm-red-team.github.io/free-api/freeapi/kimi/#nginx-%E5%8F%8D%E4%BB%A3%E4%BC%98%E5%8C%96">https://llm-red-team.github.io/free-api/freeapi/kimi/#nginx-%E5%8F%8D%E4%BB%A3%E4%BC%98%E5%8C%96</a>    </p>
-<p>LLM-Red-Team&#x2F;kimi-free-api: 🚀 KIMI AI 长文本大模型逆向API白嫖测试【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、长文档解读、图像OCR、多轮对话，零配置部署，多路token支持，自动清理会话痕迹。  <a target="_blank" rel="noopener" href="https://github.com/LLM-Red-Team/kimi-free-api?spm=a2c6h.12873639.article-detail.7.7749544a7zLbiq">https://github.com/LLM-Red-Team/kimi-free-api?spm=a2c6h.12873639.article-detail.7.7749544a7zLbiq</a>    </p>
-<p>免费使用Kimi的API接口，kimi-free-api真香-阿里云开发者社区  <a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/1481619">https://developer.aliyun.com/article/1481619</a></p>
-<p>Chat - Moonshot AI 开放平台  <a target="_blank" rel="noopener" href="https://platform.moonshot.cn/docs/price/chat#%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E4%BB%B7%E6%A0%BC%E8%AF%B4%E6%98%8E">https://platform.moonshot.cn/docs/price/chat#%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E4%BB%B7%E6%A0%BC%E8%AF%B4%E6%98%8E</a>    </p>
-<p>秘塔AI搜索  <a target="_blank" rel="noopener" href="https://metaso.cn/?s=sbypc1&msclkid=dc9d469e1f3615f15b8b2009c5ca13df">https://metaso.cn/?s=sbypc1&amp;msclkid=dc9d469e1f3615f15b8b2009c5ca13df</a>    </p>
-<p>Kimi.ai - 帮你看更大的世界  <a target="_blank" rel="noopener" href="https://kimi.moonshot.cn/">https://kimi.moonshot.cn/</a>    </p>
-<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><p>综合资源区 - YiOVE论坛  <a target="_blank" rel="noopener" href="https://bbs.yiove.com/forum-4-1.htm?tagids=_36">https://bbs.yiove.com/forum-4-1.htm?tagids=_36</a>__    </p>
-<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><p>Home | Bill Gates  <a target="_blank" rel="noopener" href="https://www.gatesnotes.com/">https://www.gatesnotes.com/</a>    </p>
-<h2 id="开源"><a href="#开源" class="headerlink" title="开源"></a>开源</h2><p>Hoarder  <a target="_blank" rel="noopener" href="https://try.hoarder.app/signin">https://try.hoarder.app/signin</a>  </p>
-<p>Introduction | Hoarder Docs  <a target="_blank" rel="noopener" href="https://docs.hoarder.app/#demo">https://docs.hoarder.app/#demo</a>  </p>
-<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>Buy Plugins &amp; Code from CodeCanyon  <a target="_blank" rel="noopener" href="https://codecanyon.net/">https://codecanyon.net/</a>  </p>
-<p>STL3D Viewer by pushkarparanjpe | CodeCanyon  <a target="_blank" rel="noopener" href="https://codecanyon.net/item/stl3d-viewer/3222913">https://codecanyon.net/item/stl3d-viewer/3222913</a>  </p>
-<p>社区  <a target="_blank" rel="noopener" href="https://ask.dcloud.net.cn/m/#/">https://ask.dcloud.net.cn/m/#/</a>  </p>
-<p>停服公告  <a target="_blank" rel="noopener" href="https://www.apicloud.com/portal-web/close">https://www.apicloud.com/portal-web/close</a> </p>
-<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><p>复志科技Raise3D中国官方网站  <a target="_blank" rel="noopener" href="https://www.raise3d.cn/">https://www.raise3d.cn/</a> </p>
+
+        </article>
+        
+        <p>
+            <a  class="dashang" onclick="dashangToggle()">赏</a>
+        </p>
+        
+        
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    ©2024 blog.joevan.top
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
-  </article>
+</div>
+<div class="full-toc">
+    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
 
-  <article class="post-detail">
-    <h1 class="post-title"><a href="/">开源观察分享 240703晚</a></h1>
-    <ul class="post-meta">
-  <li><i class="fa fa-user"></i> 作者 Joevan</li>
-  <li><i class="fa fa-calendar"></i> 日期 7月 3</li>
-  <li><i class="fa fa-folder"></i> 分类
-  
-    no_categories
-  
-  </li>
-</ul>
-    <div class="post-content">
-      <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
-<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
-<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
-<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><p>Eqvpkbz - 博客园  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/eqvpkbz">https://www.cnblogs.com/eqvpkbz</a>  </p>
-<p>GitHub - KyleBing&#x2F;ipad: iPad 所有机型参数大全  <a target="_blank" rel="noopener" href="https://github.com/KyleBing/ipad">https://github.com/KyleBing/ipad</a></p>
-<h2 id="编码"><a href="#编码" class="headerlink" title="编码"></a>编码</h2><p>【第175期】掌握 nextjs 的最佳 6 个项目  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/TmqzSEkSRd1899peXDMVoA">https://mp.weixin.qq.com/s/TmqzSEkSRd1899peXDMVoA</a>  </p>
-<p>bootstrap-table真香系列-数据渲染与导出_bootstrap table 数据渲染-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/linmengmeng_1314/article/details/109716764">https://blog.csdn.net/linmengmeng_1314/article/details/109716764</a>  </p>
-<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><p>GitHub - fantasticit&#x2F;think: 云策文档是一款开源知识管理工具。通过独立的知识库空间，结构化地组织在线协作文档，实现知识的积累与沉淀，促进知识的复用与流通。  <a target="_blank" rel="noopener" href="https://github.com/fantasticit/think">https://github.com/fantasticit/think</a>  </p>
-<p>Snipaste - 截图 + 贴图  <a target="_blank" rel="noopener" href="https://zh.snipaste.com/">https://zh.snipaste.com/</a>    </p>
-<p>p0deje&#x2F;Maccy: Lightweight clipboard manager for macOS  <a target="_blank" rel="noopener" href="https://github.com/p0deje/Maccy">https://github.com/p0deje/Maccy</a>  </p>
-<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><p>CocoMaterial  <a target="_blank" rel="noopener" href="https://cocomaterial.com/">https://cocomaterial.com/</a> </p>
-<p>常用的Bootstrap模板资源站_w3cschool  <a target="_blank" rel="noopener" href="https://www.w3cschool.cn/msv2es/qmaj1pyd.html">https://www.w3cschool.cn/msv2es/qmaj1pyd.html</a> </p>
-<p>Bootstrap新闻html模板 - Bootstrap模板库  <a target="_blank" rel="noopener" href="https://www.bootstrapmb.com/tag/xinwenhtmlmoban">https://www.bootstrapmb.com/tag/xinwenhtmlmoban</a>  </p>
+</div>
 
+<div class="hide_box" onclick="dashangToggle()"></div>
+<div class="shang_box">
+    <a class="shang_close"  onclick="dashangToggle()">×</a>
+    <div class="shang_tit">
+        <p>爱发电</p>
     </div>
-  </article>
-
-  <article class="post-detail">
-    <h1 class="post-title"><a href="/">开源观察分享 240701晚</a></h1>
-    <ul class="post-meta">
-  <li><i class="fa fa-user"></i> 作者 Joevan</li>
-  <li><i class="fa fa-calendar"></i> 日期 7月 1</li>
-  <li><i class="fa fa-folder"></i> 分类
-  
-    no_categories
-  
-  </li>
-</ul>
-    <div class="post-content">
-      <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
-<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
-<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
-<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>GitHub - BornToBeRoot&#x2F;NETworkManager: A powerful tool for managing networks and troubleshoot network problems!  <a target="_blank" rel="noopener" href="https://github.com/BornToBeRoot/NETworkManager">https://github.com/BornToBeRoot/NETworkManager</a>  </p>
-<p>GitHub - pipipi-pikachu&#x2F;PPTist: An online presentation application that replicates most of the commonly used features of Microsoft Office PowerPoint, allowing for the editing and presentation of PPT online. It also supports the export of PPT files.  <a target="_blank" rel="noopener" href="https://github.com/pipipi-pikachu/PPTist">https://github.com/pipipi-pikachu/PPTist</a>  </p>
-<h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><p>免费免费！！字节跳动 发布编程神器：支持代码补全、Bug 修复  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/S7w3O-ecMW9pWIRZaUBBpw">https://mp.weixin.qq.com/s/S7w3O-ecMW9pWIRZaUBBpw</a>  </p>
-<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><p>我们是否需要一个Seeed Home Assistant Green  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/HPV0lSdSvxMxOXn0KNqOxQ">https://mp.weixin.qq.com/s/HPV0lSdSvxMxOXn0KNqOxQ</a>  </p>
-<h2 id="论坛"><a href="#论坛" class="headerlink" title="论坛"></a>论坛</h2><p>小饭桌  <a target="_blank" rel="noopener" href="https://www.xfz.cn/">https://www.xfz.cn/</a>  </p>
-
+    <div class="shang_payimg">
+        <div class="pay_img">
+            <img src="/img/alipay.png" class="alipay" title="扫码支持">
+            <img src="/img/weixin.png" class="weixin" title="扫码支持">
+        </div>
     </div>
-  </article>
+    <div class="shang_payselect">
+        <span><label><input type="radio" name="pay" checked value="alipay">支付宝</label></span><span><label><input type="radio" name="pay" value="weixin">微信</label></span>
+    </div>
+</div>
 
-
-</section>
-    <footer id="footer" role="contentinfo">
-    <div>&copy; 2024 <a href="/">开源观察分享</a>.
-    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Designed by <a href="http://rainylog.com" target="_blank">Rainy.</a>
-	</div>
-</footer><!-- end #footer -->
-
-  </div>
-  
-<script src="/lib/fancybox/dist/jquery.fancybox.min.js"></script>
-
-
-  
-<script src="/js/helper.js"></script>
 
 </body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+        $("input[name=pay]").on("click", function () {
+            if($("input[name=pay]:checked").val()=="weixin"){
+                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
+            } else {
+                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
+            }
+        })
+        
+
+        /*高亮代码块行号*/
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+    function dashangToggle() {
+        $(".shang_box").fadeToggle();
+        $(".hide_box").fadeToggle();
+    }
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 572px;
+    }
+    .nav.fullscreen {
+        margin-left: -572px;
+    }
+    .nav-left {
+        width: 150px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 542px;
+        }
+        .nav.fullscreen {
+            margin-left: -542px;
+        }
+        .nav-left {
+            width: 150px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 542px;
+            margin-left: -542px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+
+    
+</style>
+
+
+
+
+
+
+
 </html>
