@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>AI热度不减，纳斯达克来了都拦不住</title>
+      <link href="/2024/07/26/202407262251/"/>
+      <url>/2024/07/26/202407262251/</url>
+      
+        <content type="html"><![CDATA[<h2 id="开源简读"><a href="#开源简读" class="headerlink" title="开源简读"></a>开源简读</h2><ul><li><strong>旧闻新顾，温故知新</strong><br><a href="https://www.inkspcl.com/">https://www.inkspcl.com/</a></li></ul><h3 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h3><p>漫天的AI突破，Meta的llama，OpenAI的SearchGPT，以及GPU.cpp，持续输出中。</p><ul><li><p><a href="https://developer.volcengine.com/articles/7392435404039389221">2024年AI+爬虫指南：使用JinaAI、FireCrawl、Crawl4AI（别用Beautiful Soup了）</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/nx05xfwMZjGoEogy1O9iGw">GPU地震！C++大神推出gpu.cpp，这波操作，让CUDA和PyTorch都慌了</a></p></li><li><p><a href="https://docs.continue.dev/intro">Continue is the leading open-source AI code assistant.</a></p></li><li><p><a href="https://www.cnblogs.com/klchang/p/17352911.html">OpenAI API keys 的申请和测试小结</a></p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>开源观察分享 240725晚</title>
       <link href="/2024/07/25/202407252348/"/>
       <url>/2024/07/25/202407252348/</url>
