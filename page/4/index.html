@@ -1,893 +1,515 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
+  
   <title>开源观察分享</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="开源观察分享">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="开源简读 旧闻新顾，温故知新https:&#x2F;&#x2F;www.inkspcl.com&#x2F;  AI漫天的AI突破，Meta的llama，OpenAI的SearchGPT，以及GPU.cpp，持续输出中。  2024年AI+爬虫指南：使用JinaAI、FireCrawl、Crawl4AI（别用Beautiful Soup了）  GPU地震！C++大神推出gpu.cpp，这波操作，让CUDA和PyTorch都慌了">
-<meta property="og:type" content="article">
-<meta property="og:title" content="AI热度不减，纳斯达克来了都拦不住">
-<meta property="og:url" content="https://tojoevan.github.io/2024/07/26/202407262251/index.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="开源观察分享">
+<meta property="og:url" content="https://tojoevan.github.io/page/4/index.html">
 <meta property="og:site_name" content="开源观察分享">
-<meta property="og:description" content="开源简读 旧闻新顾，温故知新https:&#x2F;&#x2F;www.inkspcl.com&#x2F;  AI漫天的AI突破，Meta的llama，OpenAI的SearchGPT，以及GPU.cpp，持续输出中。  2024年AI+爬虫指南：使用JinaAI、FireCrawl、Crawl4AI（别用Beautiful Soup了）  GPU地震！C++大神推出gpu.cpp，这波操作，让CUDA和PyTorch都慌了">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-07-26T14:51:06.000Z">
-<meta property="article:modified_time" content="2024-07-26T14:54:51.819Z">
 <meta property="article:author" content="Joevan">
-<meta property="article:tag" content="AI">
 <meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="开源观察分享" type="application/atom+xml">
+  
+  
+  
+  
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0.css">
 
+  
+<link rel="stylesheet" href="/lib/fancybox/dist/jquery.fancybox.min.css">
 
-<link rel="icon" href="/img/avatar-512x512.png">
+  
+<link rel="stylesheet" href="/css/main.css">
 
-<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+  
+<script src="/lib/jquery/dist/jquery.min.js"></script>
 
-<link href="/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
-
-<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
-
-<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="/js/titleTip.js?v=1.1.0" ></script>
-
-<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
-<script>
-    hljs.initHighlightingOnLoad();
-</script>
-
-<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
-
-
-
-<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
-
-<script src="/js/iconfont.js?v=1.1.0" ></script>
-
+  
+  
+  
+  
 <meta name="generator" content="Hexo 7.2.0"></head>
-<div style="display: none">
-  <input class="theme_disqus_on" value="false">
-  <input class="theme_preload_comment" value="">
-  <input class="theme_blog_path" value="">
-  <input id="theme_shortcut" value="true" />
-  <input id="theme_highlight_on" value="true" />
-  <input id="theme_code_copy" value="true" />
-</div>
-
-
-
 <body>
-<aside class="nav mobile">
-    <div class="nav-left">
-        <a href="/"
-   class="avatar_target">
-    <img class="avatar"
-         src="/img/avatar-512x512.png"/>
-</a>
-<div class="author">
-    <span>Joevan</span>
-</div>
-
-<div class="icon">
-    
+  <div id="wrapper">
+    <header id="header" class="clearfix">
+	<a id="logo" href="/" title="开源观察分享">开源观察分享</a>
+	
+	<nav id="nav-menu" class="clearfix">
+		<form id="search" method="post" action="./" role="search">
+			<input id="search-input" type="text" name="s" class="inputbox" value="搜索" onfocus="if (value =='搜索'){value =''}" onblur="if (value ==''){value='搜索'}">
+		</form>
+		<ul>
+      
+				
+        <li><a class="main-nav-link" href="/">主页</a></li>
+      
+				
+        <li><a class="main-nav-link" href="/archives">归档</a></li>
+      
+		</ul>
+	</nav>
+</header>
+    <section id="main" class="clearfix">
+  <article class="post">
+      
         
-    
+          <h1><a href="/2024/06/25/202406250025/">开源观察分享 240625</a></h1>
         
-    
+      
+      <div class="post-content ">
         
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-</div>
+  
 
 
 
 
-
-<ul>
-    <li>
-        <div class="all active" data-rel="全部文章">全部文章
-            
-                <small>(39)</small>
-            
-        </div>
-    </li>
-    
-</ul>
-<div class="left-bottom">
-    <div class="menus">
-        
-            
-            
-            
-    </div>
-    <div>
-        
-            <a class="about  hasFriend  site_url"
-               
-               href="/2024/06/15/about/">me</a>
-        
-        <a style="width: 50%"
-                
-                                           class="friends">we</a>
-        
-    </div>
-</div>
-<input type="hidden" id="yelog_site_posts_number" value="39">
-
-<div style="display: none">
-    <span id="busuanzi_value_site_uv"></span>
-    <span id="busuanzi_value_site_pv"></span>
-</div>
-
-    </div>
-    <div class="nav-right">
-        <div class="friends-area">
-    <div class="friends-title">
-        友情链接
-        <i class="iconfont icon-left"></i>
-    </div>
-    <div class="friends-content">
-        <ul>
-            
-            <li><a target="_blank" href="https://blog.joevan.top/">开源观察分享</a></li>
-            
-            <li><a target="_blank" href="https://www.inkspcl.com/">开源简读</a></li>
-            
-            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
-            
-        </ul>
-    </div>
-</div>
-        <div class="title-list">
-    <div class="right-top">
-        <div id="default-panel">
-            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
-            <div class="right-title">全部文章</div>
-            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
-        </div>
-        <div id="search-panel">
-            <i class="iconfont icon-left" data-title="返回"></i>
-            <input id="local-search-input" autocomplete="off"/>
-            <label class="border-line" for="input"></label>
-            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
-            <i class="iconfont icon-tag" data-title="标签"></i>
-        </div>
-        <div id="outline-panel" style="display: none">
-            <div class="right-title">大纲</div>
-            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
-        </div>
-    </div>
-
-    <div class="tags-list">
-    <input id="tag-search" />
-    <div class="tag-wrapper">
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>安全</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>编码</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>博客</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>产品</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>读书</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>工具</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>工作流</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>公众号</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>开发</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>开发者</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>开源</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>论坛</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>模板</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>社区</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>效率</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>写作</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>应用推荐</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>影视</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>硬件</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>游戏</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>资源</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>AI</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>APP</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>bartender</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>Code</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>mac</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>Mac</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>Python</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>SEO</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>snagit</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>Win</a>
-            </li>
-        
-    </div>
-
-</div>
-
-    
-    <div id="local-search-result">
-
-    </div>
-    
-    <nav id="title-list-nav">
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/26/202407262251/"
-           data-tag="AI"
-           data-author="" >
-            <span class="post-title" title="AI热度不减，纳斯达克来了都拦不住">AI热度不减，纳斯达克来了都拦不住</span>
-            <span class="post-date" title="2024-07-26 22:51:06">2024/07/26</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/25/202407252348/"
-           data-tag="工具,AI"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240725晚">开源观察分享 240725晚</span>
-            <span class="post-date" title="2024-07-25 23:48:50">2024/07/25</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/24/202407242116/"
-           data-tag="工具,AI,开发,写作,SEO"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240724晚">开源观察分享 240724晚</span>
-            <span class="post-date" title="2024-07-24 21:16:51">2024/07/24</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/23/202407232100/"
-           data-tag="产品,开源,AI,资源,读书,写作"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240723晚">开源观察分享 240723晚</span>
-            <span class="post-date" title="2024-07-23 21:00:18">2024/07/23</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/22/202407222236/"
-           data-tag="工具,开源,博客,安全"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240722晚">开源观察分享 240722晚</span>
-            <span class="post-date" title="2024-07-22 22:36:55">2024/07/22</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/21/202407212253/"
-           data-tag="工具,AI,博客,开发"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240721晚">开源观察分享 240721晚</span>
-            <span class="post-date" title="2024-07-21 22:53:38">2024/07/21</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/19/mac-bartender/"
-           data-tag="工具,mac,bartender,效率"
-           data-author="" >
-            <span class="post-title" title="mac_bartender">mac_bartender</span>
-            <span class="post-date" title="2024-07-19 23:00:46">2024/07/19</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/18/mac-snagit/"
-           data-tag="snagit,mac,应用推荐"
-           data-author="" >
-            <span class="post-title" title="mac_snagit">mac_snagit</span>
-            <span class="post-date" title="2024-07-18 22:34:07">2024/07/18</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/18/202407182210/"
-           data-tag="产品,开源,AI,博客,资源,开发,APP"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240718晚">开源观察分享 240718晚</span>
-            <span class="post-date" title="2024-07-18 22:10:49">2024/07/18</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/17/202407172116/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240717晚">开源观察分享 240717晚</span>
-            <span class="post-date" title="2024-07-17 21:16:44">2024/07/17</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/14/mac-moom/"
-           data-tag="工具,Mac"
-           data-author="" >
-            <span class="post-title" title="mac_moom">mac_moom</span>
-            <span class="post-date" title="2024-07-14 19:39:24">2024/07/14</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/14/202407141928/"
-           data-tag="工具,博客,开发"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240714晚">开源观察分享 240714晚</span>
-            <span class="post-date" title="2024-07-14 19:28:12">2024/07/14</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/10/202407102059/"
-           data-tag="工具,开发,影视,社区"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240710晚">开源观察分享 240710晚</span>
-            <span class="post-date" title="2024-07-10 20:59:11">2024/07/10</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/10/202407100058/"
-           data-tag="AI,博客,开发,模板"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240709晚">开源观察分享 240709晚</span>
-            <span class="post-date" title="2024-07-10 00:59:03">2024/07/10</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/08/202407082349/"
-           data-tag="工具,开源,AI,博客,编码"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240708晚">开源观察分享 240708晚</span>
-            <span class="post-date" title="2024-07-08 23:49:43">2024/07/08</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/08/202407080111/"
-           data-tag="工具,资源,开发"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240707晚">开源观察分享 240707晚</span>
-            <span class="post-date" title="2024-07-08 01:11:15">2024/07/08</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/04/202407042319/"
-           data-tag="工具,开源,开发,影视,游戏"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240704晚">开源观察分享 240704晚</span>
-            <span class="post-date" title="2024-07-04 23:20:03">2024/07/04</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/03/202407032242/"
-           data-tag="产品,博客,编码,资源"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240703晚">开源观察分享 240703晚</span>
-            <span class="post-date" title="2024-07-03 22:42:42">2024/07/03</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/02/202407022344/"
-           data-tag="AI,Python,Code,博客"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240702晚">开源观察分享 240702晚</span>
-            <span class="post-date" title="2024-07-02 23:44:19">2024/07/02</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/02/coder/"
-           data-tag="开发者,工作流,开源"
-           data-author="" >
-            <span class="post-title" title="开发工作流 转身开源开发">开发工作流 转身开源开发</span>
-            <span class="post-date" title="2024-07-02 00:40:46">2024/07/02</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/02/mac-win-soft-better/"
-           data-tag="工具,Mac,Win,效率"
-           data-author="" >
-            <span class="post-title" title="Mac、Win必备软件">Mac、Win必备软件</span>
-            <span class="post-date" title="2024-07-02 00:40:16">2024/07/02</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/02/wechat-press/"
-           data-tag="公众号"
-           data-author="" >
-            <span class="post-title" title="公众号冷启动 玩转公众号">公众号冷启动 玩转公众号</span>
-            <span class="post-date" title="2024-07-02 00:38:18">2024/07/02</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/01/202407012335/"
-           data-tag="工具,产品,硬件,论坛"
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240701晚">开源观察分享 240701晚</span>
-            <span class="post-date" title="2024-07-01 23:35:27">2024/07/01</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/07/01/202407010754/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240701早">开源观察分享 240701早</span>
-            <span class="post-date" title="2024-07-01 07:54:53">2024/07/01</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/29/202406292323/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240630">开源观察分享 240630</span>
-            <span class="post-date" title="2024-06-29 23:23:13">2024/06/29</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/29/202406290110/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240629">开源观察分享 240629</span>
-            <span class="post-date" title="2024-06-29 01:10:05">2024/06/29</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/28/202406280114/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240628">开源观察分享 240628</span>
-            <span class="post-date" title="2024-06-28 01:15:52">2024/06/28</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/27/202406270030/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240627">开源观察分享 240627</span>
-            <span class="post-date" title="2024-06-27 00:30:16">2024/06/27</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/25/202406252327/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240626">开源观察分享 240626</span>
-            <span class="post-date" title="2024-06-25 23:27:45">2024/06/25</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/25/202406250025/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240625">开源观察分享 240625</span>
-            <span class="post-date" title="2024-06-25 00:25:42">2024/06/25</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/24/202406240038/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240624">开源观察分享 240624</span>
-            <span class="post-date" title="2024-06-24 00:38:56">2024/06/24</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/19/202406192340/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240619">开源观察分享 240619</span>
-            <span class="post-date" title="2024-06-19 23:40:29">2024/06/19</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/18/202406182327/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240618">开源观察分享 240618</span>
-            <span class="post-date" title="2024-06-18 23:27:16">2024/06/18</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/17/202406172242/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240617">开源观察分享 240617</span>
-            <span class="post-date" title="2024-06-17 22:42:56">2024/06/17</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/16/202406162355/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240616">开源观察分享 240616</span>
-            <span class="post-date" title="2024-06-16 23:55:21">2024/06/16</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/15/about/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="about">about</span>
-            <span class="post-date" title="2024-06-15 23:03:16">2024/06/15</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/15/202406152258/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="开源观察分享 240615">开源观察分享 240615</span>
-            <span class="post-date" title="2024-06-15 22:58:49">2024/06/15</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/14/shortcut/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="iOS14搭配快捷指令在手机上写hexo博客">iOS14搭配快捷指令在手机上写hexo博客</span>
-            <span class="post-date" title="2024-06-14 20:46:13">2024/06/14</span>
-        </a>
-        
-        
-        <a  class="全部文章 "
-           href="/2024/06/14/hello-world/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="Hello World">Hello World</span>
-            <span class="post-date" title="2024-06-14 20:46:13">2024/06/14</span>
-        </a>
-        
-        <div id="no-item-tips">
-
-        </div>
-    </nav>
-    <div id="outline-list">
-    </div>
-</div>
-
-    </div>
-    <div class="hide-list">
-        <div class="semicircle" data-title="切换全屏 快捷键 s">
-            <div class="brackets first"><</div>
-            <div class="brackets">&gt;</div>
-        </div>
-    </div>
-</aside>
-<div id="post" class="index">
-    <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
-    
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%8A%E6%97%A5%E8%A7%82%E5%AF%9F"><span class="toc-text">今日观察</span></a></li></ol>
-    
-<style>
-    .left-col .switch-btn,
-    .left-col .switch-area {
-        display: none;
-    }
-    .toc-level-3 i,
-    .toc-level-3 ol {
-        display: none !important;
-    }
-</style>
-</div>
-            <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+        <h1 id="今日观察"><a href="#今日观察" class="headerlink" title="今日观察"></a>今日观察</h1><p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
 <p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
 <p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<p>为了完美阅读模式这个小目标 ，我适配了 160+ 个网站，因此诞生了它 - 简悦 ：沉浸式阅读的 Chrome 扩展 - 少数派  <a target="_blank" rel="noopener" href="https://sspai.com/post/39491#">https://sspai.com/post/39491#</a>!  </p>
+<p>TrendingKeywords | Discover Trending Keywords Before They Breakout  <a target="_blank" rel="noopener" href="https://trendingkeywords.net/">https://trendingkeywords.net/</a>  </p>
+<p>2款个人收款工具（可用于个人博客、WordPress，网站等） - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/589208397?utm_id=0">https://zhuanlan.zhihu.com/p/589208397?utm_id=0</a>  </p>
+<p>下载Comate | 百度研发编码助手 | 免费  <a target="_blank" rel="noopener" href="https://comate.baidu.com/zh/download?inviteCode=xiextnv8">https://comate.baidu.com/zh/download?inviteCode=xiextnv8</a>  </p>
+<p>GitHub - mdnice&#x2F;markdown-nice: 支持主题设计的 Markdown 编辑器，让排版变 Nice  <a target="_blank" rel="noopener" href="https://github.com/mdnice/markdown-nice">https://github.com/mdnice/markdown-nice</a>  </p>
+<p>Excalidraw | Hand-drawn look &amp; feel • Collaborative • Secure  <a target="_blank" rel="noopener" href="https://excalidraw.com/">https://excalidraw.com/</a>  </p>
+<p>在不受支持的 Mac 上安装 macOS Ventura (OpenCore Legacy Patcher) - sysin | SYStem INside | 软件与技术分享  <a target="_blank" rel="noopener" href="https://sysin.org/blog/install-macos-13-on-unsupported-mac/">https://sysin.org/blog/install-macos-13-on-unsupported-mac/</a>  </p>
+<p>盘点丨12款数据库建模工具特点，总有一款适合你！-腾讯云开发者社区-腾讯云  <a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1509425">https://cloud.tencent.com/developer/article/1509425</a>  </p>
+<p>五大优秀的数据库设计工具 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/374024443?utm_id=0">https://zhuanlan.zhihu.com/p/374024443?utm_id=0</a>  </p>
+<p>FiimeROM-小米原生ROM下载|小米澎湃OS  <a target="_blank" rel="noopener" href="https://mi.fiime.cn/">https://mi.fiime.cn/</a>  </p>
+<p>PetCarrierBag Instructions - YouTube  <a target="_blank" rel="noopener" href="https://m.youtube.com/watch?v=X3mnf0Ff-OQ">https://m.youtube.com/watch?v=X3mnf0Ff-OQ</a>  </p>
+<p>5款非常好用的免费数据库建模工具（免费）_drawsql-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/u010164507/article/details/104748945">https://blog.csdn.net/u010164507/article/details/104748945</a>  </p>
 
-        </article>
+      </div>
+  </article>
+
+  <article class="post">
+      
         
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
+          <h1><a href="/2024/06/24/202406240038/">开源观察分享 240624</a></h1>
         
+      
+      <div class="post-content ">
         
-    </div>
-    <div class="copyright">
-        <p class="footer-entry">
-    ©2024 blog.joevan.top
-</p>
-<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+  
 
-    </div>
-</div>
-<div class="full-toc">
-    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
-<a class="" id="rocket" ></a>
 
-</div>
 
-<div class="hide_box" onclick="dashangToggle()"></div>
-<div class="shang_box">
-    <a class="shang_close"  onclick="dashangToggle()">×</a>
-    <div class="shang_tit">
-        <p>爱发电</p>
-    </div>
-    <div class="shang_payimg">
-        <div class="pay_img">
-            <img src="/img/alipay.png" class="alipay" title="扫码支持">
-            <img src="/img/weixin.png" class="weixin" title="扫码支持">
-        </div>
-    </div>
-    <div class="shang_payselect">
-        <span><label><input type="radio" name="pay" checked value="alipay">支付宝</label></span><span><label><input type="radio" name="pay" value="weixin">微信</label></span>
-    </div>
-</div>
 
+        <p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<p>探索Typecho博客的Jasmine主题：一种新的博客体验  <a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2299560">https://cloud.tencent.com/developer/article/2299560</a>    </p>
+<p>关于网站 - 南巷清风  <a target="_blank" rel="noopener" href="https://www.liaocp.cn/about/">https://www.liaocp.cn/about/</a>    </p>
+<p>YetiShare File Hosting 5.5.1 - PHP网盘商业版+17个插件+12国语言包+2个模板_资源_Chieng个人博客  <a target="_blank" rel="noopener" href="https://www.chieng.cn/post/145.html">https://www.chieng.cn/post/145.html</a>  </p>
+<p>纯代码免插件优化WordPress6.3实现0sql-强化拓展－网站建设－老白博客  <a target="_blank" rel="noopener" href="https://www.xcbtmw.com/29717.html">https://www.xcbtmw.com/29717.html</a>  </p>
+<p>Gitea - 轻量级全功能 DevSecOps 平台  <a target="_blank" rel="noopener" href="https://about.gitea.cn/">https://about.gitea.cn/</a>  </p>
+<p>乌橘子技术博客  <a target="_blank" rel="noopener" href="https://www.wujuzi.cn/">https://www.wujuzi.cn/</a>  </p>
+<p>AIGC官网|AIGC官方网站|AIGC工具导航|AI工具集|AI工具官网 | AIGC工具导航  <a target="_blank" rel="noopener" href="https://www.aigc.cn/aigcnetwork">https://www.aigc.cn/aigcnetwork</a>  </p>
+<p>如何为 SEO 选择正确的关键词  <a target="_blank" rel="noopener" href="https://ahrefs.com/blog/zh/how-to-choose-keywords-for-seo/">https://ahrefs.com/blog/zh/how-to-choose-keywords-for-seo/</a>  </p>
+<p>Home - Wcowin’s Web  <a target="_blank" rel="noopener" href="https://wcowin.work/index.html">https://wcowin.work/index.html</a>  </p>
+<p>求一个 wordpress 纯文字主题 - 『悬赏问答区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|<a target="_blank" rel="noopener" href="http://www.52pojie.cn/">www.52pojie.cn</a>  <a target="_blank" rel="noopener" href="https://www.52pojie.cn/thread-1136823-1-1.html">https://www.52pojie.cn/thread-1136823-1-1.html</a>  </p>
+<p>v2ex.com Traffic Analytics, Ranking &amp; Audience [May 2024] | Similarweb  <a target="_blank" rel="noopener" href="https://www.similarweb.com/website/v2ex.com/">https://www.similarweb.com/website/v2ex.com/</a>  </p>
+<p>影刀RPA在获取公众号文章上的运用 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/597339757?utm_id=0">https://zhuanlan.zhihu.com/p/597339757?utm_id=0</a>  </p>
+<p>Typecho+Sqlite3轻量化建博客方案。 - BambOvC——三相奏的小站  <a target="_blank" rel="noopener" href="https://bambovc.com/index.php/archives/8/">https://bambovc.com/index.php/archives/8/</a>  </p>
+<p>通过 Docker 搭建 Typecho 详细教程_docker安装typecho-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/sculpta/article/details/108292853">https://blog.csdn.net/sculpta/article/details/108292853</a>  </p>
+<p>为了「开心点」，这帮 10 后做了个小程序  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/xN_SFJYe1bg3YkDbfMOi8Q">https://mp.weixin.qq.com/s/xN_SFJYe1bg3YkDbfMOi8Q</a>  </p>
+<p>支持WebDAV的国内外网盘整理汇总-各大网盘WebDAV服务器地址及连接方式（转载） - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/397069064?utm_id=0">https://zhuanlan.zhihu.com/p/397069064?utm_id=0</a>  </p>
+<p>商店 - Npcink  <a target="_blank" rel="noopener" href="https://www.npc.ink/shop">https://www.npc.ink/shop</a>  </p>
+<p>商店 - Npcink  <a target="_blank" rel="noopener" href="https://www.npc.ink/shop">https://www.npc.ink/shop</a>  </p>
+<p>Most Visited Websites in Worldwide 2024 | Open .Trends  <a target="_blank" rel="noopener" href="https://www.semrush.com/trending-websites/global/all">https://www.semrush.com/trending-websites/global/all</a>  </p>
+<p>用高德开放平台做自己的旅行地图 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/359071992?utm_id=0">https://zhuanlan.zhihu.com/p/359071992?utm_id=0</a>  </p>
+<p>男儿志歌词完整版_刘德华 - 歌词汇  <a target="_blank" rel="noopener" href="https://www.gecih.com/geci/2875">https://www.gecih.com/geci/2875</a>  </p>
+<p>夜莺出品 | 全新升级，北京公交夜班车线路图（更新至2021年09月25日） - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/416869635?utm_id=0">https://zhuanlan.zhihu.com/p/416869635?utm_id=0</a>  </p>
+<p>Austin’s Bio page  <a target="_blank" rel="noopener" href="https://the.top/">https://the.top/</a>  </p>
+<p>Remote Jobs in Programming, Design, Sales and more #OpenSalaries  <a target="_blank" rel="noopener" href="https://remoteok.com/">https://remoteok.com/</a>  </p>
+<p>有哪些可以居合多个资讯类App内容统一阅读的App？ - 知乎  <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/39233683?utm_id=0">https://www.zhihu.com/question/39233683?utm_id=0</a>  </p>
+<p>6个网站让你分分钟掌握全网热点！ - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/389546630?utm_id=0">https://zhuanlan.zhihu.com/p/389546630?utm_id=0</a>  </p>
+<p>Readhub 热门话题 今日热榜官网  <a target="_blank" rel="noopener" href="https://tophub.today/n/Y3QeLMPo7k">https://tophub.today/n/Y3QeLMPo7k</a>  </p>
+<p>v2ex站长专访 - 100offer专访Livid：不仅仅是V站站长 - poterliu - 博客园  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/poterliu/p/9987096.html">https://www.cnblogs.com/poterliu/p/9987096.html</a>  </p>
+<p>【技术种草】手把手教大家用97元撸到一个10年域名-腾讯云开发者社区-腾讯云  <a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1907236">https://cloud.tencent.com/developer/article/1907236</a>  </p>
+<p>HelloFlask  <a target="_blank" rel="noopener" href="https://helloflask.com/">https://helloflask.com/</a>  </p>
+<p>请不要把 Flask 和 FastAPI 放到一起比较 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/369591096?utm_id=0">https://zhuanlan.zhihu.com/p/369591096?utm_id=0</a>  </p>
+<p>如何评价最近爆红的FastAPI？ - 知乎  <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/424133076?utm_id=0">https://www.zhihu.com/question/424133076?utm_id=0</a>  </p>
+<p>Configuration Overview — Gunicorn 22.0.0 documentation  <a target="_blank" rel="noopener" href="https://docs.gunicorn.org/en/latest/configure.html">https://docs.gunicorn.org/en/latest/configure.html</a>  </p>
+<p>几十个ChatGPT免费镜像，包含GPT4和3 - 掘金  <a target="_blank" rel="noopener" href="https://juejin.cn/post/7221020355291676733">https://juejin.cn/post/7221020355291676733</a>  </p>
+<p>最佳实践 | Elog  <a target="_blank" rel="noopener" href="https://elog.1874.cool/notion/ubcut43kgf97fag6">https://elog.1874.cool/notion/ubcut43kgf97fag6</a>  </p>
+<p>美国VPS综合讨论-全球主机交流论坛 - 手机版 - Powered by Discuz!  <a target="_blank" rel="noopener" href="https://www.hostloc.me/forum.php?mod=forumdisplay&fid=45&page=6&mobile=2">https://www.hostloc.me/forum.php?mod=forumdisplay&amp;fid=45&amp;page=6&amp;mobile=2</a>  </p>
+<p>1000部烧鸡小蛆蛆视频[已上传] | Tskms BBS  <a target="_blank" rel="noopener" href="https://bbs.tskms.org/index.php?threads/1000%E9%83%A8%E7%83%A7%E9%B8%A1%E5%B0%8F%E8%9B%86%E8%9B%86%E8%A7%86%E9%A2%91-%E5%B7%B2%E4%B8%8A%E4%BC%A0.87464/">https://bbs.tskms.org/index.php?threads/1000%E9%83%A8%E7%83%A7%E9%B8%A1%E5%B0%8F%E8%9B%86%E8%9B%86%E8%A7%86%E9%A2%91-%E5%B7%B2%E4%B8%8A%E4%BC%A0.87464/</a>  </p>
+<p>Vditor 示例 - 链滴  <a target="_blank" rel="noopener" href="https://ld246.com/guide/markdown">https://ld246.com/guide/markdown</a>  </p>
+<p>Vercel应用部署指南  <a target="_blank" rel="noopener" href="https://gacfox.com/articles/5">https://gacfox.com/articles/5</a>  </p>
+<p>陈明勇的博客  <a target="_blank" rel="noopener" href="https://chenmingyong.cn/">https://chenmingyong.cn/</a>  </p>
+<p>简幻欢 - Simpfun • V4  <a target="_blank" rel="noopener" href="https://simpfun.cn/">https://simpfun.cn/</a>  </p>
+<p>Excalidraw | Hand-drawn look &amp; feel • Collaborative • Secure  <a target="_blank" rel="noopener" href="https://excalidraw.com/">https://excalidraw.com/</a>  </p>
+<p>递归软件  <a target="_blank" rel="noopener" href="https://www.voldp.com/">https://www.voldp.com/</a>  </p>
+<p>有没有一个工具，可以设置排版形成一个文档格式，然后填写数据，自动生成word文档？ - 知乎  <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/430688863?utm_id=0">https://www.zhihu.com/question/430688863?utm_id=0</a>  </p>
+<p>部署 Logto - Zeabur  <a target="_blank" rel="noopener" href="https://zeabur.com/docs/zh-CN/marketplace/logto">https://zeabur.com/docs/zh-CN/marketplace/logto</a>  </p>
+<p>GitHub - nicejade&#x2F;markdown-online-editor: 📝基于 Vue、Vditor，所构建的在线 Markdown 编辑器，支持流程图、甘特图、时序图、任务列表、HTML 自动转换为 Markdown 等功能；🎉新增「所见即所得」编辑模式。  <a target="_blank" rel="noopener" href="https://github.com/nicejade/markdown-online-editor">https://github.com/nicejade/markdown-online-editor</a>  </p>
+<p>自家小公司记账报税流程完整版 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/179056796?utm_id=0">https://zhuanlan.zhihu.com/p/179056796?utm_id=0</a>  </p>
+<p>2024年最好的免费域名注册平台网站大全（长期更新，建议收藏） - 一灯不是和尚  <a target="_blank" rel="noopener" href="https://iyideng.net/welfare/best-free-domain-name-registration-platform.html">https://iyideng.net/welfare/best-free-domain-name-registration-platform.html</a>  </p>
+<p>WhatRuns - Discover Website Technologies | Identify CMS, Frameworks, and More  <a target="_blank" rel="noopener" href="https://www.whatruns.com/">https://www.whatruns.com/</a>  </p>
+<p>SM ONE 官网  <a target="_blank" rel="noopener" href="https://web.sm-one.com/">https://web.sm-one.com/</a>  </p>
+<p>登录或注册 | Aternos | 免费Minecraft服务器  <a target="_blank" rel="noopener" href="https://aternos.org/go/">https://aternos.org/go/</a>  </p>
+<p>HIFIDIY论坛-音响交易区-交易专区 - 手机版 - Powered by Discuz!  <a target="_blank" rel="noopener" href="http://bbs.hifidiy.net/forum.php?mod=forumdisplay&fid=122&mobile=2">http://bbs.hifidiy.net/forum.php?mod=forumdisplay&amp;fid=122&amp;mobile=2</a>  </p>
+<p>吾爱破解 - LCG - LSG|安卓破解|病毒分析|<a target="_blank" rel="noopener" href="http://www.52pojie.cn/">www.52pojie.cn</a>  <a target="_blank" rel="noopener" href="https://www.52pojie.cn/">https://www.52pojie.cn/</a>  </p>
+<p>注册美区 Apple ID 帐号的终极指南  <a target="_blank" rel="noopener" href="https://xbrss.site/pagesv2/blog/appleid.html">https://xbrss.site/pagesv2/blog/appleid.html</a>  </p>
+<p>WeFound | 我们发现.我们创造  <a target="_blank" rel="noopener" href="https://wefound.cc/">https://wefound.cc/</a>  </p>
+<p>「iptv-sources」可能是目前最全的免费直播源了，还支持自动更新 | WeFound  <a target="_blank" rel="noopener" href="https://wefound.cc/p/1043">https://wefound.cc/p/1043</a>  </p>
+<p>自己动手开发安卓版按键精灵_安卓是纯协议 按键精灵-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/ithouse/article/details/50854539">https://blog.csdn.net/ithouse/article/details/50854539</a>  </p>
+<p>8个免费下载无损歌曲的网站，值得收藏 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/577560145?utm_id=0">https://zhuanlan.zhihu.com/p/577560145?utm_id=0</a>  </p>
+<p>无需服务器实现阿里云盘自动签到并推送消息 - 『编程语言区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|<a target="_blank" rel="noopener" href="http://www.52pojie.cn/">www.52pojie.cn</a>  <a target="_blank" rel="noopener" href="https://www.52pojie.cn/thread-1757911-1-1.html">https://www.52pojie.cn/thread-1757911-1-1.html</a>  </p>
+<p>Qt Account Login  <a target="_blank" rel="noopener" href="https://login.qt.io/login">https://login.qt.io/login</a>  </p>
+<p>实测OpenAI信用卡付款方式和升级ChatGPT Plus订阅 - 如有乐享  <a target="_blank" rel="noopener" href="https://51.ruyo.net/18298.html">https://51.ruyo.net/18298.html</a>  </p>
+<p>如有乐享 - 分享是一种态度，是一种美德  <a target="_blank" rel="noopener" href="https://51.ruyo.net/">https://51.ruyo.net/</a>  </p>
+<p>WordPress Themes, Plugins, Scripts, Templates - WeaDown  <a target="_blank" rel="noopener" href="https://weadown.com/">https://weadown.com/</a>  </p>
+<p>2023最新墨鱼AI导航系统网站源码&#x2F;AI站点分类+AI工具集合精选源码_导航类网站 源码-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/erggggef/article/details/130588389">https://blog.csdn.net/erggggef/article/details/130588389</a>  </p>
+<p>GitHub - Vanessa219&#x2F;vditor: ♏ 一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich Text), Instant Rendering (Typora-like) and Split View modes.  <a target="_blank" rel="noopener" href="https://github.com/Vanessa219/vditor">https://github.com/Vanessa219/vditor</a>  </p>
+<p>ChatGPT遇到Sorry, you have been blocked？如何解决登录OpenAI账号被阻止访问-陈沩亮博客  <a target="_blank" rel="noopener" href="https://www.chenweiliang.com/cwl-30477.html">https://www.chenweiliang.com/cwl-30477.html</a>  </p>
+<p>Discuz！官方网站 - 开放、连接、共赢  <a target="_blank" rel="noopener" href="https://www.discuz.vip/">https://www.discuz.vip/</a>  </p>
+<p>GitHub - RealKai42&#x2F;qwerty-learner: 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 &#x2F; Words learning and English muscle memory training software designed for keyboard workers  <a target="_blank" rel="noopener" href="https://github.com/RealKai42/qwerty-learner">https://github.com/RealKai42/qwerty-learner</a>  </p>
+<p>🚀机场订阅推荐🍒（长期更新2023） 🌟 我爱导航💖  <a target="_blank" rel="noopener" href="https://www.52nav.icu/recommend/jichangtuijian/">https://www.52nav.icu/recommend/jichangtuijian/</a>  </p>
+<p>MyIP.la - A Simple IP Address And IP Geolocation API  <a target="_blank" rel="noopener" href="https://www.myip.la/">https://www.myip.la/</a>  </p>
+<p>22 Best offline note-taking apps for Windows as of 2024 - Slant  <a target="_blank" rel="noopener" href="https://www.slant.co/topics/4437/~offline-note-taking-apps-for-windows">https://www.slant.co/topics/4437/~offline-note-taking-apps-for-windows</a>  </p>
+<p>云东方-分享让生活更美好！  <a target="_blank" rel="noopener" href="https://www.yundongfang.com/">https://www.yundongfang.com/</a>  </p>
+<p>ChatGPT 镜像网站 - 最优网址  <a target="_blank" rel="noopener" href="https://www.ooopn.com/tool/chatgpt/#google_vignette">https://www.ooopn.com/tool/chatgpt/#google_vignette</a>  </p>
+<p>无需服务器实现阿里云盘自动签到并推送消息 - 『编程语言区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|<a target="_blank" rel="noopener" href="http://www.52pojie.cn/">www.52pojie.cn</a>  <a target="_blank" rel="noopener" href="https://www.52pojie.cn/thread-1757911-1-1.html">https://www.52pojie.cn/thread-1757911-1-1.html</a>  </p>
+<p>MyFreeMP3  <a target="_blank" rel="noopener" href="https://tool.liumingye.cn/music/?page=searchPage#/">https://tool.liumingye.cn/music/?page=searchPage#/</a>  </p>
+<p>crDroid.net - increase performance and reliability over stock Android for your device  <a target="_blank" rel="noopener" href="https://crdroid.net/">https://crdroid.net/</a>  </p>
+<p>打通ACGN产业链：七创社的蜕变与进化  <a target="_blank" rel="noopener" href="https://m.thepaper.cn/baijiahao_10205654">https://m.thepaper.cn/baijiahao_10205654</a>  </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/19/202406192340/">开源观察分享 240619</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<p>GitHub - hoarder-app&#x2F;hoarder: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search  <a target="_blank" rel="noopener" href="https://github.com/hoarder-app/hoarder">https://github.com/hoarder-app/hoarder</a>  </p>
+<p>Architecture | Hoarder Docs  <a target="_blank" rel="noopener" href="https://docs.hoarder.app/Development/architecture/">https://docs.hoarder.app/Development/architecture/</a>  </p>
+<p>司南社区 - 专注优质信息源整理和分享  <a target="_blank" rel="noopener" href="https://sinan.fun/">https://sinan.fun/</a>  </p>
+<p>完美的背景图全屏css代码 – background-size:cover? -腾讯云开发者社区-腾讯云  <a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1412147">https://cloud.tencent.com/developer/article/1412147</a>  </p>
+<p>[陈同学i前端] 一起学Astro｜内容专注-唯快不破 - 掘金  <a target="_blank" rel="noopener" href="https://juejin.cn/post/7176932089831358519">https://juejin.cn/post/7176932089831358519</a>  </p>
+<p>无需美国手机号码注册苹果美区Apple ID - 接码号  <a target="_blank" rel="noopener" href="https://jiemahao.com/create-us-apple-id/">https://jiemahao.com/create-us-apple-id/</a>  </p>
+<p>快发卡自动发卡平台 - 更有效率、好用的自动发卡网站(kuaifaka.com)  <a target="_blank" rel="noopener" href="http://m.kuaifaka.net/">http://m.kuaifaka.net/</a>  </p>
+<p>Rourf-Qiu&#x2F;QOJ  <a target="_blank" rel="noopener" href="https://gitee.com/Rourf-Qiu/QOJ">https://gitee.com/Rourf-Qiu/QOJ</a>  </p>
+<p>Apple ID分享网 | 免费共享海外App Store账号密码——丸子分享 -  <a target="_blank" rel="noopener" href="https://www.e524.cn/">https://www.e524.cn/</a>  </p>
+<p>塞尔达传说 缩小帽 - ROM下载 - 中古游戏厅  <a target="_blank" rel="noopener" href="https://www.retrowan.com/minish-cap/">https://www.retrowan.com/minish-cap/</a>  </p>
+<p>免费ios美国Apple ID苹果账号共享美区id账号大全  <a target="_blank" rel="noopener" href="https://www.e524.cn/7495/">https://www.e524.cn/7495/</a>    </p>
+<p>第 2 章：Hello, Flask! - Flask 入门教程  <a target="_blank" rel="noopener" href="https://tutorial.helloflask.com/hello/">https://tutorial.helloflask.com/hello/</a>  </p>
+<p>首页 | SMONE小店  <a target="_blank" rel="noopener" href="https://cn.smone.me/">https://cn.smone.me/</a>  </p>
+<p>Mattermost | Collaboration for Your Mission-Critical Work  <a target="_blank" rel="noopener" href="https://mattermost.com/">https://mattermost.com/</a>  </p>
+<p>GitHub - mattermost&#x2F;mattermost: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..  <a target="_blank" rel="noopener" href="https://github.com/mattermost/mattermost">https://github.com/mattermost/mattermost</a>  </p>
+<p>VIP介绍_GoingMac游戏工坊  <a target="_blank" rel="noopener" href="https://www.goingmac.com/vip-prices/">https://www.goingmac.com/vip-prices/</a>  </p>
+<p>Autumn-Pro，WordPress个人博客和新闻资讯杂志类主题 - 新主题-XinTheme  <a target="_blank" rel="noopener" href="https://www.xintheme.com/theme/57904.html">https://www.xintheme.com/theme/57904.html</a>  </p>
+<p>发现更多 - AIHub | AI导航  <a target="_blank" rel="noopener" href="https://www.aihub.cn/cat-group/tools">https://www.aihub.cn/cat-group/tools</a>  </p>
+<p>GitHub - xtekky&#x2F;gpt4free: The official gpt4free repository | various collection of powerful language models  <a target="_blank" rel="noopener" href="https://github.com/xtekky/gpt4free">https://github.com/xtekky/gpt4free</a>  </p>
+<p>七款适合英文网站文章标题分析的SEO工具推荐 – 奶爸建站笔记  <a target="_blank" rel="noopener" href="https://blog.naibabiji.com/google-seo/headline-analyzer.html">https://blog.naibabiji.com/google-seo/headline-analyzer.html</a>  </p>
+<p>GPP项目精选  <a target="_blank" rel="noopener" href="http://github.gitpp.com/">http://github.gitpp.com/</a>  </p>
+<p>烙馍网| ai工具网址导航,ai最新产品  <a target="_blank" rel="noopener" href="https://nav-ai.luomor.com/?github_web">https://nav-ai.luomor.com/?github_web</a>  </p>
+<p>GitHub - luomor-ai&#x2F;nav-ai: AI工具导航，免费chatgpt，chatgpt4，midjourney，notion ai，tome  <a target="_blank" rel="noopener" href="https://github.com/luomor-ai/nav-ai">https://github.com/luomor-ai/nav-ai</a>  </p>
+<p>GitHub - liaocp666&#x2F;Jasmine: A Typecho Theme. 一款 Typecho 主题。专为博客类网站开发，响应式设计，在移动端也有不错体验。主要使用白、灰、黑三种配色，整体简洁、精致、美观。  <a target="_blank" rel="noopener" href="https://github.com/liaocp666/Jasmine">https://github.com/liaocp666/Jasmine</a> </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/18/202406182327/">开源观察分享 240618</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top/</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<p>快讯_独立开发前线  <a target="_blank" rel="noopener" href="https://www.91wink.com/index.php/kuaixun/">https://www.91wink.com/index.php/kuaixun/</a>  </p>
+<p>独立开发前线-独立开发者的成长指南 - 掘金  <a target="_blank" rel="noopener" href="https://juejin.cn/post/7320288264202698790">https://juejin.cn/post/7320288264202698790</a>  </p>
+<p>Uptime &amp; Cronjob Monitoring tool - PHP Script - 66uptime  <a target="_blank" rel="noopener" href="https://66uptime.com/">https://66uptime.com/</a>  </p>
+<p>免费企业证书分享 | ios资源分享，P12证书签名定制，应用分身  <a target="_blank" rel="noopener" href="https://pan.iosku.top/%E5%85%8D%E8%B4%B9%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A6%E5%88%86%E4%BA%AB">https://pan.iosku.top/%E5%85%8D%E8%B4%B9%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A6%E5%88%86%E4%BA%AB</a>  </p>
+<p>轻松签  <a target="_blank" rel="noopener" href="https://esign.yyyue.xyz/">https://esign.yyyue.xyz/</a>  </p>
+<p>Create your own Q&amp;A powered by Askbot in a minute.  <a target="_blank" rel="noopener" href="https://askbot.com/">https://askbot.com/</a>  </p>
+<p>我不是矿神  <a target="_blank" rel="noopener" href="https://imnks.com/">https://imnks.com</a>  </p>
+<p>跨境电商的相关内容_亿欧  <a target="_blank" rel="noopener" href="https://www.iyiou.com/search?p=%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86">https://www.iyiou.com/search?p=%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86</a>  </p>
+<p>BTSCHOOL :: 登录 比特校园PT小乐园 - Powered by NexusPHP  <a target="_blank" rel="noopener" href="https://pt.btschool.club/login.php?returnto=userdetails.php?id=138316">https://pt.btschool.club/login.php?returnto=userdetails.php%3Fid%3D138316</a>  </p>
+<p>我的节点 - 西部世界VPN  <a target="_blank" rel="noopener" href="https://sjxb92710.xyz/portal/order/node">https://sjxb92710.xyz/portal/order/node</a>  </p>
+<p>IPv6 test  <a target="_blank" rel="noopener" href="https://v6t.ipip.net/">https://v6t.ipip.net/</a>  </p>
+<p>美国VPS综合讨论-全球主机交流论坛 - 手机版 - Powered by Discuz!  <a target="_blank" rel="noopener" href="https://hostloc.com/forum.php?mod=forumdisplay&fid=45&page=2&mobile=2">https://hostloc.com/forum.php?mod=forumdisplay&amp;fid=45&amp;page=2&amp;mobile=2</a>  </p>
+<p>ICANN Lookup  <a target="_blank" rel="noopener" href="https://lookup.icann.org/en">https://lookup.icann.org/en</a>  </p>
+<p>Codeium · Free AI Code Completion &amp; Chat  <a target="_blank" rel="noopener" href="https://codeium.com/">https://codeium.com/</a>  </p>
+<p>NAT VPS的正确食用方式 - tlanyan  <a target="_blank" rel="noopener" href="https://itlanyan.com/nat-vps-the-right-way/">https://itlanyan.com/nat-vps-the-right-way/</a>  </p>
+<p>优秀开源导航合集 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/623361855?utm_id=0">https://zhuanlan.zhihu.com/p/623361855?utm_id=0</a>  </p>
+<p>强势开源，Star 破百，仅一行代码，拥有网址导航 + 博客 + 后台管理网站。 - 掘金  <a target="_blank" rel="noopener" href="https://juejin.cn/post/7197433837341442104">https://juejin.cn/post/7197433837341442104</a>  </p>
+<p>iP地址查询–手机号码查询归属地 | 邮政编码查询 | iP地址归属地查询 | 身份证号码验证在线查询网  <a target="_blank" rel="noopener" href="https://www.ip138.com/">https://www.ip138.com/</a>  </p>
+<p>代码厨房 - 编程和开源爱好者社区  <a target="_blank" rel="noopener" href="https://codekitchen.community/">https://codekitchen.community/</a>  </p>
+<p>Comparison and Motivations - APIFlask  <a target="_blank" rel="noopener" href="https://apiflask.com/comparison/">https://apiflask.com/comparison/</a>  </p>
+<p>GitHub - greyli&#x2F;flask-extension-status: Let’s make Flask ecosystem better together!  <a target="_blank" rel="noopener" href="https://github.com/greyli/flask-extension-status">https://github.com/greyli/flask-extension-status</a>  </p>
+<p>GitHub - geekape&#x2F;geek-navigation: ❤️ 极客猿导航－独立开发者的导航站！  <a target="_blank" rel="noopener" href="https://github.com/geekape/geek-navigation">https://github.com/geekape/geek-navigation</a>  </p>
+<p>GitHub - ALIILAPRO&#x2F;MTProtoProxy: Get daily and high-speed MTProto proxy for Telegram.  <a target="_blank" rel="noopener" href="https://github.com/ALIILAPRO/MTProtoProxy">https://github.com/ALIILAPRO/MTProtoProxy</a></p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/17/202406172242/">开源观察分享 240617</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>分享站： <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top</a>  </p>
+<p>阅读站： <a target="_blank" rel="noopener" href="https://www.inkspcl.com/">https://www.inkspcl.com/</a>  </p>
+<p>GitHub - idootop&#x2F;mi-gpt: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。  <a target="_blank" rel="noopener" href="https://github.com/idootop/mi-gpt?tab=readme-ov-file">https://github.com/idootop/mi-gpt?tab=readme-ov-file</a>  </p>
+<p>AI知识库升级，以Obsidian为核心  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/ODFYCP0lOtKEdT6S874Qjg">https://mp.weixin.qq.com/s/ODFYCP0lOtKEdT6S874Qjg</a>  </p>
+<p>扔掉小红书，国外自由行：Pokémon Go 和 Google Gemini 帮助打造最强旅游 Copilot  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/0CUVvZk0X7k6iQoL0ymExQ">https://mp.weixin.qq.com/s/0CUVvZk0X7k6iQoL0ymExQ</a>  </p>
+<p>一部手机搞定微信公众号发文，超级无敌巨方便！（火速收藏码住！）  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/NiEjvvKrbx6dp-PZsaiHnw">https://mp.weixin.qq.com/s/NiEjvvKrbx6dp-PZsaiHnw</a>  </p>
+<p>2024智源大会Agent：群体智能、AI OS、Scaling Law  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/WPvEBHXZETzDvfUvbPBxFg">https://mp.weixin.qq.com/s/WPvEBHXZETzDvfUvbPBxFg</a>  </p>
+<p>Coolify：24.2K 星星！使用全新、开源免费且自托管的替代方案，部署应用程序的最佳工具（停止使用 Vercel）  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/hAizVtPziCmANmYw1ZJojQ">https://mp.weixin.qq.com/s/hAizVtPziCmANmYw1ZJojQ</a>  </p>
+<p>eTemp Mail免费的临时教育邮箱，一般可以用于申请github学生认证，微软学生认证等  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Jb1HyEszjZSWYi2gsqBDvQ">https://mp.weixin.qq.com/s/Jb1HyEszjZSWYi2gsqBDvQ</a>  </p>
+<p>优秀！3个强大的在线处理黑科技工具！良心好用！  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/9xRUdrEYps0xXuQcF1EOGw">https://mp.weixin.qq.com/s/9xRUdrEYps0xXuQcF1EOGw</a>  </p>
+<p>我是如何用一天时间搞定三个AI证书的？速成Prompt &amp; Agent Engineer  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/6WOUgm28NN3DTLWiWXpcCQ">https://mp.weixin.qq.com/s/6WOUgm28NN3DTLWiWXpcCQ</a>  </p>
+<p>端午节安康，太炸裂了，解锁GPT-4o体验，免费无限制！  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/2P5m_8tQdzKsJx51nawjKQ">https://mp.weixin.qq.com/s/2P5m_8tQdzKsJx51nawjKQ</a>  </p>
+<p>一款『 图云 』神器，让效率提高10000%  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/uccJq0bSX7djR8HJ5IG27g">https://mp.weixin.qq.com/s/uccJq0bSX7djR8HJ5IG27g</a>  </p>
+<p>【第139期】免费HTML模板的宝藏库(超1500+免费网站模版)  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Hls9RzmKawQVxIWq3-vr6Q">https://mp.weixin.qq.com/s/Hls9RzmKawQVxIWq3-vr6Q</a>  </p>
+<p>最受黑客和安全专家青睐的10款搜索引擎  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Shtq_iu95lyhnOFDKzc2kA">https://mp.weixin.qq.com/s/Shtq_iu95lyhnOFDKzc2kA</a>  </p>
+<p>全网最全BT 磁力搜索  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/FsEqCbrCKRPYAIFOM3O_dQ">https://mp.weixin.qq.com/s/FsEqCbrCKRPYAIFOM3O_dQ</a>  </p>
+<p>资源汇总（三）游戏相关网站  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/CzJAc6B2o5cDf82giVbo5w">https://mp.weixin.qq.com/s/CzJAc6B2o5cDf82giVbo5w</a>  </p>
+<p>stux@me:~$ &#x2F;personal blog stux  <a target="_blank" rel="noopener" href="https://stux.me/">https://stux.me/</a>  </p>
+<p>Latest Software&#x2F;Mastodon topics - SocialHub  <a target="_blank" rel="noopener" href="https://socialhub.activitypub.rocks/c/software/mastodon/17">https://socialhub.activitypub.rocks/c/software/mastodon/17</a>  </p>
+<p>Memos | 一个开源的碎片化笔记工具的不完全指南  <a target="_blank" rel="noopener" href="https://blog.memos.ee/">https://blog.memos.ee/</a>  </p>
+<p>Twikoo | 一个简洁、安全、免费的静态网站评论系统  <a target="_blank" rel="noopener" href="https://twikoo.js.org/">https://twikoo.js.org/</a>  </p>
+<p>Leonus - 进一寸有进一寸的欢喜。  <a target="_blank" rel="noopener" href="https://blog.leonus.cn/">https://blog.leonus.cn/</a>  </p>
+<p>12 种适合您网站性能的最佳网站速度测试工具 | AppMaster  <a target="_blank" rel="noopener" href="https://appmaster.io/zh/blog/12ge-zui-hao-de-wang-zhan-su-du-ce-shi-gong-ju">https://appmaster.io/zh/blog/12ge-zui-hao-de-wang-zhan-su-du-ce-shi-gong-ju</a>  </p>
+<p>gpt应用大全  <a target="_blank" rel="noopener" href="https://chatgpt123.com/tag/tuningbox-gpt">https://chatgpt123.com/tag/tuningbox-gpt</a>  </p>
+<p>Download Duplicati application  <a target="_blank" rel="noopener" href="https://duplicati.com/download">https://duplicati.com/download</a>  </p>
+<p>耗费72小时！庞门正道史上最强文章！  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/HHg4GxH6nqdqe0vOkxTX9w">https://mp.weixin.qq.com/s/HHg4GxH6nqdqe0vOkxTX9w</a>  </p>
+<p>Nginx Proxy Manager  <a target="_blank" rel="noopener" href="https://nginxproxymanager.com/">https://nginxproxymanager.com/</a>  </p>
+<p>NodeSeek  <a target="_blank" rel="noopener" href="https://www.nodeseek.com/">https://www.nodeseek.com/</a>  </p>
+<p>Vidhub视频库-在线视频网站-海量高清视频在线观看  <a target="_blank" rel="noopener" href="http://appi.vid138.com/">http://appi.vid138.com/</a>  </p>
+<p>创意DIY - 技术知识分享平台  <a target="_blank" rel="noopener" href="https://www.mydigit.cn/forum-56-1.html">https://www.mydigit.cn/forum-56-1.html</a>  </p>
+<p>Memos 一个开源且免费的自托管知识库 - 少数派  <a target="_blank" rel="noopener" href="https://sspai.com/post/76247#">https://sspai.com/post/76247#</a>!  </p>
+<p>dvadmin3 | Django-vue3-admin  <a target="_blank" rel="noopener" href="https://www.django-vue-admin.com/">https://www.django-vue-admin.com/</a>  </p>
+<p>果酱站长  <a target="_blank" rel="noopener" href="https://wpjam.com/">https://wpjam.com/</a>  </p>
+<p>Linux 中国◆开源社区  <a target="_blank" rel="noopener" href="https://linux.cn/">https://linux.cn/</a>  </p>
+<p>AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全  <a target="_blank" rel="noopener" href="https://ai-bot.cn/">https://ai-bot.cn/</a>  </p>
+<p>logo-maker——几秒内即可生成专业 logo  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Dk0GaPceGPcMBeEb0Ldc7Q">https://mp.weixin.qq.com/s/Dk0GaPceGPcMBeEb0Ldc7Q</a>  </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/16/202406162355/">开源观察分享 240616</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>搜索功能默认情况仅搜索标题，需要全局搜索时在搜索框输入：in:关键字：）  </p>
+<p>blog.joevan.top  <a target="_blank" rel="noopener" href="https://blog.joevan.top/">https://blog.joevan.top</a>  </p>
+<p>长得不像微博,但就叫微博 - GoToSocial  <a target="_blank" rel="noopener" href="https://ima.cm/">https://ima.cm/</a>  </p>
+<p>Migrating from Misskey to Firefish | Firefish  <a target="_blank" rel="noopener" href="https://joinfirefish.org/docs/en/migrating/#">https://joinfirefish.org/docs/en/migrating/#</a>  </p>
+<p>长毛象中文站 - Mastodon Chinese  <a target="_blank" rel="noopener" href="https://cmx-im.github.io/index.html">https://cmx-im.github.io/index.html</a>  </p>
+<p>Buy &amp; Sell 交易服务区 - 4D4Y  <a target="_blank" rel="noopener" href="https://www.4d4y.com/forum/forumdisplay.php?fid=6">https://www.4d4y.com/forum/forumdisplay.php?fid=6</a>  </p>
+<p>群晖 (Synology) NAS 穿透指南 | SakuraFrp 帮助文档  <a target="_blank" rel="noopener" href="https://doc.natfrp.com/app/synology.html">https://doc.natfrp.com/app/synology.html</a>  </p>
+<p>GitHub - xtekky&#x2F;gpt4free: The official gpt4free repository | various collection of powerful language models  <a target="_blank" rel="noopener" href="https://github.com/xtekky/gpt4free">https://github.com/xtekky/gpt4free</a>  </p>
+<p>从中心化平台跑路：迁移到联邦宇宙（Fediverse） · Lhc_fl Home  <a target="_blank" rel="noopener" href="https://lhcfl.github.io/2023/10/18/GotoFediverse/">https://lhcfl.github.io/2023/10/18/GotoFediverse/</a>  </p>
+<p>GotoSocial Setup and Usage Instructions - 柠檬猫  <a target="_blank" rel="noopener" href="https://0w0.xlog.app/Gts?locale=en">https://0w0.xlog.app/Gts?locale=en</a>  </p>
+<p>Calckey.world | Calckey.world  <a target="_blank" rel="noopener" href="https://calckey.world/">https://calckey.world/</a>  </p>
+<p>Lemmy.World - A generic Lemmy server for everyone to use.  <a target="_blank" rel="noopener" href="https://lemmy.world/">https://lemmy.world/</a>  </p>
+<p>最速 Firefish 部署指南  <a target="_blank" rel="noopener" href="https://blog.l3zc.com/2023/12/firefish-deploy/">https://blog.l3zc.com/2023/12/firefish-deploy/</a>  </p>
+<p>亂筆  <a target="_blank" rel="noopener" href="https://blog.l3zc.com/">https://blog.l3zc.com/</a>  </p>
+<p>Server List | Firefish  <a target="_blank" rel="noopener" href="https://joinfirefish.org/join/">https://joinfirefish.org/join/</a>  </p>
+<p>Docker 搭建 Misskey 实例 &#x2F;&#x2F; Sanae’s Blog  <a target="_blank" rel="noopener" href="https://blog.sanae.im/posts/docker-misskey/">https://blog.sanae.im/posts/docker-misskey/</a>  </p>
+<p>Misskey API | Misskey Hub  <a target="_blank" rel="noopener" href="https://misskey-hub.net/tw/docs/for-developers/api/">https://misskey-hub.net/tw/docs/for-developers/api/</a>  </p>
+<p>我不是咕咕鸽  <a target="_blank" rel="noopener" href="https://blog.laoda.de/">https://blog.laoda.de/</a>  </p>
+<p>开放签-致力于将电子签章产品、技术开源、开放，让电子签署更加简单  <a target="_blank" rel="noopener" href="https://www.kaifangqian.com/#/">https://www.kaifangqian.com/#/</a>  </p>
+<p>新晋顶流“卡皮巴拉”是社恐还是社牛？  <a target="_blank" rel="noopener" href="https://m.thepaper.cn/newsDetail_forward_26158289">https://m.thepaper.cn/newsDetail_forward_26158289</a>  </p>
+<p>Memos | 一个开源的碎片化笔记工具的不完全指南  <a target="_blank" rel="noopener" href="https://blog.memos.ee/">https://blog.memos.ee/</a>  </p>
+<p>今日热榜官网  <a target="_blank" rel="noopener" href="https://tophub.today/">https://tophub.today/</a>  </p>
+<p>Notion 推出新的付费计划：个人版本免费使用啦！ - 少数派  <a target="_blank" rel="noopener" href="https://sspai.com/post/60575">https://sspai.com/post/60575</a>  </p>
+<p>茶栗栗屋 in UNiVERSE  <a target="_blank" rel="noopener" href="https://m.chariri.moe/">https://m.chariri.moe/</a>  </p>
+<p>网站被CloudFlare拖慢？来看解决方法 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/652201511?utm_id=0">https://zhuanlan.zhihu.com/p/652201511?utm_id=0</a>  </p>
+<p>不使用第三方软件实现Obsidian多平台实时同步 by YingYue - Obsidian中文教程 - Obsidian Publish  <a target="_blank" rel="noopener" href="https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/%E4%B8%8D%E4%BD%BF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0Obsidian%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%97%B6%E5%90%8C%E6%AD%A5+by+YingYue">https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/%E4%B8%8D%E4%BD%BF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0Obsidian%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%97%B6%E5%90%8C%E6%AD%A5+by+YingYue</a>  </p>
+<p>GitHub - YMFE&#x2F;yapi: YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台  <a target="_blank" rel="noopener" href="https://github.com/YMFE/yapi">https://github.com/YMFE/yapi</a>  </p>
+<p>GitHub Actions 监测网站是否在线 - 掘金  <a target="_blank" rel="noopener" href="https://juejin.cn/post/6909759690368876551">https://juejin.cn/post/6909759690368876551</a>  </p>
+<p>更好用的开发工具，但不止于 SSHNoteTerminal  <a target="_blank" rel="noopener" href="https://www.xterminal.cn/">https://www.xterminal.cn</a>    </p>
+<p>中国国际矿物宝石化石博览会免费领门票  <a target="_blank" rel="noopener" href="https://z.zcyit.cn/cimge/#/?regid=81">https://z.zcyit.cn/cimge/#/?regid=81</a>  </p>
+<p>Yonsm.NET  <a target="_blank" rel="noopener" href="https://yonsm.github.io/">https://yonsm.github.io/</a>  </p>
+<p>微博  <a target="_blank" rel="noopener" href="https://m.weibo.cn/status/O9DEXiyvy?jumpfrom=weibocom">https://m.weibo.cn/status/O9DEXiyvy?jumpfrom=weibocom</a>  </p>
+<p>长窗口大战要终结了？谷歌魔改Transformer，推出了“无限注意力”  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?src=11&timestamp=1718529096&ver=5326&signature=H2iWl09rT4meKS31IKvd4*8zb3RIxZIkdP5RjoYBParYaRAtORNLNFhX-tzDSPdPJhOAn3Gt4aatqrUE4W1z84O0wW*Aevzf64MfKWLNAkeufVavxznbYtnOgM2nAvID&new=1">https://mp.weixin.qq.com/s?src=11&amp;timestamp=1718529096&amp;ver=5326&amp;signature=H2iWl09rT4meKS31IKvd4*8zb3RIxZIkdP5RjoYBParYaRAtORNLNFhX-tzDSPdPJhOAn3Gt4aatqrUE4W1z84O0wW*Aevzf64MfKWLNAkeufVavxznbYtnOgM2nAvID&amp;new=1</a>  </p>
+<p>同程旅行&#x2F;smart-doc  <a target="_blank" rel="noopener" href="https://gitee.com/TongchengOpenSource/smart-doc">https://gitee.com/TongchengOpenSource/smart-doc</a>  </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/15/about/">about</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/15/202406152258/">开源观察分享 240615</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>Home - capy.lol  <a target="_blank" rel="noopener" href="https://capy.lol/">https://capy.lol/</a>  </p>
+<p>卡皮巴拉 | Kapibala  <a target="_blank" rel="noopener" href="https://kapibala.icu/">https://kapibala.icu/</a>  </p>
+<p>GitHub - superseriousbusiness&#x2F;gotosocial: Fast, fun, small ActivityPub server.  <a target="_blank" rel="noopener" href="https://github.com/superseriousbusiness/gotosocial">https://github.com/superseriousbusiness/gotosocial</a>  </p>
+<p>GoToSocial Documentation  <a target="_blank" rel="noopener" href="https://docs.gotosocial.org/en/latest/">https://docs.gotosocial.org/en/latest/</a>  </p>
+<p>iOS14搭配快捷指令在手机上写hexo博客 - 知乎  <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/346159204?utm_medium=social&utm_psn=1783399423356731392&utm_source=ZHShareTargetIDMore&utm_id=0">https://zhuanlan.zhihu.com/p/346159204?utm_medium=social&amp;utm_psn=1783399423356731392&amp;utm_source=ZHShareTargetIDMore&amp;utm_id=0</a>  </p>
+<p>study3d.com - GoToSocial  <a target="_blank" rel="noopener" href="https://study3d.com/">https://study3d.com/</a>  </p>
+<p>荒岛-分享创造快乐  <a target="_blank" rel="noopener" href="https://lala.im/">https://lala.im/</a>  </p>
+<p>小米发布《小米澎湃OS技术白皮书》 - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://www.oschina.net/news/270045">https://www.oschina.net/news/270045</a>  </p>
+<p>2023 年度人工智能现状报告 (State of AI Report 2023) - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://www.oschina.net/news/262155/state-of-ai-2023-report">https://www.oschina.net/news/262155/state-of-ai-2023-report</a>  </p>
+<p>有道开源RAG引擎 QAnything 版本更新啦 - 有道技术团队的个人空间 - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://my.oschina.net/youdaotech/blog/10894309">https://my.oschina.net/youdaotech/blog/10894309</a>  </p>
+<p>一份谷歌写给 CTO 们的报告 - DORA 2023 版全面解读 - Bytebase的个人空间 - OSCHINA - 中文开源技术交流社区  <a target="_blank" rel="noopener" href="https://my.oschina.net/u/6148470/blog/10118131">https://my.oschina.net/u/6148470/blog/10118131</a>  </p>
+<p>特赞科技Tezign创始人及CEO范凌：人工智能与产业想象力_亿欧  <a target="_blank" rel="noopener" href="https://www.iyiou.com/news/202307081048044">https://www.iyiou.com/news/202307081048044</a>  </p>
+<p>轻量级PHP框架|专注WEB应用开发18年 · ThinkPHP  <a target="_blank" rel="noopener" href="https://www.thinkphp.cn/">https://www.thinkphp.cn/</a>  </p>
+<p>行业应用 - 复志科技Raise3D中国官方网站  <a target="_blank" rel="noopener" href="https://www.raise3d.cn/solutions/">https://www.raise3d.cn/solutions/</a>  </p>
+<p>创见 tech2ipo 何时已不见？  </p>
+<p>iPadly | 网址最短的中文 iPhone&#x2F;iPad 资源导航站  <a target="_blank" rel="noopener" href="http://ipad.ly/">http://ipad.ly/</a>  </p>
+<p>Build Web Apps with No-Code | Momen  <a target="_blank" rel="noopener" href="https://momen.app/">https://momen.app/</a>  </p>
+<p>Xterminal - 更好用的开发工具，但不止于(SSH&#x2F;控制台&#x2F;More)  <a target="_blank" rel="noopener" href="https://www.xterminal.cn/">https://www.xterminal.cn/</a>  </p>
+<p>GitHub - fengxxc&#x2F;wechatmp2markdown: 微信公众号文章转Markdown  <a target="_blank" rel="noopener" href="https://github.com/fengxxc/wechatmp2markdown">https://github.com/fengxxc/wechatmp2markdown</a>  </p>
+<p>Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently  <a target="_blank" rel="noopener" href="https://picsmaller.com/">https://picsmaller.com/</a>  </p>
+<p>电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始  <a target="_blank" rel="noopener" href="https://eleduck.com/">https://eleduck.com/</a>  </p>
+<p>介绍 - NocoBase  <a target="_blank" rel="noopener" href="https://docs-cn.nocobase.com/welcome/introduction">https://docs-cn.nocobase.com/welcome/introduction</a>  </p>
+<p>NocoBase-开源、私有部署的轻量级无代码和低代码开发平台  <a target="_blank" rel="noopener" href="https://cn.nocobase.com/">https://cn.nocobase.com/</a>  </p>
+<p>Lemmy Cafe - A general purpose fediverse instance  <a target="_blank" rel="noopener" href="https://lemmy.cafe/">https://lemmy.cafe/</a>  </p>
+<p>使用Docker部署GotoSocial - LemonCat  <a target="_blank" rel="noopener" href="https://blog.kaixin.meme/2024/02/27/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2gotosocial/">https://blog.kaixin.meme/2024/02/27/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2gotosocial/</a>  </p>
+<p>Joevan (@<a href="mailto:&#106;&#111;&#101;&#118;&#97;&#x6e;&#x40;&#x6d;&#x61;&#115;&#x74;&#111;&#46;&#x6e;&#x79;&#99;">&#106;&#111;&#101;&#118;&#97;&#x6e;&#x40;&#x6d;&#x61;&#115;&#x74;&#111;&#46;&#x6e;&#x79;&#99;</a>) - Mastodon NYC  <a target="_blank" rel="noopener" href="https://masto.nyc/@joevan">https://masto.nyc/@joevan</a>  </p>
+<p>bad-licenses&#x2F;hot-potato-license at master · ErikMcClure&#x2F;bad-licenses · GitHub  <a target="_blank" rel="noopener" href="https://github.com/ErikMcClure/bad-licenses/blob/master/hot-potato-license">https://github.com/ErikMcClure/bad-licenses/blob/master/hot-potato-license</a>  </p>
+<p>开源简读 - 追踪开源动态，挖掘技术创新，关注社区发展。  <a target="_blank" rel="noopener" href="https://www.inkspcl.com/index.html">https://www.inkspcl.com/index.html</a>  </p>
+<p>解决 Hexo 部署 Github Pages 自定义域名失效的问题(即使已添加 CNAME） gitpages cname值在哪里找到-CSDN博客  <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41747528/article/details/102772937">https://blog.csdn.net/weixin_41747528/article/details/102772937</a>  </p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/14/shortcut/">iOS14搭配快捷指令在手机上写hexo博客</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/346159204">https://zhuanlan.zhihu.com/p/346159204</a></p>
+
+      </div>
+  </article>
+
+  <article class="post">
+      
+        
+          <h1><a href="/2024/06/14/hello-world/">Hello World</a></h1>
+        
+      
+      <div class="post-content ">
+        
+  
+
+
+
+
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      </div>
+  </article>
+
+
+  <nav class="pagination clearfix">
+  <ul>
+    
+    <a class="extend prev" rel="prev" href="/page/3/">&lt;i class&#x3D;&quot;fa fa-chevron-circle-left&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span>
+  </ul>
+</nav>
+
+
+</section>
+    <footer id="footer" role="contentinfo">
+    <div>&copy; 2024 <a href="/">开源观察分享</a>.
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Designed by <a href="http://rainylog.com" target="_blank">Rainy.</a>
+	</div>
+</footer><!-- end #footer -->
+
+  </div>
+  
+<script src="/lib/fancybox/dist/jquery.fancybox.min.js"></script>
+
+
+  
+<script src="/js/helper.js"></script>
 
 </body>
-<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
-
-<script src="/js/script.js?v=1.1.0" ></script>
-<script>
-    var img_resize = 'default';
-    function initArticle() {
-        /*渲染对应的表格样式*/
-        
-            $("#post .pjax table").addClass("green_title");
-        
-
-        /*渲染打赏样式*/
-        
-        $("input[name=pay]").on("click", function () {
-            if($("input[name=pay]:checked").val()=="weixin"){
-                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
-            } else {
-                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
-            }
-        })
-        
-
-        /*高亮代码块行号*/
-        
-
-        /*访问数量*/
-        
-        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
-        
-
-        /*代码高亮，行号对齐*/
-        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
-
-        
-        
-    }
-
-    /*打赏页面隐藏与展示*/
-    
-    function dashangToggle() {
-        $(".shang_box").fadeToggle();
-        $(".hide_box").fadeToggle();
-    }
-    
-
-</script>
-
-<!--加入行号的高亮代码块样式-->
-
-<!--自定义样式设置-->
-<style>
-    
-    
-    .nav {
-        width: 572px;
-    }
-    .nav.fullscreen {
-        margin-left: -572px;
-    }
-    .nav-left {
-        width: 150px;
-    }
-    
-    
-    @media screen and (max-width: 1468px) {
-        .nav {
-            width: 542px;
-        }
-        .nav.fullscreen {
-            margin-left: -542px;
-        }
-        .nav-left {
-            width: 150px;
-        }
-    }
-    
-    
-    @media screen and (max-width: 1024px) {
-        .nav {
-            width: 542px;
-            margin-left: -542px
-        }
-        .nav.fullscreen {
-            margin-left: 0;
-        }
-    }
-    
-    @media screen and (max-width: 426px) {
-        .nav {
-            width: 100%;
-        }
-        .nav-left {
-            width: 100%;
-        }
-    }
-    
-    
-    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
-        color: #383636;
-    }
-    
-    
-    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
-        color: #5e5e5f;
-    }
-    
-    
-    .nav-right nav a.hover, #local-search-result a.hover{
-        background-color: #e2e0e0;
-    }
-    
-    
-
-    /*列表样式*/
-    
-
-    /* 背景图样式 */
-    
-    
-
-
-    /*引用块样式*/
-    
-
-    /*文章列表背景图*/
-    
-
-    
-</style>
-
-
-
-
-
-
-
 </html>
